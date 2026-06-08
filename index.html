@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chinese Vocabulary Flashcards</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+<header>
+  <h1>Chinese Vocabulary Flashcards</h1>
+  <p>Year 10 Chinese - Topic 2 Vocabulary</p>
+  <p class="developer-credit">Developed by Mr Wen</p>
+</header>
+
+    <section class="flashcard">
+      <div class="card-number" id="cardNumber"></div>
+
+      <div class="hanzi" id="hanzi">你好</div>
+
+      <div class="answer-area">
+        <div class="answer-box hidden" id="pinyinBox">
+          <span class="label">Pinyin</span>
+          <span id="pinyin">nǐ hǎo</span>
+        </div>
+
+        <div class="answer-box hidden" id="englishBox">
+          <span class="label">English</span>
+          <span id="english">hello</span>
+        </div>
+      </div>
+
+      <div class="button-row">
+        <button id="showPinyinBtn">Reveal Pinyin</button>
+        <button id="showEnglishBtn">Reveal English</button>
+      </div>
+
+      <div class="navigation">
+        <button id="prevBtn">← Previous</button>
+        <button id="nextBtn">Next →</button>
+      </div>
+    </section>
+
+    <footer>
+      <p>Tip: Try saying the word before revealing the pinyin or English.</p>
+    </footer>
+  </main>
+
+
+<script src="vocab-data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
