@@ -1,0 +1,248 @@
+/* Classroom-friendly, mobile-first styling */
+/*
+Fonts requested:
+- All English: Century Gothic
+- All Chinese Hanzi + Pinyin: Microsoft YaHei
+*/
+
+:root {
+  --bg: #0b1220;
+  --card: #111b2e;
+  --text: #eaf0ff;
+  --muted: #b9c7f5;
+  --good: #52d08a;
+  --bad: #ff6b6b;
+  --border: rgba(255,255,255,0.12);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+  background: radial-gradient(1200px 600px at 20% 0%, #14244a 0%, var(--bg) 60%);
+  color: var(--text);
+}
+
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px 40px;
+}
+
+.header h1 {
+  margin: 0 0 6px;
+  font-size: 28px;
+}
+
+.subtitle {
+  margin: 0 0 18px;
+  color: var(--muted);
+}
+
+.card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+.timerbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  color: var(--muted);
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+/* Chinese typography */
+.hanzi,
+.pinyin {
+  font-family: "Microsoft YaHei", "Microsoft YaHei UI", "PingFang SC", "Noto Sans CJK SC", "Noto Sans SC", sans-serif;
+}
+
+.pinyin {
+  font-size: 22px;
+  color: var(--muted);
+  text-align: center;
+  margin-top: 6px;
+}
+
+.hanzi {
+  font-size: 64px;
+  line-height: 1.1;
+  text-align: center;
+  padding: 10px 8px 2px;
+  letter-spacing: 1px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 16px;
+}
+
+.answer {
+  display: grid;
+  gap: 8px;
+}
+
+label {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+input {
+  width: 100%;
+  padding: 14px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: rgba(0,0,0,0.25);
+  color: var(--text);
+  font-size: 18px;
+  outline: none;
+  font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+}
+
+input:focus {
+  border-color: rgba(99,179,255,0.8);
+  box-shadow: 0 0 0 3px rgba(99,179,255,0.2);
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 12px 14px;
+  border-radius: 12px;
+  border:  1px solid var(--border);
+  background: rgba(99,179,255,0.18);
+  color: var(--text);
+  font-weight: 600;
+  cursor: pointer;
+  font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+}
+
+button:hover {
+  background: rgba(99,179,255,0.28);
+}
+
+button.secondary {
+  background: rgba(255,255,255,0.07);
+}
+
+button.danger {
+  background: rgba(255,107,107,0.18);
+}
+
+.feedback {
+  min-height: 28px;
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.feedback.good { color: var(--good); }
+.feedback.bad { color: var(--bad); }
+
+.statusbar {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--muted);
+  border-top: 1px dashed var(--border);
+  padding-top: 12px;
+  font-size: 14px;
+}
+
+.tips {
+  margin-top: 18px;
+  color: var(--muted);
+}
+
+.tips h2 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  color: var(--text);
+}
+
+@media (max-width: 420px) {
+  .hanzi { font-size: 56px; }
+  .pinyin { font-size: 20px; }
+}
+
+/* =========================
+   Start modal (instructions)
+   ========================= */
+.modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(6px);
+  z-index: 999;
+}
+
+.modal-card {
+  width: min(640px, 100%);
+  background: rgba(255, 255, 255, 0.10);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 14px 40px rgba(0,0,0,0.45);
+  text-align: left;
+}
+
+.modal-card h2 {
+  margin: 0 0 10px;
+  font-size: 22px;
+  color: var(--text);
+}
+
+.modal-subtitle {
+  margin: 0 0 10px;
+  color: var(--muted);
+}
+
+.modal-list {
+  margin: 0 0 14px;
+  padding-left: 18px;
+  color: var(--text);
+}
+
+.modal-list li {
+  margin: 8px 0;
+  line-height: 1.35;
+}
+
+.start-btn {
+  width: 100%;
+  padding: 14px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: rgba(82, 208, 138, 0.22);
+  color: var(--text);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.start-btn:hover {
+  background: rgba(82, 208, 138, 0.32);
+}
+
+/* Ensure the HTML 'hidden' attribute always wins (important for flex/grid modals) */
+[hidden] {
+  display: none !important;
+}

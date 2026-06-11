@@ -1,0 +1,47 @@
+// Vocabulary list (edit this file to update the deck)
+const vocabulary = [
+  { hanzi: "这", pinyin: "zhè", english: "this" },
+  { hanzi: "是", pinyin: "shì", english: "be" },
+  { hanzi: "家", pinyin: "jiā", english: "home" },
+  { hanzi: "有", pinyin: "yǒu", english: "have" },
+  { hanzi: "两", pinyin: "liǎng", english: "two (quantity)" },
+  { hanzi: "间", pinyin: "jiān", english: "measure word for rooms" },
+  { hanzi: "个", pinyin: "gè", english: "general measure word" },
+  { hanzi: "卧室", pinyin: "wò shì", english: "bedroom" },
+  { hanzi: "书房", pinyin: "shū fáng", english: "study" },
+  { hanzi: "客厅", pinyin: "kè tīng", english: "living room" },
+  { hanzi: "餐厅", pinyin: "cān tīng", english: "dining room" },
+  { hanzi: "厨房", pinyin: "chú fáng", english: "kitchen" },
+  { hanzi: "和", pinyin: "hé", english: "and" },
+  { hanzi: "浴室", pinyin: "yù shì", english: "bathroom" },
+  { hanzi: "房间", pinyin: "fáng jiān", english: "room" },
+  { hanzi: "太", pinyin: "tài", english: "too" },
+  { hanzi: "大", pinyin: "dà", english: "big" },
+  { hanzi: "你们", pinyin: "nǐ men", english: "you (plural)" },
+  { hanzi: "搬家", pinyin: "bān jiā", english: "to move house" },
+  { hanzi: "了", pinyin: "le", english: "completed action particle" },
+  { hanzi: "对", pinyin: "duì", english: "yes; correct" },
+  { hanzi: "我们", pinyin: "wǒ men", english: "we; us" },
+  { hanzi: "上个", pinyin: "shàng gè", english: "last (time)" },
+  { hanzi: "周末", pinyin: "zhōu mò", english: "weekend" },
+  { hanzi: "搬到", pinyin: "bān dào", english: "move to" },
+  { hanzi: "哪儿", pinyin: "nǎr", english: "where" },
+  { hanzi: "进", pinyin: "jìn", english: "enter" },
+  { hanzi: "幢", pinyin: "zhuàng", english: "building measure word" },
+  { hanzi: "楼房", pinyin: "lóu fáng", english: "(high-rise) building" },
+  { hanzi: "那", pinyin: "nà", english: "that" },
+  { hanzi: "一共", pinyin: "yí gòng", english: "in total" },
+  { hanzi: "多少", pinyin: "duō shǎo", english: "how many" },
+  { hanzi: "层", pinyin: "céng", english: "floor/storey/layer" },
+  { hanzi: "新家", pinyin: "xīn jiā", english: "new home" },
+  { hanzi: "在", pinyin: "zài", english: "located at" },
+  { hanzi: "几", pinyin: "jǐ", english: "how many" },
+  { hanzi: "楼", pinyin: "lóu", english: "floor/storey" },
+  { hanzi: "还", pinyin: "hái", english: "also; still" },
+  { hanzi: "喜欢", pinyin: "xǐ huān", english: "to like" },
+  { hanzi: "很", pinyin: "hěn", english: "very" }
+];
+
+
+
+window.vocabulary = vocabulary;
