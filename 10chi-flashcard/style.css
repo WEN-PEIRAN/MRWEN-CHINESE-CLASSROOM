@@ -1,211 +1,427 @@
-/* Apply box-sizing properly (your original had a typo) */
+/* Global reset */
 * {
   box-sizing: border-box;
 }
 
 :root {
-  --bg1: #f6f7fb;
-  --bg2: #e7ebf3;
-  --ink: #222;
-  --muted: #5d6678;
-  --navy: #1f2a44;
-  --navy2: #33415f;
-  --card: #ffffff;
-  --soft: #f4f6fa;
-  --hanzi: #b3261e;
+  --bg-top: #f3f6fb;
+  --bg-bottom: #dfe7f3;
+  --ink: #1c2433;
+  --muted: #667187;
+  --card: rgba(255, 255, 255, 0.9);
+  --card-border: rgba(255, 255, 255, 0.85);
+  --shadow-lg: 0 20px 60px rgba(23, 38, 65, 0.16);
+  --shadow-md: 0 10px 28px rgba(22, 34, 59, 0.12);
+  --soft-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.85);
+  --glass-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.38));
+  --glass-border: rgba(255, 255, 255, 0.72);
+  --glass-text: #20304a;
+  --accent: #b3261e;
+  --accent-soft: rgba(179, 38, 30, 0.08);
 }
 
-.developer-credit {
-  margin-top: 6px;
-  color: #8a93a5;
-  font-size: 0.85rem;
-  font-style: italic;
+html,
+body {
+  min-height: 100%;
 }
 
 body {
   margin: 0;
-  /* English/general page font */
   font-family: "Century Gothic", "Segoe UI", Arial, Helvetica, sans-serif;
-  background: linear-gradient(135deg, var(--bg1), var(--bg2));
   color: var(--ink);
-  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.92), transparent 32%),
+    radial-gradient(circle at top right, rgba(255, 255, 255, 0.72), transparent 28%),
+    linear-gradient(180deg, var(--bg-top), var(--bg-bottom));
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 28px 16px;
 }
 
-/* Main app container */
 .app {
-  width: 90%;
-  max-width: 700px;
+  width: min(100%, 980px);
   text-align: center;
 }
 
-/* Header */
-header {
-  margin-bottom: 24px;
+.app-header {
+  text-align: center;
+  margin-bottom: 26px;
 }
 
-header h1 {
-  margin-bottom: 8px;
-  font-size: 2rem;
-  color: var(--navy);
+.eyebrow {
+  margin: 0 0 6px;
+  font-size: 0.9rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #70809b;
 }
 
-header p {
+.app-header h1 {
   margin: 0;
+  font-size: clamp(2rem, 4vw, 2.85rem);
+  line-height: 1.08;
+}
+
+.subtitle,
+.developer-credit,
+.keyboard-tip,
+footer p {
   color: var(--muted);
+}
+
+.subtitle {
+  margin: 10px 0 2px;
   font-size: 1rem;
 }
 
-/* Flashcard */
-.flashcard {
+.developer-credit {
+  margin: 0;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.flashcard-shell {
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr) 88px;
+  align-items: center;
+  gap: 18px;
+}
+
+.flashcard-card {
+  position: relative;
+  overflow: hidden;
+  min-height: 560px;
+  padding: 26px 30px 28px;
+  border-radius: 34px;
   background: var(--card);
-  border-radius: 24px;
-  padding: 36px 28px;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  border: 1px solid var(--card-border);
+  box-shadow: var(--shadow-lg), var(--soft-shadow);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.flashcard-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.02));
+  pointer-events: none;
+}
+
+.card-top-row {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
 }
 
 .card-number {
-  color: #7b8496;
-  font-size: 0.95rem;
-  margin-bottom: 24px;
+  color: #7a869e;
+  font-size: 0.97rem;
 }
 
-/* Chinese Hanzi font */
-.hanzi {
-  font-family: "Microsoft YaHei", "SimHei", "Noto Sans CJK SC", "PingFang SC", sans-serif;
-  font-size: 5rem;
-  font-weight: bold;
-  color: var(--hanzi);
-  margin-bottom: 28px;
-  letter-spacing: 4px;
+.deck-badge {
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.62);
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  box-shadow: 0 6px 18px rgba(27, 45, 77, 0.08);
+  color: #62718a;
+  font-size: 0.88rem;
 }
 
-/* Answer area */
-.answer-area {
-  min-height: 110px;
-  margin-bottom: 24px;
+.card-content {
+  position: relative;
+  z-index: 1;
+  min-height: 470px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  padding: 10px 0 4px;
+  transform-origin: center;
+}
+
+.reveal-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
 }
 
 .answer-box {
-  background: var(--soft);
-  border-radius: 14px;
-  padding: 14px 18px;
-  margin: 10px auto;
-  max-width: 420px;
-  font-size: 1.3rem;
+  width: min(100%, 420px);
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+  text-align: center;
+  padding: 16px 18px;
+  background: rgba(255, 255, 255, 0.68);
+  border: 1px solid rgba(255, 255, 255, 0.82);
+  border-radius: 24px;
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.pinyin-box {
+  min-height: 64px;
 }
 
 .label {
   display: block;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   text-transform: uppercase;
-  color: #657085;
-  letter-spacing: 1px;
-  margin-bottom: 5px;
+  letter-spacing: 0.12em;
+  color: #72809a;
 }
 
-/* Pinyin font */
 #pinyin {
   font-family: "Microsoft YaHei", "SimHei", "Noto Sans CJK SC", "PingFang SC", sans-serif;
-  font-size: 1.4rem;
-  letter-spacing: 1px;
+  font-size: clamp(1.35rem, 2.4vw, 1.7rem);
 }
 
-/* English answer uses the general English font */
 #english {
-  font-family: "Century Gothic", "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: clamp(1.15rem, 2.2vw, 1.45rem);
 }
 
-/* Hidden answers (keeps space so layout doesn't jump) */
+.hanzi-stage {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.hanzi {
+  font-family: "Microsoft YaHei", "SimHei", "Noto Sans CJK SC", "PingFang SC", sans-serif;
+  font-size: clamp(4.3rem, 10vw, 7rem);
+  font-weight: bold;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+  line-height: 1.08;
+  text-align: center;
+  text-wrap: balance;
+  padding: 12px 8px;
+}
+
 .hidden {
   visibility: hidden;
 }
 
-/* Buttons */
-button {
-  border: none;
-  border-radius: 12px;
-  padding: 12px 18px;
-  margin: 6px;
-  font-size: 1rem;
-  cursor: pointer;
-  background: var(--navy);
-  color: white;
-  transition: 0.2s ease;
+.liquid-btn {
+  appearance: none;
+  border: 1px solid var(--glass-border);
+  border-radius: 999px;
+  background: var(--glass-bg);
+  color: var(--glass-text);
+  box-shadow:
+    0 8px 22px rgba(14, 23, 39, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   font-family: "Century Gothic", "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease, opacity 180ms ease;
 }
 
-button:hover {
-  background: var(--navy2);
-  transform: translateY(-1px);
+.liquid-btn:hover:not(:disabled) {
+  transform: translateY(-1px) scale(1.01);
+  box-shadow:
+    0 12px 28px rgba(14, 23, 39, 0.14),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
 }
 
-button:active {
-  transform: translateY(0);
+.liquid-btn:active:not(:disabled) {
+  transform: translateY(0) scale(0.99);
 }
 
-/* Keyboard accessibility */
-button:focus-visible {
-  outline: 3px solid #ffcc66;
+.liquid-btn:focus-visible {
+  outline: 3px solid rgba(76, 130, 255, 0.58);
   outline-offset: 3px;
 }
 
-.button-row {
+.liquid-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.reveal-btn,
+.action-btn {
+  min-width: 184px;
+  padding: 14px 22px;
+}
+
+.nav-btn {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-size: 1.8rem;
+}
+
+.deck-controls {
+  margin-top: 22px;
   display: flex;
   justify-content: center;
+  gap: 14px;
   flex-wrap: wrap;
-  gap: 6px;
-  margin-bottom: 12px;
-}
-
-.secondary-row button {
-  background: #2f3a52;
-}
-
-.navigation {
-  display: flex;
-  gap: 12px;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 6px;
-}
-
-.navigation button {
-  min-width: 160px;
 }
 
 .keyboard-tip {
-  margin-top: 14px;
-  margin-bottom: 0;
-  color: var(--muted);
+  text-align: center;
+  margin: 18px 0 0;
   font-size: 0.95rem;
 }
 
-/* Footer */
 footer {
-  margin-top: 18px;
-  color: var(--muted);
+  text-align: center;
+  margin-top: 16px;
   font-size: 0.95rem;
 }
 
-/* Mobile layout */
-@media (max-width: 520px) {
-  .hanzi {
-    font-size: 3.8rem;
+/* Card transition classes for previous / next movement */
+.card-content.slide-out-next {
+  animation: slideOutNext 160ms ease forwards;
+}
+
+.card-content.slide-in-next {
+  animation: slideInNext 220ms ease forwards;
+}
+
+.card-content.slide-out-prev {
+  animation: slideOutPrev 160ms ease forwards;
+}
+
+.card-content.slide-in-prev {
+  animation: slideInPrev 220ms ease forwards;
+}
+
+@keyframes slideOutNext {
+  from {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-28px) scale(0.985);
+  }
+}
+
+@keyframes slideInNext {
+  from {
+    opacity: 0;
+    transform: translateX(28px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes slideOutPrev {
+  from {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(28px) scale(0.985);
+  }
+}
+
+@keyframes slideInPrev {
+  from {
+    opacity: 0;
+    transform: translateX(-28px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@media (max-width: 900px) {
+  .flashcard-shell {
+    grid-template-columns: 72px minmax(0, 1fr) 72px;
+    gap: 14px;
   }
 
-  button {
+  .flashcard-card {
+    min-height: 520px;
+    padding: 24px 22px 26px;
+  }
+
+  .nav-btn {
+    width: 62px;
+    height: 62px;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 640px) {
+  body {
+    padding: 20px 12px 28px;
+  }
+
+  .flashcard-shell {
+    grid-template-columns: 60px minmax(0, 1fr) 60px;
+    gap: 10px;
+  }
+
+  .flashcard-card {
+    min-height: 500px;
+    border-radius: 28px;
+    padding: 22px 18px 24px;
+  }
+
+  .card-content {
+    min-height: 430px;
+  }
+
+  .reveal-btn,
+  .action-btn {
+    min-width: 0;
     width: 100%;
-    margin: 6px 0;
   }
 
-  .flashcard {
-    padding: 28px 20px;
+  .deck-controls {
+    align-items: stretch;
+  }
+}
+
+@media (max-width: 420px) {
+  .app-header h1 {
+    font-size: 1.78rem;
   }
 
-  .navigation button {
-    width: 100%;
+  .flashcard-shell {
+    grid-template-columns: 52px minmax(0, 1fr) 52px;
+  }
+
+  .nav-btn {
+    width: 52px;
+    height: 52px;
+    font-size: 1.3rem;
+  }
+
+  .card-top-row {
+    flex-direction: column;
+    align-items: center;
   }
 }

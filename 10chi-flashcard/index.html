@@ -4,63 +4,98 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Chinese Vocabulary Flashcards</title>
-  <link rel="stylesheet" href="style.css?v=2026-06-10">
+  <link rel="stylesheet" href="style.css?v=2026-06-15" />
 </head>
-
 <body>
   <main class="app">
-    <header>
+    <header class="app-header">
+      <p class="eyebrow">Year 10 Chinese</p>
       <h1>Chinese Vocabulary Flashcards</h1>
-      <p>Year 10 Chinese - Topic 2 Vocabulary</p>
+      <p class="subtitle">Topic 2 Vocabulary</p>
       <p class="developer-credit">Developed by Mr Wen</p>
     </header>
 
-    <section class="flashcard" aria-label="Flashcard">
-      <div class="card-number" id="cardNumber" aria-live="polite"></div>
+    <section class="flashcard-shell" aria-label="Vocabulary flashcard app">
+      <button
+        type="button"
+        id="prevBtn"
+        class="liquid-btn nav-btn nav-left"
+        aria-label="Previous vocabulary card"
+        title="Previous (Left Arrow)"
+      >
+        <span aria-hidden="true">←</span>
+      </button>
 
-<!-- Pinyin sits above Hanzi -->
-<div class="answer-box hidden pinyin-top" id="pinyinBox" aria-hidden="true">
-  <span id="pinyin">nǐ hǎo</span>
-</div>
+      <article class="flashcard-card" aria-label="Flashcard">
+        <div class="card-top-row">
+          <div class="card-number" id="cardNumber" aria-live="polite"></div>
+          <div class="deck-badge" id="deckBadge" aria-live="polite">Original order</div>
+        </div>
 
-<!-- lang helps devices choose appropriate fonts/reading rules -->
-<div class="hanzi" id="hanzi" lang="zh-Hans">你好</div>
+        <div class="card-content" id="cardContent">
+          <div class="reveal-section reveal-top">
+            <button
+              type="button"
+              id="togglePinyinBtn"
+              class="liquid-btn reveal-btn"
+              aria-controls="pinyinBox"
+              aria-expanded="false"
+            >
+              Reveal Pinyin
+            </button>
+            <div class="answer-box hidden pinyin-box" id="pinyinBox" aria-hidden="true">
+              <span id="pinyin">nǐ hǎo</span>
+            </div>
+          </div>
 
-<!-- Keep English in the answer area below -->
-<div class="answer-area" aria-label="Answers">
-  <div class="answer-box hidden" id="englishBox" aria-hidden="true">
-    <span class="label">English</span>
-    <span id="english">hello</span>
-  </div>
-</div>
-      <div class="button-row">
-        <button type="button" id="togglePinyinBtn" aria-controls="pinyinBox">Reveal Pinyin</button>
-        <button type="button" id="toggleEnglishBtn" aria-controls="englishBox">Reveal English</button>
-      </div>
+          <div class="hanzi-stage">
+            <div class="hanzi" id="hanzi" lang="zh-Hans">你好</div>
+          </div>
 
-      <div class="button-row secondary-row">
-        <button type="button" id="shuffleBtn">Shuffle Deck</button>
-        <button type="button" id="restartBtn">Restart</button>
-      </div>
+          <div class="reveal-section reveal-bottom">
+            <div class="answer-box hidden english-box" id="englishBox" aria-hidden="true">
+              <span class="label">English</span>
+              <span id="english">hello</span>
+            </div>
+            <button
+              type="button"
+              id="toggleEnglishBtn"
+              class="liquid-btn reveal-btn"
+              aria-controls="englishBox"
+              aria-expanded="false"
+            >
+              Reveal English
+            </button>
+          </div>
+        </div>
+      </article>
 
-      <div class="navigation">
-        <button type="button" id="prevBtn">← Previous</button>
-        <button type="button" id="nextBtn">Next →</button>
-      </div>
-
-      <p class="keyboard-tip">
-        Keyboard: ← / → to move • P for pinyin • E for English
-      </p>
+      <button
+        type="button"
+        id="nextBtn"
+        class="liquid-btn nav-btn nav-right"
+        aria-label="Next vocabulary card"
+        title="Next (Right Arrow)"
+      >
+        <span aria-hidden="true">→</span>
+      </button>
     </section>
+
+    <div class="deck-controls">
+      <button type="button" id="shuffleBtn" class="liquid-btn action-btn">Shuffle All Cards</button>
+      <button type="button" id="restartBtn" class="liquid-btn action-btn">Restart</button>
+    </div>
+
+    <p class="keyboard-tip">
+      Keyboard: ← / → to move • P to reveal pinyin • E to reveal English
+    </p>
 
     <footer>
       <p>Tip: Try saying the word before revealing the pinyin or English.</p>
     </footer>
   </main>
 
-  <script src="vocab-data.js?v=2026-06-10"></script>
-  <script src="script.js?v=2026-06-10"></script>
-
+  <script src="vocab-data.js?v=2026-06-15"></script>
+  <script src="script.js?v=2026-06-15"></script>
 </body>
 </html>
-``

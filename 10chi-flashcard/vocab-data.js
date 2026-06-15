@@ -1,7 +1,5 @@
 // Vocabulary list (edit this file to update the deck)
-
 // ===== Separate vocabulary sets =====
-
 const vocab1 = [
   { hanzi: "这", pinyin: "zhè", english: "this" },
   { hanzi: "是", pinyin: "shì", english: "be" },
@@ -69,8 +67,7 @@ const vocab3 = [
   { hanzi: "祝好", pinyin: "zhù hǎo", english: "best wishes" }
 ];
 
-// ===== Combined list (used by your current app) =====
-// This keeps your tool working exactly as before
+// ===== Combined list (used by the app) =====
 const vocabulary = [
   ...vocab1,
   ...vocab2,
@@ -79,8 +76,6 @@ const vocabulary = [
 
 // Make available globally
 window.vocabulary = vocabulary;
-
-// (Optional) expose sets for future features
 window.vocabSets = {
   vocab1: vocab1,
   vocab2: vocab2,
