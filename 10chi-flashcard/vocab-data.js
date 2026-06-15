@@ -1,5 +1,8 @@
 // Vocabulary list (edit this file to update the deck)
-const vocabulary = [
+
+// ===== Separate vocabulary sets =====
+
+const vocab1 = [
   { hanzi: "这", pinyin: "zhè", english: "this" },
   { hanzi: "是", pinyin: "shì", english: "be" },
   { hanzi: "家", pinyin: "jiā", english: "home" },
@@ -16,7 +19,10 @@ const vocabulary = [
   { hanzi: "浴室", pinyin: "yù shì", english: "bathroom" },
   { hanzi: "房间", pinyin: "fáng jiān", english: "room" },
   { hanzi: "太", pinyin: "tài", english: "too" },
-  { hanzi: "大", pinyin: "dà", english: "big" },
+  { hanzi: "大", pinyin: "dà", english: "big" }
+];
+
+const vocab2 = [
   { hanzi: "你们", pinyin: "nǐ men", english: "you (plural)" },
   { hanzi: "搬家", pinyin: "bān jiā", english: "to move house" },
   { hanzi: "了", pinyin: "le", english: "completed action particle" },
@@ -42,6 +48,41 @@ const vocabulary = [
   { hanzi: "很", pinyin: "hěn", english: "very" }
 ];
 
+const vocab3 = [
+  { hanzi: "我们", pinyin: "wǒ men", english: "we / us" },
+  { hanzi: "新家", pinyin: "xīn jiā", english: "new home" },
+  { hanzi: "昨天", pinyin: "zuó tiān", english: "yesterday" },
+  { hanzi: "搬进", pinyin: "bān jìn", english: "to move into" },
+  { hanzi: "洋房", pinyin: "yáng fáng", english: "(western-style) house" },
+  { hanzi: "外面", pinyin: "wài miàn", english: "outside" },
+  { hanzi: "花园", pinyin: "huā yuán", english: "garden" },
+  { hanzi: "车库", pinyin: "chē kù", english: "garage" },
+  { hanzi: "游泳池", pinyin: "yóu yǒng chí", english: "swimming pool" },
+  { hanzi: "房子", pinyin: "fáng zi", english: "house" },
+  { hanzi: "前面", pinyin: "qián miàn", english: "in front" },
+  { hanzi: "后面", pinyin: "hòu miàn", english: "behind" },
+  { hanzi: "左边", pinyin: "zuǒ biān", english: "left side" },
+  { hanzi: "右边", pinyin: "yòu biān", english: "right side" },
+  { hanzi: "洗手间", pinyin: "xǐ shǒu jiān", english: "bathroom / toilet" },
+  { hanzi: "客房", pinyin: "kè fáng", english: "guest room" },
+  { hanzi: "时候", pinyin: "shí hòu", english: "time; when" },
+  { hanzi: "祝好", pinyin: "zhù hǎo", english: "best wishes" }
+];
 
+// ===== Combined list (used by your current app) =====
+// This keeps your tool working exactly as before
+const vocabulary = [
+  ...vocab1,
+  ...vocab2,
+  ...vocab3
+];
 
+// Make available globally
 window.vocabulary = vocabulary;
+
+// (Optional) expose sets for future features
+window.vocabSets = {
+  vocab1: vocab1,
+  vocab2: vocab2,
+  vocab3: vocab3
+};
