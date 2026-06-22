@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chinese Vocabulary Flashcards</title>
+  <meta name="description" content="Chinese Vocabulary Flashcards for student home practice." />
+  <link rel="stylesheet" href="flashcards-style.css" />
+  <link rel="icon" href="images/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icon-32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="images/icon-192.png" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+</head>
+<body>
+  <main class="app-shell">
+    <section id="setupScreen" class="screen screen-active" aria-label="Flashcard setup">
+      <header class="hero glass-panel">
+        <img class="home-logo" src="images/logo.png" alt="Chinese Vocabulary Flashcards logo" />
+        <div class="hero-title-block">
+          <p class="hero-badge chinese-text">中文词汇卡片</p>
+          <h1>Chinese Vocabulary Flashcards</h1>
+          <p>Choose your year level, unit topic and vocab list to practise at home.</p>
+        </div>
+      </header>
+
+      <section class="setup-grid linear-setup">
+        <div class="setup-card glass-panel year-card">
+          <div class="step-heading">
+            <span>1</span>
+            <div>
+              <h2>Choose your year level</h2>
+              <p>Select one year level.</p>
+            </div>
+          </div>
+          <div id="yearButtons" class="choice-grid year-choice-grid"></div>
+        </div>
+
+        <div id="topicSection" class="setup-card glass-panel disabled-section">
+          <div class="step-heading">
+            <span>2</span>
+            <div>
+              <h2>Choose your unit topic</h2>
+              <p>Select one topic.</p>
+            </div>
+          </div>
+          <div id="topicButtons" class="choice-grid setup-choice-grid"></div>
+        </div>
+
+        <div id="listSection" class="setup-card glass-panel disabled-section">
+          <div class="step-heading">
+            <span>3</span>
+            <div>
+              <h2>Choose vocab list</h2>
+              <p>You can choose one or multiple lists from the same topic.</p>
+            </div>
+          </div>
+          <div id="listButtons" class="choice-grid setup-choice-grid"></div>
+        </div>
+      </section>
+
+      <section class="launch-card glass-panel">
+        <div>
+          <h2>Ready?</h2>
+          <p id="setupSummary">Choose a year level, topic and vocab list to begin.</p>
+        </div>
+        <button id="startFlashcardsBtn" class="primary-action" type="button" disabled>Start Flashcards</button>
+      </section>
+      <p id="dataStatus" class="data-status"></p>
+    </section>
+
+    <section id="flashcardScreen" class="screen" aria-label="Flashcard practice">
+      <header class="game-top glass-panel">
+        <div>
+          <h1>Chinese Vocabulary Flashcards</h1>
+          <p id="flashcardMeta"></p>
+        </div>
+        <button id="backToSetupBtn" class="small-glass-btn" type="button">Back to Setup</button>
+      </header>
+
+      <div class="progress-wrap" aria-label="Flashcard progress">
+        <div id="progressBar" class="progress-bar"></div>
+      </div>
+      <p id="progressText" class="progress-text">0/0</p>
+
+      <section class="flashcard-area">
+        <button id="prevBtn" class="nav-btn glass-panel" type="button" aria-label="Previous card">←</button>
+
+        <article class="flashcard-card glass-panel" aria-live="polite">
+          <div class="card-top-row">
+            <p id="cardNumber" class="card-number">Card 1 of 1</p>
+            <p id="listBadge" class="list-badge">Vocab List</p>
+          </div>
+
+          <div id="cardContent" class="card-content">
+            <div class="answer-zone pinyin-zone">
+              <button id="revealPinyinBtn" class="small-glass-btn reveal-btn" type="button">Reveal pinyin</button>
+              <div id="pinyinDisplay" class="pinyin-display chinese-text" aria-live="polite"></div>
+            </div>
+
+            <div id="hanziDisplay" class="hanzi-display chinese-text">字</div>
+
+            <div class="answer-zone english-zone">
+              <button id="revealEnglishBtn" class="small-glass-btn reveal-btn" type="button">Reveal English</button>
+              <div id="englishDisplay" class="english-display" aria-live="polite"></div>
+            </div>
+          </div>
+        </article>
+
+        <button id="nextBtn" class="nav-btn glass-panel" type="button" aria-label="Next card">→</button>
+      </section>
+
+      <section class="practice-controls glass-panel">
+        <button id="shuffleBtn" class="small-glass-btn" type="button">Shuffle Cards</button>
+        <button id="restartBtn" class="small-glass-btn" type="button">Restart Set</button>
+      </section>
+    </section>
+  </main>
+
+  <footer class="app-footer">© 2026 Mr Peiran Wen. All rights reserved.</footer>
+
+  <script src="vocabulary-data.js"></script>
+  <script src="flashcards-script.js"></script>
+</body>
+</html>

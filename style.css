@@ -1,0 +1,197 @@
+/* =====================================================
+   Mr Wen's Chinese Classroom Portal - Version 3.4
+   2:1 classroom background with smartboard tiles
+===================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Century Gothic", Arial, sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    overflow: hidden;
+    background: #ead9c6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 
+   Main classroom stage.
+   This now fills the whole browser window.
+*/
+
+.classroom-stage {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: #ead9c6;
+}
+
+/* 
+   Background image.
+   object-fit: cover removes the side spaces.
+   Because your image is now 2:1, cropping should be very small.
+*/
+
+.classroom-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    display: block;
+    user-select: none;
+    pointer-events: none;
+}
+
+/* 
+   Whiteboard tile area.
+   Adjusted for the new 2:1 image.
+*/
+
+.whiteboard-menu {
+    position: absolute;
+    top: 28%;
+    left: 18%;
+    width: 45%;
+    height: 35%;
+
+    display: grid;
+    grid-template-columns: repeat(2, minmax(170px, 1fr));
+    gap: 18px;
+    padding: 6px;
+}
+
+/* Tiles */
+
+.app-tile {
+    position: relative;
+    overflow: hidden;
+    min-height: 82px;
+    padding: 12px 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+
+    text-align: center;
+    text-decoration: none;
+    color: #2b241d;
+
+    background: rgba(255, 255, 255, 0.84);
+    border: 1px solid rgba(255, 255, 255, 0.95);
+    border-radius: 22px;
+
+    box-shadow: 0 8px 18px rgba(63, 45, 28, 0.14);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+
+    cursor: pointer;
+
+    transition:
+        transform 0.22s ease,
+        box-shadow 0.22s ease,
+        background 0.22s ease,
+        border-color 0.22s ease;
+}
+
+.app-tile:hover {
+    transform: translateY(-5px) scale(1.02);
+    background: rgba(255, 255, 255, 0.95);
+    border-color: rgba(255, 188, 78, 0.9);
+    box-shadow: 0 14px 28px rgba(63, 45, 28, 0.20);
+}
+
+.app-tile:active {
+    transform: translateY(-2px) scale(1.01);
+}
+
+/* Tile content */
+
+.app-icon {
+    font-size: 1.9rem;
+    line-height: 1;
+}
+
+.app-title {
+    font-size: 0.92rem;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+.app-subtitle {
+    font-size: 0.72rem;
+    font-weight: 500;
+    color: #6a5747;
+}
+
+/* Disabled / coming soon tiles */
+
+.coming-soon {
+    opacity: 0.72;
+    cursor: default;
+}
+
+.coming-soon:hover,
+.coming-soon:active {
+    transform: none;
+    background: rgba(255, 255, 255, 0.84);
+    border-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 8px 18px rgba(63, 45, 28, 0.14);
+}
+
+/* Smaller screens */
+
+@media (max-width: 900px) {
+    body {
+        overflow: auto;
+    }
+
+    .classroom-stage {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .whiteboard-menu {
+        top: 27%;
+        left: 13%;
+        width: 58%;
+        height: auto;
+
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 4px;
+    }
+
+    .app-tile {
+        min-height: 72px;
+        padding: 10px 8px;
+        border-radius: 18px;
+    }
+
+    .app-icon {
+        font-size: 1.5rem;
+    }
+
+    .app-title {
+        font-size: 0.82rem;
+    }
+
+    .app-subtitle {
+        font-size: 0.68rem;
+    }
+}
