@@ -1,197 +1,33 @@
-/* =====================================================
-   Mr Wen's Chinese Classroom Portal - Version 3.4
-   2:1 classroom background with smartboard tiles
-===================================================== */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Century Gothic", Arial, sans-serif;
-}
-
-html,
-body {
-    width: 100%;
-    height: 100%;
-}
-
-body {
-    min-height: 100vh;
-    overflow: hidden;
-    background: #ead9c6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* 
-   Main classroom stage.
-   This now fills the whole browser window.
-*/
-
-.classroom-stage {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    background: #ead9c6;
-}
-
-/* 
-   Background image.
-   object-fit: cover removes the side spaces.
-   Because your image is now 2:1, cropping should be very small.
-*/
-
-.classroom-image {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center center;
-    display: block;
-    user-select: none;
-    pointer-events: none;
-}
-
-/* 
-   Whiteboard tile area.
-   Adjusted for the new 2:1 image.
-*/
-
-.whiteboard-menu {
-    position: absolute;
-    top: 28%;
-    left: 18%;
-    width: 45%;
-    height: 35%;
-
-    display: grid;
-    grid-template-columns: repeat(2, minmax(170px, 1fr));
-    gap: 18px;
-    padding: 6px;
-}
-
-/* Tiles */
-
-.app-tile {
-    position: relative;
-    overflow: hidden;
-    min-height: 82px;
-    padding: 12px 12px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 6px;
-
-    text-align: center;
-    text-decoration: none;
-    color: #2b241d;
-
-    background: rgba(255, 255, 255, 0.84);
-    border: 1px solid rgba(255, 255, 255, 0.95);
-    border-radius: 22px;
-
-    box-shadow: 0 8px 18px rgba(63, 45, 28, 0.14);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-
-    cursor: pointer;
-
-    transition:
-        transform 0.22s ease,
-        box-shadow 0.22s ease,
-        background 0.22s ease,
-        border-color 0.22s ease;
-}
-
-.app-tile:hover {
-    transform: translateY(-5px) scale(1.02);
-    background: rgba(255, 255, 255, 0.95);
-    border-color: rgba(255, 188, 78, 0.9);
-    box-shadow: 0 14px 28px rgba(63, 45, 28, 0.20);
-}
-
-.app-tile:active {
-    transform: translateY(-2px) scale(1.01);
-}
-
-/* Tile content */
-
-.app-icon {
-    font-size: 1.9rem;
-    line-height: 1;
-}
-
-.app-title {
-    font-size: 0.92rem;
-    font-weight: 700;
-    letter-spacing: 0.2px;
-}
-
-.app-subtitle {
-    font-size: 0.72rem;
-    font-weight: 500;
-    color: #6a5747;
-}
-
-/* Disabled / coming soon tiles */
-
-.coming-soon {
-    opacity: 0.72;
-    cursor: default;
-}
-
-.coming-soon:hover,
-.coming-soon:active {
-    transform: none;
-    background: rgba(255, 255, 255, 0.84);
-    border-color: rgba(255, 255, 255, 0.95);
-    box-shadow: 0 8px 18px rgba(63, 45, 28, 0.14);
-}
-
-/* Smaller screens */
-
-@media (max-width: 900px) {
-    body {
-        overflow: auto;
-    }
-
-    .classroom-stage {
-        width: 100vw;
-        height: 100vh;
-    }
-
-    .whiteboard-menu {
-        top: 27%;
-        left: 13%;
-        width: 58%;
-        height: auto;
-
-        grid-template-columns: 1fr;
-        gap: 10px;
-        padding: 4px;
-    }
-
-    .app-tile {
-        min-height: 72px;
-        padding: 10px 8px;
-        border-radius: 18px;
-    }
-
-    .app-icon {
-        font-size: 1.5rem;
-    }
-
-    .app-title {
-        font-size: 0.82rem;
-    }
-
-    .app-subtitle {
-        font-size: 0.68rem;
-    }
-}
+/* Mr Wen's Chinese Classroom Portal V4.3 */
+*{margin:0;padding:0;box-sizing:border-box;font-family:"Century Gothic",Arial,sans-serif}
+html,body{width:100%;height:100%}
+body{min-height:100vh;overflow:hidden;background:#ead9c6}
+.classroom-stage{position:relative;width:100vw;height:100vh;overflow:hidden;background:#ead9c6}
+.classroom-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center center;display:block;user-select:none;pointer-events:none}
+.classroom-image-portrait{display:none}
+.whiteboard-menu{position:absolute;top:28%;left:18%;width:45%;height:35%;display:grid;grid-template-columns:repeat(2,minmax(170px,1fr));gap:14px;padding:6px}
+.app-tile{position:relative;overflow:hidden;min-height:82px;padding:10px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;text-align:center;text-decoration:none;color:#2b241d;background:rgba(255,255,255,.84);border:1px solid rgba(255,255,255,.95);border-radius:18px;box-shadow:0 8px 18px rgba(63,45,28,.14);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);cursor:pointer;transition:transform .22s ease,box-shadow .22s ease,background .22s ease,border-color .22s ease}
+.app-tile:hover{transform:translateY(-5px) scale(1.02);background:rgba(255,255,255,.95);border-color:rgba(255,188,78,.9);box-shadow:0 14px 28px rgba(63,45,28,.20)}
+.app-tile:active{transform:translateY(-2px) scale(1.01)}
+.app-icon{font-size:2.12rem;line-height:1}
+.app-title{font-size:1.10rem;font-weight:700;letter-spacing:.2px}
+.app-subtitle{font-size:.82rem;font-weight:500;color:#6a5747}
+.coming-soon{opacity:.72;cursor:default}
+.coming-soon:hover,.coming-soon:active{transform:none;background:rgba(255,255,255,.84);border-color:rgba(255,255,255,.95);box-shadow:0 8px 18px rgba(63,45,28,.14)}
+.whiteboard-credit{position:absolute;right:24%;bottom:6%;color:rgba(80,65,55,.76);font-size:12px;font-weight:800;letter-spacing:.2px;text-align:right;white-space:nowrap;background:none;border:none;box-shadow:none;padding:0;pointer-events:none}
+@media(max-width:900px){body{overflow:auto}.whiteboard-menu{top:27%;left:13%;width:58%;height:auto;grid-template-columns:1fr;gap:10px;padding:4px}.app-tile{min-height:72px;padding:10px 8px;border-radius:18px}.app-icon{font-size:1.5rem}.app-title{font-size:.82rem}.app-subtitle{font-size:.68rem}.whiteboard-credit{right:12%;bottom:8%;width:auto;font-size:.55rem;background:none;border:none;box-shadow:none;padding:0}}
+/* Only iPhone/iPad portrait overrides below */
+html.ios-device.portrait-mode,html.ios-device.portrait-mode body{min-height:100%;overflow:hidden;background:#ead9c6}
+html.ios-device.portrait-mode *{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue",Arial,sans-serif;-webkit-tap-highlight-color:transparent}
+html.ios-device.portrait-mode .classroom-stage{width:100vw;height:100vh;height:100svh}
+html.ios-device.portrait-mode .classroom-image-landscape{display:none}
+html.ios-device.portrait-mode .classroom-image-portrait{display:block;object-fit:cover;object-position:center top}
+html.ios-device.portrait-mode .whiteboard-menu{top:31.5%;left:19%;width:49%;height:28%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));gap:clamp(8px,1.8vw,15px);padding:0}
+html.ios-device.portrait-mode .app-tile{min-width:0;min-height:0;padding:clamp(6px,1.5vw,12px);gap:clamp(3px,.7vw,6px);border-radius:clamp(14px,3vw,22px);box-shadow:0 5px 14px rgba(63,45,28,.14);touch-action:manipulation}
+html.ios-device.portrait-mode .app-tile:hover{transform:none;background:rgba(255,255,255,.84);border-color:rgba(255,255,255,.95);box-shadow:0 5px 14px rgba(63,45,28,.14)}
+html.ios-device.portrait-mode .app-tile:active{transform:scale(.98)}
+html.ios-device.portrait-mode .coming-soon:active{transform:none}
+html.ios-device.portrait-mode .app-icon{font-size:clamp(1.25rem,4.6vw,2.25rem)}
+html.ios-device.portrait-mode .app-title{font-size:clamp(.66rem,2.55vw,1.08rem);line-height:1.08}
+html.ios-device.portrait-mode .app-subtitle{font-size:clamp(.54rem,1.95vw,.82rem);line-height:1.08}
+html.ios-device.portrait-mode .whiteboard-credit{right:19%;bottom:19.7%;width:auto;max-width:62%;overflow:hidden;text-overflow:ellipsis;font-size:clamp(.46rem,1.4vw,.66rem);font-weight:700}
