@@ -35,12 +35,522 @@ window.CHINESE_VOCAB_DATA = {
         {
           "id": "my-family",
           "name": "My Family",
-          "lists": []
+          "lists": [
+            {
+              "id": "family-vocab-1",
+              "name": "Vocab List 1",
+              "words": [
+                {
+                  "hanzi": "家人",
+                  "pinyin": "jiā rén",
+                  "english": "family member(s)",
+                  "distractors": [
+                    "family",
+                    "person",
+                    "brothers"
+                  ]
+                },
+                {
+                  "hanzi": "爸爸",
+                  "pinyin": "bà ba",
+                  "english": "dad",
+                  "distractors": [
+                    "mum",
+                    "older brother",
+                    "son"
+                  ]
+                },
+                {
+                  "hanzi": "妈妈",
+                  "pinyin": "mā ma",
+                  "english": "mum",
+                  "distractors": [
+                    "dad",
+                    "older sister",
+                    "daughter"
+                  ]
+                },
+                {
+                  "hanzi": "哥哥",
+                  "pinyin": "gē ge",
+                  "english": "older brother",
+                  "distractors": [
+                    "younger brother",
+                    "older sister",
+                    "younger sister"
+                  ]
+                },
+                {
+                  "hanzi": "弟弟",
+                  "pinyin": "dì di",
+                  "english": "younger brother",
+                  "distractors": [
+                    "older brother",
+                    "younger sister",
+                    "son"
+                  ]
+                },
+                {
+                  "hanzi": "姐姐",
+                  "pinyin": "jiě jie",
+                  "english": "older sister",
+                  "distractors": [
+                    "younger sister",
+                    "older brother",
+                    "younger brother"
+                  ]
+                },
+                {
+                  "hanzi": "妹妹",
+                  "pinyin": "mèi mei",
+                  "english": "younger sister",
+                  "distractors": [
+                    "older sister",
+                    "younger brother",
+                    "daughter"
+                  ]
+                },
+                {
+                  "hanzi": "儿子",
+                  "pinyin": "ér zi",
+                  "english": "son",
+                  "distractors": [
+                    "daughter",
+                    "younger brother",
+                    "dad"
+                  ]
+                },
+                {
+                  "hanzi": "女儿",
+                  "pinyin": "nǚ ér",
+                  "english": "daughter",
+                  "distractors": [
+                    "son",
+                    "younger sister",
+                    "mum"
+                  ]
+                },
+                {
+                  "hanzi": "这是",
+                  "pinyin": "zhè shì",
+                  "english": "this is",
+                  "distractors": [
+                    "my",
+                    "he",
+                    "she"
+                  ]
+                },
+                {
+                  "hanzi": "我的",
+                  "pinyin": "wǒ de",
+                  "english": "my",
+                  "distractors": [
+                    "this is",
+                    "I / me",
+                    "who"
+                  ]
+                },
+                {
+                  "hanzi": "他",
+                  "pinyin": "tā",
+                  "english": "he",
+                  "distractors": [
+                    "she",
+                    "I / me",
+                    "who"
+                  ]
+                },
+                {
+                  "hanzi": "她",
+                  "pinyin": "tā",
+                  "english": "she",
+                  "distractors": [
+                    "he",
+                    "I / me",
+                    "who"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "family-vocab-2",
+              "name": "Vocab List 2",
+              "words": [
+                {
+                  "hanzi": "有",
+                  "pinyin": "yǒu",
+                  "english": "have / has",
+                  "distractors": [
+                    "do not have / has not",
+                    "who",
+                    "how many (small number)"
+                  ]
+                },
+                {
+                  "hanzi": "没有",
+                  "pinyin": "méi yǒu",
+                  "english": "do not have / has not",
+                  "distractors": [
+                    "have / has",
+                    "who",
+                    "and"
+                  ]
+                },
+                {
+                  "hanzi": "几",
+                  "pinyin": "jǐ",
+                  "english": "how many (small number)",
+                  "distractors": [
+                    "who",
+                    "person",
+                    "general measure word"
+                  ]
+                },
+                {
+                  "hanzi": "口",
+                  "pinyin": "kǒu",
+                  "english": "mouth / measure word for family members",
+                  "distractors": [
+                    "general measure word",
+                    "person",
+                    "how many (small number)"
+                  ]
+                },
+                {
+                  "hanzi": "个",
+                  "pinyin": "gè",
+                  "english": "general measure word",
+                  "distractors": [
+                    "measure word for family members",
+                    "person",
+                    "how many (small number)"
+                  ]
+                },
+                {
+                  "hanzi": "人",
+                  "pinyin": "rén",
+                  "english": "person",
+                  "distractors": [
+                    "family member(s)",
+                    "brothers",
+                    "sisters"
+                  ]
+                },
+                {
+                  "hanzi": "谁",
+                  "pinyin": "shéi / shuí",
+                  "english": "who",
+                  "distractors": [
+                    "how many (small number)",
+                    "person",
+                    "and"
+                  ]
+                },
+                {
+                  "hanzi": "和",
+                  "pinyin": "hé",
+                  "english": "and",
+                  "distractors": [
+                    "have / has",
+                    "who",
+                    "general measure word"
+                  ]
+                },
+                {
+                  "hanzi": "兄弟",
+                  "pinyin": "xiōng dì",
+                  "english": "brothers",
+                  "distractors": [
+                    "sisters",
+                    "older brother",
+                    "younger brother"
+                  ]
+                },
+                {
+                  "hanzi": "姐妹",
+                  "pinyin": "jiě mèi",
+                  "english": "sisters",
+                  "distractors": [
+                    "brothers",
+                    "older sister",
+                    "younger sister"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "numbers-age-school-grade",
           "name": "Numbers, Age & School Grade",
-          "lists": []
+          "lists": [
+            {
+              "id": "family-vocab-3",
+              "name": "Vocab List 3",
+              "words": [
+                {
+                  "hanzi": "零 / 〇",
+                  "pinyin": "líng",
+                  "english": "zero",
+                  "distractors": [
+                    "one",
+                    "two",
+                    "ten"
+                  ]
+                },
+                {
+                  "hanzi": "一",
+                  "pinyin": "yī",
+                  "english": "one",
+                  "distractors": [
+                    "two",
+                    "three",
+                    "zero"
+                  ]
+                },
+                {
+                  "hanzi": "二",
+                  "pinyin": "èr",
+                  "english": "two",
+                  "distractors": [
+                    "one",
+                    "three",
+                    "four"
+                  ]
+                },
+                {
+                  "hanzi": "三",
+                  "pinyin": "sān",
+                  "english": "three",
+                  "distractors": [
+                    "two",
+                    "four",
+                    "five"
+                  ]
+                },
+                {
+                  "hanzi": "四",
+                  "pinyin": "sì",
+                  "english": "four",
+                  "distractors": [
+                    "three",
+                    "five",
+                    "six"
+                  ]
+                },
+                {
+                  "hanzi": "五",
+                  "pinyin": "wǔ",
+                  "english": "five",
+                  "distractors": [
+                    "four",
+                    "six",
+                    "seven"
+                  ]
+                },
+                {
+                  "hanzi": "六",
+                  "pinyin": "liù",
+                  "english": "six",
+                  "distractors": [
+                    "five",
+                    "seven",
+                    "eight"
+                  ]
+                },
+                {
+                  "hanzi": "七",
+                  "pinyin": "qī",
+                  "english": "seven",
+                  "distractors": [
+                    "six",
+                    "eight",
+                    "nine"
+                  ]
+                },
+                {
+                  "hanzi": "八",
+                  "pinyin": "bā",
+                  "english": "eight",
+                  "distractors": [
+                    "seven",
+                    "nine",
+                    "ten"
+                  ]
+                },
+                {
+                  "hanzi": "九",
+                  "pinyin": "jiǔ",
+                  "english": "nine",
+                  "distractors": [
+                    "eight",
+                    "ten",
+                    "seven"
+                  ]
+                },
+                {
+                  "hanzi": "十",
+                  "pinyin": "shí",
+                  "english": "ten",
+                  "distractors": [
+                    "nine",
+                    "eight",
+                    "zero"
+                  ]
+                },
+                {
+                  "hanzi": "我",
+                  "pinyin": "wǒ",
+                  "english": "I / me",
+                  "distractors": [
+                    "he / him",
+                    "she / her",
+                    "my"
+                  ]
+                },
+                {
+                  "hanzi": "他",
+                  "pinyin": "tā",
+                  "english": "he / him",
+                  "distractors": [
+                    "she / her",
+                    "I / me",
+                    "who"
+                  ]
+                },
+                {
+                  "hanzi": "她",
+                  "pinyin": "tā",
+                  "english": "she / her",
+                  "distractors": [
+                    "he / him",
+                    "I / me",
+                    "who"
+                  ]
+                },
+                {
+                  "hanzi": "几",
+                  "pinyin": "jǐ",
+                  "english": "how many (small number)",
+                  "distractors": [
+                    "how old (child)",
+                    "how old (general)",
+                    "years of age"
+                  ]
+                },
+                {
+                  "hanzi": "几岁",
+                  "pinyin": "jǐ suì",
+                  "english": "how old (child)",
+                  "distractors": [
+                    "how old (general)",
+                    "how many (small number)",
+                    "years of age"
+                  ]
+                },
+                {
+                  "hanzi": "多大",
+                  "pinyin": "duō dà",
+                  "english": "how old (general)",
+                  "distractors": [
+                    "how old (child)",
+                    "how many (small number)",
+                    "older"
+                  ]
+                },
+                {
+                  "hanzi": "什么名字",
+                  "pinyin": "shén me míng zi",
+                  "english": "what name",
+                  "distractors": [
+                    "be called",
+                    "how old (child)",
+                    "who"
+                  ]
+                },
+                {
+                  "hanzi": "叫",
+                  "pinyin": "jiào",
+                  "english": "be called",
+                  "distractors": [
+                    "what name",
+                    "attend / be in",
+                    "compared with"
+                  ]
+                },
+                {
+                  "hanzi": "岁",
+                  "pinyin": "suì",
+                  "english": "years of age",
+                  "distractors": [
+                    "year level",
+                    "how old (child)",
+                    "sentence-final particle"
+                  ]
+                },
+                {
+                  "hanzi": "了",
+                  "pinyin": "le",
+                  "english": "sentence-final particle",
+                  "distractors": [
+                    "compared with",
+                    "general measure word",
+                    "years of age"
+                  ]
+                },
+                {
+                  "hanzi": "比",
+                  "pinyin": "bǐ",
+                  "english": "compared with",
+                  "distractors": [
+                    "older",
+                    "younger",
+                    "attend / be in"
+                  ]
+                },
+                {
+                  "hanzi": "大",
+                  "pinyin": "dà",
+                  "english": "older",
+                  "distractors": [
+                    "younger",
+                    "how old (general)",
+                    "year level"
+                  ]
+                },
+                {
+                  "hanzi": "小",
+                  "pinyin": "xiǎo",
+                  "english": "younger",
+                  "distractors": [
+                    "older",
+                    "how old (child)",
+                    "year level"
+                  ]
+                },
+                {
+                  "hanzi": "年级",
+                  "pinyin": "nián jí",
+                  "english": "year level",
+                  "distractors": [
+                    "years of age",
+                    "attend / be in",
+                    "what name"
+                  ]
+                },
+                {
+                  "hanzi": "上",
+                  "pinyin": "shàng",
+                  "english": "attend / be in",
+                  "distractors": [
+                    "year level",
+                    "be called",
+                    "compared with"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
