@@ -1,6 +1,7 @@
-HANZI HUNTER V3.12
-- Profile year dropdown replaced with Year 7-12 and Staff selection buttons.
-- Eight uploaded avatars available in a four-column profile selector.
-- Avatar and year are required before saving.
-- Existing profiles migrate to the panda fallback automatically.
-- Avatar displayed on profile cards, home screen, header chip, spinner players and game side panels.
+HANZI HUNTER V4.1 (corrected rebuild)
+- Reuses the V4 visual design and interaction styling.
+- Uses the attached universal vocabulary-data.js curriculum content.
+- Removes only the intermediate Home/Continue workflow.
+- Selecting a profile opens setup directly.
+- Empty curriculum options are disabled, greyed and labelled Not available.
+- V4 profiles, avatars, import/export, Records, timing, text fitting, active-player styling and final result logic are retained.
