@@ -1,10 +1,6 @@
-# Chinese Vocab Challenge v1.10
+# Chinese Vocab Challenge v2.1
 
-## Version 1.10 updates
-
-- Fixed the repeated Expert Mode failure message.
-- Changed Expert Mode wording from “challenged” to “completed”.
-- Centred the failure message in the popup.
-- Added a **Return to Setup** button to failure/time-up popups.
-- Increased challenge page sizing by about 10% compared with v1.9 while keeping the page compact.
-- Kept v1.9 date/time format: `22 Jun 2026, 1:23 pm`.
+Version 2.1 keeps the Version 2.0 interface and gameplay unchanged, uses the supplied `vocab-challenge-data.js`, and adds only:
+- an instruction popup when the app opens;
+- a Help button at the top right of the setup header;
+- a Got it button to close the instructions.
