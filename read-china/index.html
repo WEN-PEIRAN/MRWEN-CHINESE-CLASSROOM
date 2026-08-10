@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7efe2">
+  <title>Read China | Version 1.2</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="brand" id="homeButton" type="button" aria-label="Return to home">
+        <img class="brand-logo" src="favicon.svg" alt="Read China logo">
+        <span><strong>Read China</strong><small>LANGUAGE · STORIES · CULTURE</small></span>
+      </button>
+      <span class="version">V1.2</span>
+    </header>
+
+    <main>
+      <section class="screen active" id="welcomeScreen" aria-labelledby="welcomeTitle">
+        <div class="welcome-card">
+          <p class="eyebrow">A SMALL READING ADVENTURE</p>
+          <h1 id="welcomeTitle">Choose Your Reading Experience</h1>
+          <p class="intro">Choose a language, open a short read, and discover something about Chinese culture.</p>
+          <div class="mode-grid">
+            <button class="mode-card english" type="button" data-mode="en">
+              <span class="mode-icon">A</span>
+              <span class="mode-copy"><strong>Read in English</strong><small>Explore Chinese culture with selected Chinese words and pinyin.</small></span>
+            </button>
+            <button class="mode-card chinese" type="button" data-mode="zh">
+              <span class="mode-icon hanzi">中</span>
+              <span class="mode-copy"><strong>Read in Chinese</strong><small>Read Chinese texts with pinyin and English notes.</small></span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen" id="shelfScreen" aria-labelledby="shelfTitle">
+        <div class="section-heading">
+          <button class="back-button" type="button" data-back="welcome">← Back</button>
+          <p class="eyebrow">YOUR BOOKSHELF</p>
+          <h2 id="shelfTitle">English Bookshelf</h2>
+          <p id="shelfSubtitle">Choose a short read and begin exploring.</p>
+        </div>
+        <div class="bookshelf" id="bookshelf" aria-label="Reading bookshelf"></div>
+      </section>
+
+      <section class="screen" id="readerScreen" aria-labelledby="articleTitle">
+        <div class="reader-top">
+          <button class="back-button" type="button" data-back="shelf">← Back to Bookshelf</button>
+          <div class="reader-tools" id="readerTools">
+            <button class="tool-button selected" id="pinyinToggle" type="button" aria-pressed="true">Pinyin</button>
+            <button class="tool-button selected" id="notesToggle" type="button" aria-pressed="true">English Notes</button>
+            <button class="tool-button" id="fontButton" type="button" aria-label="Increase text size">A+</button>
+          </div>
+        </div>
+        <article class="reader-paper" id="articleContainer">
+          <header class="article-cover">
+            <span class="article-emoji" id="articleEmoji"></span>
+            <div class="cover-copy"><p class="article-category" id="articleCategory"></p><h2 id="articleTitle"></h2><p class="article-summary" id="articleSummary"></p></div>
+          </header>
+          <div class="article-body" id="articleBody"></div>
+          <aside class="culture-note" id="cultureNote"></aside>
+        </article>
+      </section>
+    </main>
+    <footer>Developed by Mr Wen · Read China V1.2</footer>
+  </div>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

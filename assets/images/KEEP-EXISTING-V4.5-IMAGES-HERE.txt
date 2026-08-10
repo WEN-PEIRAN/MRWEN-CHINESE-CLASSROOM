@@ -1,0 +1,1 @@
+Keep all existing V4.5 image files in this folder.
