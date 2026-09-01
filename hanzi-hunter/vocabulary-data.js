@@ -1,12 +1,6 @@
-// Universal Chinese curriculum vocabulary data
+// Chinese Vocabulary Flashcards - merged vocabulary data
+// Preserves all Version 1.2 data and adds the agreed Year 7 and Year 9 lists.
 window.CHINESE_VOCAB_DATA = {
-  "appName": "Chinese Vocab Challenge",
-  "version": "1.10",
-  "_instructions": [
-    "Teacher editing guide: update this JavaScript data file to add or change vocabulary.",
-    "Keep the same structure: years > topics > lists > words.",
-    "Each word needs hanzi, pinyin, english and ideally distractors."
-  ],
   "years": [
     {
       "id": "year7",
@@ -891,7 +885,7 @@ window.CHINESE_VOCAB_DATA = {
       "name": "Year 10",
       "topics": [
         {
-          "id": "occupations-transport",
+          "id": "occupations",
           "name": "Occupations & Transport",
           "lists": []
         },
@@ -906,104 +900,87 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "这",
                   "pinyin": "zhè",
-                  "english": "this",
-                  "distractors": []
+                  "english": "this"
                 },
                 {
                   "hanzi": "是",
                   "pinyin": "shì",
-                  "english": "be",
-                  "distractors": []
+                  "english": "be"
                 },
                 {
                   "hanzi": "家",
                   "pinyin": "jiā",
-                  "english": "home",
-                  "distractors": []
+                  "english": "home"
                 },
                 {
                   "hanzi": "有",
                   "pinyin": "yǒu",
-                  "english": "have",
-                  "distractors": []
+                  "english": "have"
                 },
                 {
                   "hanzi": "两",
                   "pinyin": "liǎng",
-                  "english": "two (quantity)",
-                  "distractors": []
+                  "english": "two (quantity)"
                 },
                 {
                   "hanzi": "间",
                   "pinyin": "jiān",
-                  "english": "measure word for rooms",
-                  "distractors": []
+                  "english": "measure word for rooms"
                 },
                 {
                   "hanzi": "个",
                   "pinyin": "gè",
-                  "english": "general measure word",
-                  "distractors": []
+                  "english": "general measure word"
                 },
                 {
                   "hanzi": "卧室",
                   "pinyin": "wò shì",
-                  "english": "bedroom",
-                  "distractors": []
+                  "english": "bedroom"
                 },
                 {
                   "hanzi": "书房",
                   "pinyin": "shū fáng",
-                  "english": "study",
-                  "distractors": []
+                  "english": "study"
                 },
                 {
                   "hanzi": "客厅",
                   "pinyin": "kè tīng",
-                  "english": "living room",
-                  "distractors": []
+                  "english": "living room"
                 },
                 {
                   "hanzi": "餐厅",
                   "pinyin": "cān tīng",
-                  "english": "dining room",
-                  "distractors": []
+                  "english": "dining room"
                 },
                 {
                   "hanzi": "厨房",
                   "pinyin": "chú fáng",
-                  "english": "kitchen",
-                  "distractors": []
+                  "english": "kitchen"
                 },
                 {
                   "hanzi": "和",
                   "pinyin": "hé",
-                  "english": "and",
-                  "distractors": []
+                  "english": "and"
                 },
                 {
                   "hanzi": "浴室",
                   "pinyin": "yù shì",
-                  "english": "bathroom",
-                  "distractors": []
+                  "english": "bathroom"
                 },
                 {
                   "hanzi": "房间",
                   "pinyin": "fáng jiān",
-                  "english": "room",
-                  "distractors": []
+                  "english": "room"
                 },
                 {
                   "hanzi": "太",
                   "pinyin": "tài",
-                  "english": "too",
-                  "distractors": []
+                  "english": "too"
                 },
                 {
                   "hanzi": "大",
                   "pinyin": "dà",
-                  "english": "big",
-                  "distractors": []
+                  "english": "big"
                 }
               ]
             },
@@ -1014,146 +991,122 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "你们",
                   "pinyin": "nǐ men",
-                  "english": "you (plural)",
-                  "distractors": []
+                  "english": "you (plural)"
                 },
                 {
                   "hanzi": "搬家",
                   "pinyin": "bān jiā",
-                  "english": "to move house",
-                  "distractors": []
+                  "english": "to move house"
                 },
                 {
                   "hanzi": "了",
                   "pinyin": "le",
-                  "english": "completed action particle",
-                  "distractors": []
+                  "english": "completed action particle"
                 },
                 {
                   "hanzi": "对",
                   "pinyin": "duì",
-                  "english": "yes; correct",
-                  "distractors": []
+                  "english": "yes; correct"
                 },
                 {
                   "hanzi": "我们",
                   "pinyin": "wǒ men",
-                  "english": "we; us",
-                  "distractors": []
+                  "english": "we; us"
                 },
                 {
                   "hanzi": "上个",
                   "pinyin": "shàng gè",
-                  "english": "last (time)",
-                  "distractors": []
+                  "english": "last (time)"
                 },
                 {
                   "hanzi": "周末",
                   "pinyin": "zhōu mò",
-                  "english": "weekend",
-                  "distractors": []
+                  "english": "weekend"
                 },
                 {
                   "hanzi": "搬到",
                   "pinyin": "bān dào",
-                  "english": "move to",
-                  "distractors": []
+                  "english": "move to"
                 },
                 {
                   "hanzi": "哪儿",
                   "pinyin": "nǎr",
-                  "english": "where",
-                  "distractors": []
+                  "english": "where"
                 },
                 {
                   "hanzi": "进",
                   "pinyin": "jìn",
-                  "english": "enter",
-                  "distractors": []
+                  "english": "enter"
                 },
                 {
                   "hanzi": "幢",
                   "pinyin": "zhuàng",
-                  "english": "building measure word",
-                  "distractors": []
+                  "english": "building measure word"
                 },
                 {
                   "hanzi": "楼房",
                   "pinyin": "lóu fáng",
-                  "english": "(high-rise) building",
-                  "distractors": []
+                  "english": "(high-rise) building"
                 },
                 {
                   "hanzi": "那",
                   "pinyin": "nà",
-                  "english": "that",
-                  "distractors": []
+                  "english": "that"
                 },
                 {
                   "hanzi": "一共",
                   "pinyin": "yí gòng",
-                  "english": "in total",
-                  "distractors": []
+                  "english": "in total"
                 },
                 {
                   "hanzi": "有",
                   "pinyin": "yǒu",
-                  "english": "to have",
-                  "distractors": []
+                  "english": "to have"
                 },
                 {
                   "hanzi": "多少",
                   "pinyin": "duō shǎo",
-                  "english": "how many",
-                  "distractors": []
+                  "english": "how many"
                 },
                 {
                   "hanzi": "层",
                   "pinyin": "céng",
-                  "english": "floor/storey/layer",
-                  "distractors": []
+                  "english": "floor/storey/layer"
                 },
                 {
                   "hanzi": "新家",
                   "pinyin": "xīn jiā",
-                  "english": "new home",
-                  "distractors": []
+                  "english": "new home"
                 },
                 {
                   "hanzi": "在",
                   "pinyin": "zài",
-                  "english": "located at",
-                  "distractors": []
+                  "english": "located at"
                 },
                 {
                   "hanzi": "几",
                   "pinyin": "jǐ",
-                  "english": "how many",
-                  "distractors": []
+                  "english": "how many"
                 },
                 {
                   "hanzi": "楼",
                   "pinyin": "lóu",
-                  "english": "floor/storey",
-                  "distractors": []
+                  "english": "floor/storey"
                 },
                 {
                   "hanzi": "还",
                   "pinyin": "hái",
-                  "english": "also; still",
-                  "distractors": []
+                  "english": "also; still"
                 },
                 {
                   "hanzi": "喜欢",
                   "pinyin": "xǐ huan",
-                  "english": "to like",
-                  "distractors": []
+                  "english": "to like"
                 },
                 {
                   "hanzi": "很",
                   "pinyin": "hěn",
-                  "english": "very",
-                  "distractors": []
+                  "english": "very"
                 }
               ]
             },
@@ -1164,110 +1117,92 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "我们",
                   "pinyin": "wǒ men",
-                  "english": "we / us",
-                  "distractors": []
+                  "english": "we / us"
                 },
                 {
                   "hanzi": "新家",
                   "pinyin": "xīn jiā",
-                  "english": "new home",
-                  "distractors": []
+                  "english": "new home"
                 },
                 {
                   "hanzi": "昨天",
                   "pinyin": "zuó tiān",
-                  "english": "yesterday",
-                  "distractors": []
+                  "english": "yesterday"
                 },
                 {
                   "hanzi": "搬进",
                   "pinyin": "bān jìn",
-                  "english": "to move into",
-                  "distractors": []
+                  "english": "to move into"
                 },
                 {
                   "hanzi": "洋房",
                   "pinyin": "yáng fáng",
-                  "english": "(western-style) house",
-                  "distractors": []
+                  "english": "(western-style) house"
                 },
                 {
                   "hanzi": "外面",
                   "pinyin": "wài miàn",
-                  "english": "outside",
-                  "distractors": []
+                  "english": "outside"
                 },
                 {
                   "hanzi": "花园",
                   "pinyin": "huā yuán",
-                  "english": "garden",
-                  "distractors": []
+                  "english": "garden"
                 },
                 {
                   "hanzi": "车库",
                   "pinyin": "chē kù",
-                  "english": "garage",
-                  "distractors": []
+                  "english": "garage"
                 },
                 {
                   "hanzi": "游泳池",
                   "pinyin": "yóu yǒng chí",
-                  "english": "swimming pool",
-                  "distractors": []
+                  "english": "swimming pool"
                 },
                 {
                   "hanzi": "房子",
                   "pinyin": "fáng zi",
-                  "english": "house",
-                  "distractors": []
+                  "english": "house"
                 },
                 {
                   "hanzi": "前面",
                   "pinyin": "qián miàn",
-                  "english": "in front",
-                  "distractors": []
+                  "english": "in front"
                 },
                 {
                   "hanzi": "后面",
                   "pinyin": "hòu miàn",
-                  "english": "behind",
-                  "distractors": []
+                  "english": "behind"
                 },
                 {
                   "hanzi": "左边",
                   "pinyin": "zuǒ biān",
-                  "english": "left side",
-                  "distractors": []
+                  "english": "left side"
                 },
                 {
                   "hanzi": "右边",
                   "pinyin": "yòu biān",
-                  "english": "right side",
-                  "distractors": []
+                  "english": "right side"
                 },
                 {
                   "hanzi": "洗手间",
                   "pinyin": "xǐ shǒu jiān",
-                  "english": "bathroom / toilet",
-                  "distractors": []
+                  "english": "bathroom / toilet"
                 },
                 {
                   "hanzi": "客房",
                   "pinyin": "kè fáng",
-                  "english": "guest room",
-                  "distractors": []
+                  "english": "guest room"
                 },
                 {
                   "hanzi": "时候",
                   "pinyin": "shí hou",
-                  "english": "time; when",
-                  "distractors": []
+                  "english": "time; when"
                 },
                 {
                   "hanzi": "祝好",
                   "pinyin": "zhù hǎo",
-                  "english": "best wishes",
-                  "distractors": []
+                  "english": "best wishes"
                 }
               ]
             },
@@ -1278,230 +1213,192 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "听说",
                   "pinyin": "tīng shuō",
-                  "english": "to hear that",
-                  "distractors": []
+                  "english": "to hear that"
                 },
                 {
                   "hanzi": "喜欢",
                   "pinyin": "xǐ huan",
-                  "english": "to like",
-                  "distractors": []
+                  "english": "to like"
                 },
                 {
                   "hanzi": "新",
                   "pinyin": "xīn",
-                  "english": "new",
-                  "distractors": []
+                  "english": "new"
                 },
                 {
                   "hanzi": "叔叔",
                   "pinyin": "shū shu",
-                  "english": "uncle",
-                  "distractors": []
+                  "english": "uncle"
                 },
                 {
                   "hanzi": "住",
                   "pinyin": "zhù",
-                  "english": "to live",
-                  "distractors": []
+                  "english": "to live"
                 },
                 {
                   "hanzi": "楼上",
                   "pinyin": "lóu shàng",
-                  "english": "upstairs",
-                  "distractors": []
+                  "english": "upstairs"
                 },
                 {
                   "hanzi": "爷爷",
                   "pinyin": "yé ye",
-                  "english": "grandfather",
-                  "distractors": []
+                  "english": "grandfather"
                 },
                 {
                   "hanzi": "奶奶",
                   "pinyin": "nǎi nai",
-                  "english": "grandmother",
-                  "distractors": []
+                  "english": "grandmother"
                 },
                 {
                   "hanzi": "楼下",
                   "pinyin": "lóu xià",
-                  "english": "downstairs",
-                  "distractors": []
+                  "english": "downstairs"
                 },
                 {
                   "hanzi": "现在",
                   "pinyin": "xiàn zài",
-                  "english": "now",
-                  "distractors": []
+                  "english": "now"
                 },
                 {
                   "hanzi": "自己",
                   "pinyin": "zì jǐ",
-                  "english": "oneself; own",
-                  "distractors": []
+                  "english": "oneself; own"
                 },
                 {
                   "hanzi": "高兴",
                   "pinyin": "gāo xìng",
-                  "english": "happy",
-                  "distractors": []
+                  "english": "happy"
                 },
                 {
                   "hanzi": "开心",
                   "pinyin": "kāi xīn",
-                  "english": "happy",
-                  "distractors": []
+                  "english": "happy"
                 },
                 {
                   "hanzi": "每天",
                   "pinyin": "měi tiān",
-                  "english": "every day",
-                  "distractors": []
+                  "english": "every day"
                 },
                 {
                   "hanzi": "做",
                   "pinyin": "zuò",
-                  "english": "to do",
-                  "distractors": []
+                  "english": "to do"
                 },
                 {
                   "hanzi": "作业",
                   "pinyin": "zuò yè",
-                  "english": "homework",
-                  "distractors": []
+                  "english": "homework"
                 },
                 {
                   "hanzi": "看书",
                   "pinyin": "kàn shū",
-                  "english": "to read",
-                  "distractors": []
+                  "english": "to read"
                 },
                 {
                   "hanzi": "上网",
                   "pinyin": "shàng wǎng",
-                  "english": "to go online",
-                  "distractors": []
+                  "english": "to go online"
                 },
                 {
                   "hanzi": "挺",
                   "pinyin": "tǐng",
-                  "english": "quite; fairly",
-                  "distractors": []
+                  "english": "quite; fairly"
                 },
                 {
                   "hanzi": "床",
                   "pinyin": "chuáng",
-                  "english": "bed",
-                  "distractors": []
+                  "english": "bed"
                 },
                 {
                   "hanzi": "床头柜",
                   "pinyin": "chuáng tóu guì",
-                  "english": "bedside table",
-                  "distractors": []
+                  "english": "bedside table"
                 },
                 {
                   "hanzi": "书桌",
                   "pinyin": "shū zhuō",
-                  "english": "desk",
-                  "distractors": []
+                  "english": "desk"
                 },
                 {
                   "hanzi": "等等",
                   "pinyin": "děng děng",
-                  "english": "etc.",
-                  "distractors": []
+                  "english": "etc."
                 },
                 {
                   "hanzi": "左边",
                   "pinyin": "zuǒ biān",
-                  "english": "left side",
-                  "distractors": []
+                  "english": "left side"
                 },
                 {
                   "hanzi": "椅子",
                   "pinyin": "yǐ zi",
-                  "english": "chair",
-                  "distractors": []
+                  "english": "chair"
                 },
                 {
                   "hanzi": "上面",
                   "pinyin": "shàng miàn",
-                  "english": "on top",
-                  "distractors": []
+                  "english": "on top"
                 },
                 {
                   "hanzi": "电脑",
                   "pinyin": "diàn nǎo",
-                  "english": "computer",
-                  "distractors": []
+                  "english": "computer"
                 },
                 {
                   "hanzi": "下面",
                   "pinyin": "xià miàn",
-                  "english": "underneath",
-                  "distractors": []
+                  "english": "underneath"
                 },
                 {
                   "hanzi": "柜子",
                   "pinyin": "guì zi",
-                  "english": "cabinet",
-                  "distractors": []
+                  "english": "cabinet"
                 },
                 {
                   "hanzi": "对面",
                   "pinyin": "duì miàn",
-                  "english": "opposite",
-                  "distractors": []
+                  "english": "opposite"
                 },
                 {
                   "hanzi": "衣柜",
                   "pinyin": "yī guì",
-                  "english": "wardrobe",
-                  "distractors": []
+                  "english": "wardrobe"
                 },
                 {
                   "hanzi": "旁边",
                   "pinyin": "páng biān",
-                  "english": "beside",
-                  "distractors": []
+                  "english": "beside"
                 },
                 {
                   "hanzi": "书架",
                   "pinyin": "shū jià",
-                  "english": "bookshelf",
-                  "distractors": []
+                  "english": "bookshelf"
                 },
                 {
                   "hanzi": "什么",
                   "pinyin": "shén me",
-                  "english": "what",
-                  "distractors": []
+                  "english": "what"
                 },
                 {
                   "hanzi": "课本",
                   "pinyin": "kè běn",
-                  "english": "textbook",
-                  "distractors": []
+                  "english": "textbook"
                 },
                 {
                   "hanzi": "小说",
                   "pinyin": "xiǎo shuō",
-                  "english": "novel",
-                  "distractors": []
+                  "english": "novel"
                 },
                 {
                   "hanzi": "杂志",
                   "pinyin": "zá zhì",
-                  "english": "magazine",
-                  "distractors": []
+                  "english": "magazine"
                 },
                 {
                   "hanzi": "相框",
                   "pinyin": "xiàng kuàng",
-                  "english": "photo frame",
-                  "distractors": []
+                  "english": "photo frame"
                 }
               ]
             }
@@ -1510,7 +1407,94 @@ window.CHINESE_VOCAB_DATA = {
         {
           "id": "hobbies",
           "name": "Hobbies",
-          "lists": []
+          "lists": [
+            {
+              "id": "hobbies-1",
+              "name": "Vocab List 1",
+              "words": [
+                {
+                  "hanzi": "爱好",
+                  "pinyin": "ài hào",
+                  "english": "hobby"
+                },
+                {
+                  "hanzi": "喜欢",
+                  "pinyin": "xǐ huan",
+                  "english": "to like"
+                },
+                {
+                  "hanzi": "最",
+                  "pinyin": "zuì",
+                  "english": "most"
+                },
+                {
+                  "hanzi": "觉得",
+                  "pinyin": "jué de",
+                  "english": "think / feel"
+                },
+                {
+                  "hanzi": "听音乐",
+                  "pinyin": "tīng yīn yuè",
+                  "english": "listen to music"
+                },
+                {
+                  "hanzi": "看书",
+                  "pinyin": "kàn shū",
+                  "english": "read books"
+                },
+                {
+                  "hanzi": "看电影",
+                  "pinyin": "kàn diàn yǐng",
+                  "english": "watch films"
+                },
+                {
+                  "hanzi": "玩电子游戏",
+                  "pinyin": "wán diàn zǐ yóu xì",
+                  "english": "play video games"
+                },
+                {
+                  "hanzi": "画画",
+                  "pinyin": "huà huà",
+                  "english": "draw"
+                },
+                {
+                  "hanzi": "唱歌",
+                  "pinyin": "chàng gē",
+                  "english": "sing"
+                },
+                {
+                  "hanzi": "打篮球",
+                  "pinyin": "dǎ lán qiú",
+                  "english": "play basketball"
+                },
+                {
+                  "hanzi": "踢足球",
+                  "pinyin": "tī zú qiú",
+                  "english": "play football"
+                },
+                {
+                  "hanzi": "游泳",
+                  "pinyin": "yóu yǒng",
+                  "english": "swim"
+                },
+                {
+                  "hanzi": "跳舞",
+                  "pinyin": "tiào wǔ",
+                  "english": "dance"
+                },
+                {
+                  "hanzi": "做饭",
+                  "pinyin": "zuò fàn",
+                  "english": "cook"
+                },
+                {
+                  "hanzi": "看电视",
+                  "pinyin": "kàn diàn shì",
+                  "english": "watch television"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

@@ -2628,7 +2628,174 @@ window.CHINESE_VOCAB_DATA = {
         {
           "id": "hobbies",
           "name": "Hobbies",
-          "lists": []
+          "lists": [
+            {
+              "id": "hobbies-1",
+              "name": "Vocab List 1",
+              "words": [
+                {
+                  "hanzi": "爱好",
+                  "pinyin": "ài hào",
+                  "english": "hobby",
+                  "distractors": [
+                    "love",
+                    "activity",
+                    "skill"
+                  ]
+                },
+                {
+                  "hanzi": "喜欢",
+                  "pinyin": "xǐ huan",
+                  "english": "to like",
+                  "distractors": [
+                    "to think",
+                    "to listen",
+                    "to watch"
+                  ]
+                },
+                {
+                  "hanzi": "最",
+                  "pinyin": "zuì",
+                  "english": "most",
+                  "distractors": [
+                    "very",
+                    "also",
+                    "all"
+                  ]
+                },
+                {
+                  "hanzi": "觉得",
+                  "pinyin": "jué de",
+                  "english": "think / feel",
+                  "distractors": [
+                    "to like",
+                    "to know",
+                    "to see"
+                  ]
+                },
+                {
+                  "hanzi": "听音乐",
+                  "pinyin": "tīng yīn yuè",
+                  "english": "listen to music",
+                  "distractors": [
+                    "sing",
+                    "watch television",
+                    "play video games"
+                  ]
+                },
+                {
+                  "hanzi": "看书",
+                  "pinyin": "kàn shū",
+                  "english": "read books",
+                  "distractors": [
+                    "watch films",
+                    "draw",
+                    "listen to music"
+                  ]
+                },
+                {
+                  "hanzi": "看电影",
+                  "pinyin": "kàn diàn yǐng",
+                  "english": "watch films",
+                  "distractors": [
+                    "watch television",
+                    "read books",
+                    "play video games"
+                  ]
+                },
+                {
+                  "hanzi": "玩电子游戏",
+                  "pinyin": "wán diàn zǐ yóu xì",
+                  "english": "play video games",
+                  "distractors": [
+                    "watch films",
+                    "play basketball",
+                    "listen to music"
+                  ]
+                },
+                {
+                  "hanzi": "画画",
+                  "pinyin": "huà huà",
+                  "english": "draw",
+                  "distractors": [
+                    "sing",
+                    "dance",
+                    "read books"
+                  ]
+                },
+                {
+                  "hanzi": "唱歌",
+                  "pinyin": "chàng gē",
+                  "english": "sing",
+                  "distractors": [
+                    "dance",
+                    "listen to music",
+                    "draw"
+                  ]
+                },
+                {
+                  "hanzi": "打篮球",
+                  "pinyin": "dǎ lán qiú",
+                  "english": "play basketball",
+                  "distractors": [
+                    "play football",
+                    "swim",
+                    "play video games"
+                  ]
+                },
+                {
+                  "hanzi": "踢足球",
+                  "pinyin": "tī zú qiú",
+                  "english": "play football",
+                  "distractors": [
+                    "play basketball",
+                    "dance",
+                    "swim"
+                  ]
+                },
+                {
+                  "hanzi": "游泳",
+                  "pinyin": "yóu yǒng",
+                  "english": "swim",
+                  "distractors": [
+                    "dance",
+                    "play basketball",
+                    "cook"
+                  ]
+                },
+                {
+                  "hanzi": "跳舞",
+                  "pinyin": "tiào wǔ",
+                  "english": "dance",
+                  "distractors": [
+                    "sing",
+                    "swim",
+                    "draw"
+                  ]
+                },
+                {
+                  "hanzi": "做饭",
+                  "pinyin": "zuò fàn",
+                  "english": "cook",
+                  "distractors": [
+                    "draw",
+                    "watch television",
+                    "read books"
+                  ]
+                },
+                {
+                  "hanzi": "看电视",
+                  "pinyin": "kàn diàn shì",
+                  "english": "watch television",
+                  "distractors": [
+                    "watch films",
+                    "play video games",
+                    "listen to music"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }

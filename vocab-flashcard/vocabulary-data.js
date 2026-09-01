@@ -1407,7 +1407,94 @@ window.CHINESE_VOCAB_DATA = {
         {
           "id": "hobbies",
           "name": "Hobbies",
-          "lists": []
+          "lists": [
+            {
+              "id": "hobbies-1",
+              "name": "Vocab List 1",
+              "words": [
+                {
+                  "hanzi": "爱好",
+                  "pinyin": "ài hào",
+                  "english": "hobby"
+                },
+                {
+                  "hanzi": "喜欢",
+                  "pinyin": "xǐ huan",
+                  "english": "to like"
+                },
+                {
+                  "hanzi": "最",
+                  "pinyin": "zuì",
+                  "english": "most"
+                },
+                {
+                  "hanzi": "觉得",
+                  "pinyin": "jué de",
+                  "english": "think / feel"
+                },
+                {
+                  "hanzi": "听音乐",
+                  "pinyin": "tīng yīn yuè",
+                  "english": "listen to music"
+                },
+                {
+                  "hanzi": "看书",
+                  "pinyin": "kàn shū",
+                  "english": "read books"
+                },
+                {
+                  "hanzi": "看电影",
+                  "pinyin": "kàn diàn yǐng",
+                  "english": "watch films"
+                },
+                {
+                  "hanzi": "玩电子游戏",
+                  "pinyin": "wán diàn zǐ yóu xì",
+                  "english": "play video games"
+                },
+                {
+                  "hanzi": "画画",
+                  "pinyin": "huà huà",
+                  "english": "draw"
+                },
+                {
+                  "hanzi": "唱歌",
+                  "pinyin": "chàng gē",
+                  "english": "sing"
+                },
+                {
+                  "hanzi": "打篮球",
+                  "pinyin": "dǎ lán qiú",
+                  "english": "play basketball"
+                },
+                {
+                  "hanzi": "踢足球",
+                  "pinyin": "tī zú qiú",
+                  "english": "play football"
+                },
+                {
+                  "hanzi": "游泳",
+                  "pinyin": "yóu yǒng",
+                  "english": "swim"
+                },
+                {
+                  "hanzi": "跳舞",
+                  "pinyin": "tiào wǔ",
+                  "english": "dance"
+                },
+                {
+                  "hanzi": "做饭",
+                  "pinyin": "zuò fàn",
+                  "english": "cook"
+                },
+                {
+                  "hanzi": "看电视",
+                  "pinyin": "kàn diàn shì",
+                  "english": "watch television"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
