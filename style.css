@@ -1,29 +1,32 @@
-/* Mr Wen's Chinese Classroom Portal V4.6 */
+/* Mr Wen's Chinese Classroom Portal V4.8 */
 *{margin:0;padding:0;box-sizing:border-box;font-family:"Century Gothic",Arial,sans-serif}
 html,body{width:100%;height:100%}
 body{min-height:100vh;overflow:hidden;background:#ead9c6}
 .classroom-stage{position:relative;width:100vw;height:100vh;overflow:hidden;background:#ead9c6}
 .classroom-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center center;display:block;user-select:none;pointer-events:none}
 .classroom-image-portrait{display:none}
-.whiteboard-menu{position:absolute;top:28%;left:18%;width:45%;height:35%;display:grid;grid-template-columns:repeat(2,minmax(170px,1fr));gap:14px;padding:6px}
-.app-tile{position:relative;overflow:hidden;min-height:82px;padding:10px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;text-align:center;text-decoration:none;color:#2b241d;background:rgba(255,255,255,.84);border:1px solid rgba(255,255,255,.95);border-radius:18px;box-shadow:0 8px 18px rgba(63,45,28,.14);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);cursor:pointer;transition:transform .22s ease,box-shadow .22s ease,background .22s ease,border-color .22s ease}
+.whiteboard-menu{position:absolute;top:28%;left:18%;width:45%;height:48%;display:grid;grid-template-columns:repeat(2,minmax(170px,1fr));grid-template-rows:repeat(3,minmax(0,1fr));gap:12px 14px;padding:6px}
+.app-tile{position:relative;overflow:hidden;min-height:68px;padding:8px 10px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;text-align:center;text-decoration:none;color:#2b241d;background:rgba(255,255,255,.84);border:1px solid rgba(255,255,255,.95);border-radius:18px;box-shadow:0 8px 18px rgba(63,45,28,.14);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);cursor:pointer;transition:transform .22s ease,box-shadow .22s ease,background .22s ease,border-color .22s ease}
 .app-tile:hover{transform:translateY(-5px) scale(1.02);background:rgba(255,255,255,.95);border-color:rgba(255,188,78,.9);box-shadow:0 14px 28px rgba(63,45,28,.20)}
 .app-tile:active{transform:translateY(-2px) scale(1.01)}
-.app-icon{font-size:2.12rem;line-height:1}
-.app-title{font-size:1.10rem;font-weight:700;letter-spacing:.2px}
-.app-subtitle{font-size:.82rem;font-weight:500;color:#6a5747}
+.app-icon{font-size:1.75rem;line-height:1}
+.app-title{font-size:1rem;font-weight:700;letter-spacing:.2px}
+.app-subtitle{font-size:.72rem;font-weight:500;color:#6a5747}
+.coming-soon{opacity:.55;cursor:default;filter:grayscale(1)}
+.coming-soon:hover,.coming-soon:active{transform:none;background:rgba(236,236,236,.82);border-color:rgba(220,220,220,.95);box-shadow:0 8px 18px rgba(63,45,28,.10)}
 .whiteboard-credit{position:absolute;right:24%;bottom:6%;color:rgba(80,65,55,.76);font-size:12px;font-weight:800;letter-spacing:.2px;text-align:right;white-space:nowrap;background:none;border:none;box-shadow:none;padding:0;pointer-events:none}
-@media(max-width:900px){body{overflow:auto}.whiteboard-menu{top:27%;left:13%;width:58%;height:auto;grid-template-columns:1fr;gap:10px;padding:4px}.app-tile{min-height:72px;padding:10px 8px;border-radius:18px}.app-icon{font-size:1.5rem}.app-title{font-size:.82rem}.app-subtitle{font-size:.68rem}.whiteboard-credit{right:12%;bottom:8%;width:auto;font-size:.55rem;background:none;border:none;box-shadow:none;padding:0}}
+@media(max-width:900px){body{overflow:auto}.whiteboard-menu{top:27%;left:13%;width:58%;height:auto;grid-template-columns:1fr;grid-template-rows:none;gap:8px;padding:4px}.app-tile{min-height:58px;padding:7px 8px;border-radius:16px}.app-icon{font-size:1.3rem}.app-title{font-size:.78rem}.app-subtitle{font-size:.62rem}.whiteboard-credit{right:12%;bottom:8%;width:auto;font-size:.55rem;background:none;border:none;box-shadow:none;padding:0}}
 html.ios-device.portrait-mode,html.ios-device.portrait-mode body{min-height:100%;overflow:hidden;background:#ead9c6}
 html.ios-device.portrait-mode *{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue",Arial,sans-serif;-webkit-tap-highlight-color:transparent}
 html.ios-device.portrait-mode .classroom-stage{width:100vw;height:100vh;height:100svh}
 html.ios-device.portrait-mode .classroom-image-landscape{display:none}
 html.ios-device.portrait-mode .classroom-image-portrait{display:block;object-fit:cover;object-position:center top}
-html.ios-device.portrait-mode .whiteboard-menu{top:32.5%;left:20.5%;width:47%;height:25.5%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));gap:clamp(8px,1.8vw,14px);padding:0}
-html.ios-device.portrait-mode .app-tile{min-width:0;min-height:0;padding:clamp(6px,1.5vw,12px);gap:clamp(3px,.7vw,6px);border-radius:clamp(14px,3vw,22px);box-shadow:0 5px 14px rgba(63,45,28,.14);touch-action:manipulation}
+html.ios-device.portrait-mode .whiteboard-menu{top:32.5%;left:20.5%;width:47%;height:36%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(3,minmax(0,1fr));gap:clamp(6px,1.4vw,10px);padding:0}
+html.ios-device.portrait-mode .app-tile{min-width:0;min-height:0;padding:clamp(4px,1.1vw,8px);gap:clamp(2px,.5vw,4px);border-radius:clamp(12px,2.5vw,18px);box-shadow:0 5px 14px rgba(63,45,28,.14);touch-action:manipulation}
 html.ios-device.portrait-mode .app-tile:hover{transform:none;background:rgba(255,255,255,.84);border-color:rgba(255,255,255,.95);box-shadow:0 5px 14px rgba(63,45,28,.14)}
 html.ios-device.portrait-mode .app-tile:active{transform:scale(.98)}
-html.ios-device.portrait-mode .app-icon{font-size:clamp(1.25rem,4.6vw,2.25rem)}
-html.ios-device.portrait-mode .app-title{font-size:clamp(.66rem,2.55vw,1.08rem);line-height:1.08}
-html.ios-device.portrait-mode .app-subtitle{font-size:clamp(.54rem,1.95vw,.82rem);line-height:1.08}
+html.ios-device.portrait-mode .coming-soon:hover,html.ios-device.portrait-mode .coming-soon:active{transform:none;background:rgba(236,236,236,.82);border-color:rgba(220,220,220,.95);box-shadow:0 5px 14px rgba(63,45,28,.10)}
+html.ios-device.portrait-mode .app-icon{font-size:clamp(1rem,3.8vw,1.8rem)}
+html.ios-device.portrait-mode .app-title{font-size:clamp(.58rem,2.2vw,.92rem);line-height:1.06}
+html.ios-device.portrait-mode .app-subtitle{font-size:clamp(.46rem,1.65vw,.7rem);line-height:1.06}
 html.ios-device.portrait-mode .whiteboard-credit{left:20.5%;right:auto;bottom:21.5%;width:47%;max-width:47%;overflow:hidden;text-overflow:ellipsis;font-size:clamp(.42rem,1.35vw,.62rem);font-weight:700;text-align:center}

@@ -1,11 +1,18 @@
-Mr Wen's Chinese Classroom Portal V4.6
+Mr Wen's Chinese Classroom Portal V4.8
 
 Changes:
-- Chinese Reading is now active as Read China.
-- Subtitle: Explore China through stories.
-- Link: read-china/index.html
-- Added empty read-china folder.
-- Hanzi Hunter remains active.
-- Credit updated to V4.6.
+- Reordered the portal apps into three aligned rows.
+- Row 1: Vocabulary Flashcards | Vocabulary Challenges
+- Row 2: Hanzi Hunter | Hanzi Defence
+- Row 3: Read China | New App
+- The New App tile is grey, inactive and marked In development.
+- Hanzi Defence now aligns with the other right-column tiles.
+- Read China now appears at the bottom-left.
+- Credit updated to V4.8.
 
-This is a homepage update package. Keep the existing V4.5 image files inside assets/images, then replace index.html, style.css and device-detection.js with these files.
+Files in this update package:
+- index.html
+- style.css
+- README.txt
+
+No changes are required to device-detection.js, the images, or the existing app folders.
