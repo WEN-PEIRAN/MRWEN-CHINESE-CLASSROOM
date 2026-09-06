@@ -40,9 +40,9 @@ window.CHINESE_VOCAB_DATA = {
                   "pinyin": "nǐ zǎo",
                   "english": "good morning to you",
                   "distractors": [
-                    "morning (polite)",
-                    "hello (polite)",
-                    "goodbye"
+                    "goodbye",
+                    "hello / hi",
+                    "good evening"
                   ]
                 },
                 {
@@ -51,8 +51,8 @@ window.CHINESE_VOCAB_DATA = {
                   "english": "good morning to you (polite)",
                   "distractors": [
                     "goodbye",
-                    "good morning to you",
-                    "you"
+                    "hello (polite)",
+                    "good evening (polite)"
                   ]
                 },
                 {
@@ -174,11 +174,11 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "马马虎虎",
                   "pinyin": "mǎ mǎ hū hū",
-                  "english": "so-so",
+                  "english": "average; so-so",
                   "distractors": [
-                    "thanks",
-                    "still OK",
-                    "how about you?"
+                    "very well",
+                    "not bad",
+                    "excellent"
                   ]
                 },
                 {
@@ -194,11 +194,11 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "你呢",
                   "pinyin": "nǐ ne",
-                  "english": "how about you?",
+                  "english": "you?",
                   "distractors": [
-                    "also",
-                    "thanks",
-                    "question particle"
+                    "how are you?",
+                    "and you are?",
+                    "what about them?"
                   ]
                 },
                 {
@@ -534,11 +534,11 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "了",
                   "pinyin": "le",
-                  "english": "particle",
+                  "english": "past action particle",
                   "distractors": [
-                    "years old",
-                    "I / me",
-                    "how many"
+                    "question particle",
+                    "plural marker",
+                    "possessive particle"
                   ]
                 }
               ]
@@ -708,31 +708,31 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "没有",
                   "pinyin": "méi yǒu",
-                  "english": "do not have / has not",
+                  "english": "not have / has",
                   "distractors": [
-                    "how many (small number)",
                     "have / has",
-                    "mouth / measure word for family members"
+                    "do not want",
+                    "cannot"
                   ]
                 },
                 {
                   "hanzi": "几",
                   "pinyin": "jǐ",
-                  "english": "how many (small number)",
+                  "english": "how many",
                   "distractors": [
-                    "mouth / measure word for family members",
-                    "do not have / has not",
-                    "general measure word"
+                    "how old",
+                    "how much",
+                    "which"
                   ]
                 },
                 {
                   "hanzi": "口",
                   "pinyin": "kǒu",
-                  "english": "mouth / measure word for family members",
+                  "english": "mouth / measure word",
                   "distractors": [
                     "general measure word",
-                    "how many (small number)",
-                    "person"
+                    "person",
+                    "family member"
                   ]
                 },
                 {
@@ -740,9 +740,9 @@ window.CHINESE_VOCAB_DATA = {
                   "pinyin": "gè",
                   "english": "general measure word",
                   "distractors": [
-                    "person",
-                    "mouth / measure word for family members",
-                    "who"
+                    "measure word for people",
+                    "measure word for rooms",
+                    "measure word for books"
                   ]
                 },
                 {
@@ -1010,11 +1010,11 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "了",
                   "pinyin": "le",
-                  "english": "sentence-final particle",
+                  "english": "past action particle",
                   "distractors": [
-                    "compared with",
-                    "years of age",
-                    "older"
+                    "question particle",
+                    "plural marker",
+                    "possessive particle"
                   ]
                 },
                 {
@@ -1030,21 +1030,21 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "大",
                   "pinyin": "dà",
-                  "english": "older",
+                  "english": "big; older",
                   "distractors": [
-                    "younger",
-                    "compared with",
-                    "year level"
+                    "tall; high",
+                    "long; older",
+                    "small; younger"
                   ]
                 },
                 {
                   "hanzi": "小",
                   "pinyin": "xiǎo",
-                  "english": "younger",
+                  "english": "small; younger",
                   "distractors": [
-                    "year level",
-                    "older",
-                    "attend / be in"
+                    "short; younger",
+                    "little; younger",
+                    "big; older"
                   ]
                 },
                 {
@@ -1098,11 +1098,11 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "头发",
                   "pinyin": "tóu fa",
-                  "english": "hair",
+                  "english": "head hair",
                   "distractors": [
-                    "eye",
                     "head",
-                    "nose"
+                    "eyebrow",
+                    "face"
                   ]
                 },
                 {
@@ -2198,11 +2198,11 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "洗手间",
                   "pinyin": "xǐ shǒu jiān",
-                  "english": "bathroom / toilet",
+                  "english": "toilet",
                   "distractors": [
+                    "bathroom",
                     "guest room",
-                    "right side",
-                    "time; when"
+                    "kitchen"
                   ]
                 },
                 {
@@ -2494,11 +2494,11 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "上面",
                   "pinyin": "shàng miàn",
-                  "english": "on top",
+                  "english": "top side",
                   "distractors": [
-                    "computer",
-                    "chair",
-                    "underneath"
+                    "underneath",
+                    "left side",
+                    "opposite side"
                   ]
                 },
                 {
@@ -2534,11 +2534,11 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "对面",
                   "pinyin": "duì miàn",
-                  "english": "opposite",
+                  "english": "opposite side",
                   "distractors": [
-                    "wardrobe",
-                    "cabinet",
-                    "beside"
+                    "beside",
+                    "top side",
+                    "underneath"
                   ]
                 },
                 {
@@ -2736,21 +2736,21 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "打篮球",
                   "pinyin": "dǎ lán qiú",
-                  "english": "play basketball",
+                  "english": "play (hit) basketball",
                   "distractors": [
-                    "play football",
-                    "swim",
-                    "play video games"
+                    "play (kick) football",
+                    "watch basketball",
+                    "play volleyball"
                   ]
                 },
                 {
                   "hanzi": "踢足球",
                   "pinyin": "tī zú qiú",
-                  "english": "play football",
+                  "english": "play(kick) football",
                   "distractors": [
-                    "play basketball",
-                    "dance",
-                    "swim"
+                    "play (hit) basketball",
+                    "watch football",
+                    "play volleyball"
                   ]
                 },
                 {
@@ -2759,8 +2759,8 @@ window.CHINESE_VOCAB_DATA = {
                   "english": "swim",
                   "distractors": [
                     "dance",
-                    "play basketball",
-                    "cook"
+                    "run",
+                    "play basketball"
                   ]
                 },
                 {
@@ -2778,9 +2778,9 @@ window.CHINESE_VOCAB_DATA = {
                   "pinyin": "zuò fàn",
                   "english": "cook",
                   "distractors": [
-                    "draw",
-                    "watch television",
-                    "read books"
+                    "eat a meal",
+                    "wash dishes",
+                    "make tea"
                   ]
                 },
                 {
