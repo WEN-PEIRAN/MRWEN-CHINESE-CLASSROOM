@@ -27,12 +27,12 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "你早",
                   "pinyin": "nǐ zǎo",
-                  "english": "morning / hi"
+                  "english": "good morning to you"
                 },
                 {
                   "hanzi": "您早",
                   "pinyin": "nín zǎo",
-                  "english": "morning (polite)"
+                  "english": "good morning to you (polite)"
                 },
                 {
                   "hanzi": "再见",
@@ -98,7 +98,7 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "马马虎虎",
                   "pinyin": "mǎ mǎ hū hū",
-                  "english": "so-so"
+                  "english": "average; so-so"
                 },
                 {
                   "hanzi": "谢谢",
@@ -108,7 +108,7 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "你呢",
                   "pinyin": "nǐ ne",
-                  "english": "how about you?"
+                  "english": "you?"
                 },
                 {
                   "hanzi": "也",
@@ -293,7 +293,7 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "了",
                   "pinyin": "le",
-                  "english": "particle"
+                  "english": "past action particle"
                 }
               ]
             }
@@ -392,17 +392,17 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "没有",
                   "pinyin": "méi yǒu",
-                  "english": "do not have / has not"
+                  "english": "not have / has"
                 },
                 {
                   "hanzi": "几",
                   "pinyin": "jǐ",
-                  "english": "how many (small number)"
+                  "english": "how many"
                 },
                 {
                   "hanzi": "口",
                   "pinyin": "kǒu",
-                  "english": "mouth / measure word for family members"
+                  "english": "mouth / measure word"
                 },
                 {
                   "hanzi": "个",
@@ -549,7 +549,7 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "了",
                   "pinyin": "le",
-                  "english": "sentence-final particle"
+                  "english": "past action particle"
                 },
                 {
                   "hanzi": "比",
@@ -559,12 +559,12 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "大",
                   "pinyin": "dà",
-                  "english": "older"
+                  "english": "big; older"
                 },
                 {
                   "hanzi": "小",
                   "pinyin": "xiǎo",
-                  "english": "younger"
+                  "english": "small; younger"
                 },
                 {
                   "hanzi": "年级",
@@ -602,7 +602,7 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "头发",
                   "pinyin": "tóu fa",
-                  "english": "hair"
+                  "english": "head hair"
                 },
                 {
                   "hanzi": "眼睛",
@@ -1187,7 +1187,7 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "洗手间",
                   "pinyin": "xǐ shǒu jiān",
-                  "english": "bathroom / toilet"
+                  "english": "toilet"
                 },
                 {
                   "hanzi": "客房",
@@ -1338,7 +1338,7 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "上面",
                   "pinyin": "shàng miàn",
-                  "english": "on top"
+                  "english": "top side"
                 },
                 {
                   "hanzi": "电脑",
@@ -1358,7 +1358,7 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "对面",
                   "pinyin": "duì miàn",
-                  "english": "opposite"
+                  "english": "opposite side"
                 },
                 {
                   "hanzi": "衣柜",
@@ -1465,12 +1465,12 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "打篮球",
                   "pinyin": "dǎ lán qiú",
-                  "english": "play basketball"
+                  "english": "play (hit) basketball"
                 },
                 {
                   "hanzi": "踢足球",
                   "pinyin": "tī zú qiú",
-                  "english": "play football"
+                  "english": "play(kick) football"
                 },
                 {
                   "hanzi": "游泳",
