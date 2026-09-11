@@ -1,4 +1,4 @@
-HANZI DEFENCE V1.4
+HANZI DEFENCE V1.5
 
 Open index.html directly in a modern desktop browser. No server, npm, external CDN, database, API or build step is required.
 
@@ -44,3 +44,14 @@ V1.4 updates
 - Added Save As Image to the Results screen.
 - Save As Image generates and downloads a 1400 x 900 PNG result card containing mission status, score, challenge, year/topic, recovered capsules, wrong hits, best combo, security, mission name and callsign.
 - Result image generation is fully offline and uses Canvas without external libraries.
+
+V1.5 updates
+- Projectiles now disappear when they touch the upper or lower playable war-zone boundary. Rightward shots continue until the right edge of the screen.
+- Added a small cyan boundary impact spark without reflection or ricochet.
+- Rebuilt the left turret rail as an elevated mechanical bridge. Bugs and capsules pass visually below the bridge deck while the turret remains above it.
+- One-character and two-character bugs now have distinct green palettes, body sizes, segment counts, leg proportions, movement cadence and base speed.
+- Split-child vocabulary selection excludes the three Observer queue Hanzi, all active Hanzi ahead of the parent bug, pending split Hanzi, the parent Hanzi and the other new child Hanzi.
+- If fewer than two safe split words are available, the game creates only the safe number of children instead of forcing a duplicate.
+- Replaced the split-crack graphic with a staged mutation animation: one-second stop and swelling, restrained energy burst, two small children spinning in place, then gradual growth and slow initial crawling before becoming active.
+- Split children cannot be targeted, hit or added to the Observer queue until fully grown and active.
+- Wave completion waits for charging, burst, orbiting, growing and escaping states to finish.
