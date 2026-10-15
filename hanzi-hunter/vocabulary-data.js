@@ -1,5 +1,4 @@
-// Chinese Vocabulary Flashcards - merged vocabulary data
-// Preserves all Version 1.2 data and adds the agreed Year 7 and Year 9 lists.
+// Chinese Vocabulary Flashcards - vocabulary data
 window.CHINESE_VOCAB_DATA = {
   "years": [
     {
@@ -876,7 +875,482 @@ window.CHINESE_VOCAB_DATA = {
         {
           "id": "timetable",
           "name": "School Timetable",
-          "lists": []
+          "lists": [
+            {
+              "id": "timetable-1",
+              "name": "Vocab List 1",
+              "words": [
+                {
+                  "hanzi": "小学",
+                  "pinyin": "xiǎo xué",
+                  "english": "primary school"
+                },
+                {
+                  "hanzi": "中学",
+                  "pinyin": "zhōng xué",
+                  "english": "secondary school"
+                },
+                {
+                  "hanzi": "大学",
+                  "pinyin": "dà xué",
+                  "english": "university"
+                },
+                {
+                  "hanzi": "初中",
+                  "pinyin": "chū zhōng",
+                  "english": "junior secondary school"
+                },
+                {
+                  "hanzi": "高中",
+                  "pinyin": "gāo zhōng",
+                  "english": "senior secondary school"
+                },
+                {
+                  "hanzi": "年级",
+                  "pinyin": "nián jí",
+                  "english": "year level / grade"
+                },
+                {
+                  "hanzi": "初一",
+                  "pinyin": "chū yī",
+                  "english": "Junior 1 / Year 7"
+                },
+                {
+                  "hanzi": "初二",
+                  "pinyin": "chū èr",
+                  "english": "Junior 2 / Year 8"
+                },
+                {
+                  "hanzi": "初三",
+                  "pinyin": "chū sān",
+                  "english": "Junior 3 / Year 9"
+                },
+                {
+                  "hanzi": "高一",
+                  "pinyin": "gāo yī",
+                  "english": "Senior 1 / Year 10"
+                },
+                {
+                  "hanzi": "高二",
+                  "pinyin": "gāo èr",
+                  "english": "Senior 2 / Year 11"
+                },
+                {
+                  "hanzi": "高三",
+                  "pinyin": "gāo sān",
+                  "english": "Senior 3 / Year 12"
+                },
+                {
+                  "hanzi": "学生",
+                  "pinyin": "xué sheng",
+                  "english": "student"
+                },
+                {
+                  "hanzi": "小学生",
+                  "pinyin": "xiǎo xué sheng",
+                  "english": "primary school student"
+                },
+                {
+                  "hanzi": "中学生",
+                  "pinyin": "zhōng xué sheng",
+                  "english": "secondary school student"
+                },
+                {
+                  "hanzi": "初中生",
+                  "pinyin": "chū zhōng sheng",
+                  "english": "junior secondary school student"
+                },
+                {
+                  "hanzi": "高中生",
+                  "pinyin": "gāo zhōng sheng",
+                  "english": "senior secondary school student"
+                },
+                {
+                  "hanzi": "大学生",
+                  "pinyin": "dà xué sheng",
+                  "english": "university student"
+                },
+                {
+                  "hanzi": "我",
+                  "pinyin": "wǒ",
+                  "english": "I / me"
+                },
+                {
+                  "hanzi": "是",
+                  "pinyin": "shì",
+                  "english": "to be / am / is / are"
+                },
+                {
+                  "hanzi": "的",
+                  "pinyin": "de",
+                  "english": "linking particle"
+                },
+                {
+                  "hanzi": "上",
+                  "pinyin": "shàng",
+                  "english": "to attend / be in"
+                },
+                {
+                  "hanzi": "在",
+                  "pinyin": "zài",
+                  "english": "at / in"
+                },
+                {
+                  "hanzi": "读书",
+                  "pinyin": "dú shū",
+                  "english": "to study / attend school"
+                }
+              ]
+            },
+            {
+              "id": "timetable-2",
+              "name": "Vocab List 2",
+              "words": [
+                {
+                  "hanzi": "英文",
+                  "pinyin": "yīng wén",
+                  "english": "English"
+                },
+                {
+                  "hanzi": "数学",
+                  "pinyin": "shù xué",
+                  "english": "Mathematics"
+                },
+                {
+                  "hanzi": "科学",
+                  "pinyin": "kē xué",
+                  "english": "Science"
+                },
+                {
+                  "hanzi": "物理",
+                  "pinyin": "wù lǐ",
+                  "english": "Physics"
+                },
+                {
+                  "hanzi": "化学",
+                  "pinyin": "huà xué",
+                  "english": "Chemistry"
+                },
+                {
+                  "hanzi": "生物",
+                  "pinyin": "shēng wù",
+                  "english": "Biology"
+                },
+                {
+                  "hanzi": "人文社科",
+                  "pinyin": "rén wén shè kē",
+                  "english": "Humanities and Social Sciences / HASS"
+                },
+                {
+                  "hanzi": "历史",
+                  "pinyin": "lì shǐ",
+                  "english": "History"
+                },
+                {
+                  "hanzi": "地理",
+                  "pinyin": "dì lǐ",
+                  "english": "Geography"
+                },
+                {
+                  "hanzi": "公民教育",
+                  "pinyin": "gōng mín jiào yù",
+                  "english": "Civics and Citizenship"
+                },
+                {
+                  "hanzi": "宗教",
+                  "pinyin": "zōng jiào",
+                  "english": "Religion"
+                },
+                {
+                  "hanzi": "体育",
+                  "pinyin": "tǐ yù",
+                  "english": "HPE"
+                },
+                {
+                  "hanzi": "美术",
+                  "pinyin": "měi shù",
+                  "english": "Visual Arts"
+                },
+                {
+                  "hanzi": "音乐",
+                  "pinyin": "yīn yuè",
+                  "english": "Music"
+                },
+                {
+                  "hanzi": "戏剧",
+                  "pinyin": "xì jù",
+                  "english": "Drama"
+                },
+                {
+                  "hanzi": "舞蹈",
+                  "pinyin": "wǔ dǎo",
+                  "english": "Dance"
+                },
+                {
+                  "hanzi": "电脑",
+                  "pinyin": "diàn nǎo",
+                  "english": "Digital Technologies"
+                },
+                {
+                  "hanzi": "设计",
+                  "pinyin": "shè jì",
+                  "english": "Design Technologies"
+                },
+                {
+                  "hanzi": "食品",
+                  "pinyin": "shí pǐn",
+                  "english": "Food Technologies"
+                },
+                {
+                  "hanzi": "媒体",
+                  "pinyin": "méi tǐ",
+                  "english": "Media Arts"
+                },
+                {
+                  "hanzi": "中文",
+                  "pinyin": "zhōng wén",
+                  "english": "Chinese"
+                },
+                {
+                  "hanzi": "商业",
+                  "pinyin": "shāng yè",
+                  "english": "Business"
+                },
+                {
+                  "hanzi": "班会",
+                  "pinyin": "bān huì",
+                  "english": "Pastoral Care / class meeting"
+                },
+                {
+                  "hanzi": "校会",
+                  "pinyin": "xiào huì",
+                  "english": "whole-school assembly"
+                },
+                {
+                  "hanzi": "年级会",
+                  "pinyin": "nián jí huì",
+                  "english": "year-level assembly"
+                },
+                {
+                  "hanzi": "课",
+                  "pinyin": "kè",
+                  "english": "class / lesson / subject"
+                },
+                {
+                  "hanzi": "今年",
+                  "pinyin": "jīn nián",
+                  "english": "this year"
+                },
+                {
+                  "hanzi": "门",
+                  "pinyin": "mén",
+                  "english": "measure word for subjects"
+                }
+              ]
+            },
+            {
+              "id": "timetable-3",
+              "name": "Vocab List 3",
+              "words": [
+                {
+                  "hanzi": "我的",
+                  "pinyin": "wǒ de",
+                  "english": "my"
+                },
+                {
+                  "hanzi": "课程表",
+                  "pinyin": "kè chéng biǎo",
+                  "english": "timetable"
+                },
+                {
+                  "hanzi": "星期",
+                  "pinyin": "xīng qī",
+                  "english": "week; weekday"
+                },
+                {
+                  "hanzi": "星期一",
+                  "pinyin": "xīng qī yī",
+                  "english": "Monday"
+                },
+                {
+                  "hanzi": "星期二",
+                  "pinyin": "xīng qī èr",
+                  "english": "Tuesday"
+                },
+                {
+                  "hanzi": "星期三",
+                  "pinyin": "xīng qī sān",
+                  "english": "Wednesday"
+                },
+                {
+                  "hanzi": "星期四",
+                  "pinyin": "xīng qī sì",
+                  "english": "Thursday"
+                },
+                {
+                  "hanzi": "星期五",
+                  "pinyin": "xīng qī wǔ",
+                  "english": "Friday"
+                },
+                {
+                  "hanzi": "点",
+                  "pinyin": "diǎn",
+                  "english": "o'clock"
+                },
+                {
+                  "hanzi": "分",
+                  "pinyin": "fēn",
+                  "english": "minute"
+                },
+                {
+                  "hanzi": "半",
+                  "pinyin": "bàn",
+                  "english": "half past"
+                },
+                {
+                  "hanzi": "一刻",
+                  "pinyin": "yí kè",
+                  "english": "quarter past"
+                },
+                {
+                  "hanzi": "三刻",
+                  "pinyin": "sān kè",
+                  "english": "three quarters past"
+                },
+                {
+                  "hanzi": "零",
+                  "pinyin": "líng",
+                  "english": "zero"
+                },
+                {
+                  "hanzi": "早上",
+                  "pinyin": "zǎo shàng",
+                  "english": "early morning"
+                },
+                {
+                  "hanzi": "上午",
+                  "pinyin": "shàng wǔ",
+                  "english": "morning"
+                },
+                {
+                  "hanzi": "中午",
+                  "pinyin": "zhōng wǔ",
+                  "english": "noon"
+                },
+                {
+                  "hanzi": "下午",
+                  "pinyin": "xià wǔ",
+                  "english": "afternoon"
+                },
+                {
+                  "hanzi": "晚上",
+                  "pinyin": "wǎn shàng",
+                  "english": "evening"
+                },
+                {
+                  "hanzi": "第一节",
+                  "pinyin": "dì yī jié",
+                  "english": "Period 1"
+                },
+                {
+                  "hanzi": "第二节",
+                  "pinyin": "dì èr jié",
+                  "english": "Period 2"
+                },
+                {
+                  "hanzi": "第三节",
+                  "pinyin": "dì sān jié",
+                  "english": "Period 3"
+                },
+                {
+                  "hanzi": "第四节",
+                  "pinyin": "dì sì jié",
+                  "english": "Period 4"
+                },
+                {
+                  "hanzi": "第五节",
+                  "pinyin": "dì wǔ jié",
+                  "english": "Period 5"
+                },
+                {
+                  "hanzi": "午饭",
+                  "pinyin": "wǔ fàn",
+                  "english": "lunch"
+                },
+                {
+                  "hanzi": "课间休息",
+                  "pinyin": "kè jiān xiū xi",
+                  "english": "recess; break"
+                }
+              ]
+            },
+            {
+              "id": "timetable-4",
+              "name": "Vocab List 4",
+              "words": [
+                {
+                  "hanzi": "喜欢",
+                  "pinyin": "xǐ huan",
+                  "english": "to like"
+                },
+                {
+                  "hanzi": "不喜欢",
+                  "pinyin": "bù xǐ huan",
+                  "english": "to dislike"
+                },
+                {
+                  "hanzi": "最",
+                  "pinyin": "zuì",
+                  "english": "most"
+                },
+                {
+                  "hanzi": "最喜欢",
+                  "pinyin": "zuì xǐ huan",
+                  "english": "like the most; favourite"
+                },
+                {
+                  "hanzi": "很",
+                  "pinyin": "hěn",
+                  "english": "very"
+                },
+                {
+                  "hanzi": "有意思",
+                  "pinyin": "yǒu yì si",
+                  "english": "interesting"
+                },
+                {
+                  "hanzi": "好玩",
+                  "pinyin": "hǎo wán",
+                  "english": "fun"
+                },
+                {
+                  "hanzi": "无聊",
+                  "pinyin": "wú liáo",
+                  "english": "boring"
+                },
+                {
+                  "hanzi": "没用",
+                  "pinyin": "méi yòng",
+                  "english": "useless; not useful"
+                },
+                {
+                  "hanzi": "简单",
+                  "pinyin": "jiǎn dān",
+                  "english": "easy; simple"
+                },
+                {
+                  "hanzi": "难",
+                  "pinyin": "nán",
+                  "english": "difficult"
+                },
+                {
+                  "hanzi": "因为",
+                  "pinyin": "yīn wèi",
+                  "english": "because"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
