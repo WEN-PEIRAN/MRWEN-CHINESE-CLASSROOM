@@ -1,8 +1,8 @@
-HONGBAO_APP_ONLINE_V3
+HONGBAO_APP_ONLINE_V3.2
 
 SETUP
 Copy your original complete images folder alongside index.html. Images are not included.
-The app automatically fetches ./2026-hongbao-data.json on HTTP/HTTPS, including when hosted inside a portal subfolder. Replace that file and redeploy for updates. No build step required.
+The app automatically fetches ./hongbao-data.json on HTTP/HTTPS, including when hosted inside a portal subfolder. Replace that file and redeploy for updates. No build step required.
 Local file:// preview retains the optional JSON picker because automatic local file fetching is restricted. It does not upload data.
 
 V2
@@ -17,3 +17,5 @@ Images: original images/bg.png, profile.jpg, beginner/skilled/master/legend -thu
 V3: Original-style cream/gold table leaderboard, rank circles, level icons, inventory backpack buttons, Hong Bao emoji strip and numeric total. No shop or management controls. Original image filenames retained. At most 40 decorative Hong Bao symbols per row; numeric total always exact. Horizontal table scrolling on small screens.
 
 V3.1: prominent update banner, snapshot warning and one acknowledgement dialog per page load after successful data loading (including local preview). Home layout compacted to about 60% of previous desktop width; heading above year tiles. Leaderboard remains readable and full-width. Keep your own latest JSON when replacing app files.
+
+V3.2: emoji SVG favicon, reduced typography and spacing (about 20% smaller), updated JSON filename hongbao-data.json. Preserve your current latest JSON and original images folder during installation. SVG favicon display depends on browser support.
