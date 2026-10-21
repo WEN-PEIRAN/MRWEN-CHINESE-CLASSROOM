@@ -15,3 +15,5 @@ This is an openly viewable leaderboard, not an authenticated personal portal. Fu
 Images: original images/bg.png, profile.jpg, beginner/skilled/master/legend -thumb.jpg and -preview.jpg.
 
 V3: Original-style cream/gold table leaderboard, rank circles, level icons, inventory backpack buttons, Hong Bao emoji strip and numeric total. No shop or management controls. Original image filenames retained. At most 40 decorative Hong Bao symbols per row; numeric total always exact. Horizontal table scrolling on small screens.
+
+V3.1: prominent update banner, snapshot warning and one acknowledgement dialog per page load after successful data loading (including local preview). Home layout compacted to about 60% of previous desktop width; heading above year tiles. Leaderboard remains readable and full-width. Keep your own latest JSON when replacing app files.

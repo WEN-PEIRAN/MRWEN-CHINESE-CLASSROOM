@@ -22,7 +22,7 @@ const levelRules = [
 
 const keys=['year7','year8','year9','year10'];
 const $=id=>document.getElementById(id);
-let data=null, loading=false, selectedYear="";
+let data=null, loading=false, selectedYear="", noticeShown=false;
 function finite(value,fallback=0){return typeof value==='number'&&Number.isFinite(value)?value:fallback;}
 function levelFor(s){const peak=Math.max(0,finite(s.peakHongbao,finite(s.hongbao)),finite(s.hongbao));return levelRules.find(l=>peak>=l.min)||levelRules[levelRules.length-1];}
 function validate(raw){
@@ -57,6 +57,7 @@ function rankedStudents(key){
  return sorted.map((student,index)=>{if(index===0||student.hongbao!==last)rank=index+1;last=student.hongbao;return {student,rank,key};});
 }
 function render(){
+ document.body.classList.toggle('home-view',!selectedYear);
  const results=$('results'),tiles=$('tiles');results.replaceChildren();tiles.replaceChildren();if(!data)return;
  const q=$('search').value.trim().toLocaleLowerCase();
  $('back').hidden=!selectedYear;
@@ -86,11 +87,17 @@ function render(){
  table.append(body);wrap.append(table);results.append(wrap);
 
 }
+function showDataNotice(){
+ if(noticeShown)return;
+ $('noticeTime').textContent=timeLabel(data.updatedAt).replace('Data updated:','Last data update:');
+ noticeShown=true;
+ $('dataNotice').showModal();
+}
 function applyData(raw){
  const next=validate(raw);data=next;
  $('updated').textContent=timeLabel(data.updatedAt);
  $('search').disabled=false;
- $('status').className='';render();
+ $('status').className='';render();showDataNotice();
 }
 async function load(){
  if(location.protocol==='file:'){
@@ -101,10 +108,11 @@ async function load(){
  }
 
  if(loading)return;loading=true;$('refresh').disabled=true;$('search').disabled=true;$('detail').close();$('results').replaceChildren();$('status').className='';$('status').textContent='Loading published data…';
- try{const response=await fetch('./2026-hongbao-data.json',{cache:'no-store'});if(!response.ok)throw Error('Data file could not be loaded (HTTP '+response.status+').');data=validate(await response.json());$('updated').textContent=timeLabel(data.updatedAt);$('search').disabled=false;render();}
+ try{const response=await fetch('./2026-hongbao-data.json',{cache:'no-store'});if(!response.ok)throw Error('Data file could not be loaded (HTTP '+response.status+').');applyData(await response.json());}
  catch(e){data=null;$('updated').textContent='Published data unavailable';$('status').className='error';$('status').textContent='Unable to load rewards. Please try Refresh data or contact Mr Wen. '+(location.protocol==='file:'?'Open this app through a web server, not by double-clicking index.html.':'');console.error(e);}
  finally{loading=false;$('refresh').disabled=false;}
 }
+$('noticeOk').addEventListener('click',()=>$('dataNotice').close());
 $('back').addEventListener('click',()=>{selectedYear='';$('search').value='';render();});$('search').addEventListener('input',render);$('refresh').addEventListener('click',load);$('close').addEventListener('click',()=>$('detail').close());
 
 $('localJson').addEventListener('change',async event=>{
