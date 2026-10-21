@@ -108,7 +108,7 @@ async function load(){
  }
 
  if(loading)return;loading=true;$('refresh').disabled=true;$('search').disabled=true;$('detail').close();$('results').replaceChildren();$('status').className='';$('status').textContent='Loading published data…';
- try{const response=await fetch('./2026-hongbao-data.json',{cache:'no-store'});if(!response.ok)throw Error('Data file could not be loaded (HTTP '+response.status+').');applyData(await response.json());}
+ try{const response=await fetch('./hongbao-data.json',{cache:'no-store'});if(!response.ok)throw Error('Data file could not be loaded (HTTP '+response.status+').');applyData(await response.json());}
  catch(e){data=null;$('updated').textContent='Published data unavailable';$('status').className='error';$('status').textContent='Unable to load rewards. Please try Refresh data or contact Mr Wen. '+(location.protocol==='file:'?'Open this app through a web server, not by double-clicking index.html.':'');console.error(e);}
  finally{loading=false;$('refresh').disabled=false;}
 }
