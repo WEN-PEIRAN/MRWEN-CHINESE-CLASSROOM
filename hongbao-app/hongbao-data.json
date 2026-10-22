@@ -1082,7 +1082,7 @@
       {
         "name": "Lynch, Devlyn",
         "hongbao": 4,
-        "peakHongbao": 5,
+        "peakHongbao": 4,
         "equipment": [],
         "active": true,
         "legendFreeEquipmentClaimed": false
@@ -1654,8 +1654,8 @@
       },
       {
         "name": "Teh, Evangeline",
-        "hongbao": 7,
-        "peakHongbao": 7,
+        "hongbao": 8,
+        "peakHongbao": 8,
         "equipment": [],
         "active": true,
         "legendFreeEquipmentClaimed": false
@@ -1742,8 +1742,8 @@
       },
       {
         "name": "Augustine, Renae",
-        "hongbao": 9,
-        "peakHongbao": 9,
+        "hongbao": 14,
+        "peakHongbao": 14,
         "equipment": [],
         "active": true,
         "legendFreeEquipmentClaimed": false
@@ -1854,8 +1854,8 @@
       },
       {
         "name": "Glancy, Karla",
-        "hongbao": 8,
-        "peakHongbao": 8,
+        "hongbao": 17,
+        "peakHongbao": 17,
         "equipment": [],
         "active": true,
         "legendFreeEquipmentClaimed": false
@@ -1878,7 +1878,7 @@
       },
       {
         "name": "Pearce, Beau",
-        "hongbao": 4,
+        "hongbao": 6,
         "peakHongbao": 7,
         "equipment": [],
         "active": true,
@@ -1886,7 +1886,7 @@
       },
       {
         "name": "Maidens, Henare",
-        "hongbao": 10,
+        "hongbao": 11,
         "peakHongbao": 12,
         "equipment": [],
         "active": true,
@@ -1974,8 +1974,8 @@
       },
       {
         "name": "Jeyakumar, Jereni",
-        "hongbao": 1,
-        "peakHongbao": 1,
+        "hongbao": 2,
+        "peakHongbao": 2,
         "equipment": [],
         "active": true,
         "legendFreeEquipmentClaimed": false
@@ -1998,8 +1998,8 @@
       },
       {
         "name": "McGinley, Conor",
-        "hongbao": 3,
-        "peakHongbao": 3,
+        "hongbao": 6,
+        "peakHongbao": 6,
         "equipment": [],
         "active": true,
         "legendFreeEquipmentClaimed": false
@@ -2211,5 +2211,25 @@
       }
     ]
   },
-  "updatedAt": "2026-10-21T01:55:04.934Z"
+  "updatedAt": "2026-10-22T00:32:12.951Z",
+  "year11": {
+    "title": "Year 11 Chinese",
+    "students": []
+  },
+  "year12": {
+    "title": "Year 12 Chinese",
+    "students": []
+  },
+  "settings": {
+    "visibleYearLevels": [
+      "year7",
+      "year8",
+      "year9",
+      "year10"
+    ]
+  },
+  "schoolYear": null,
+  "graduateArchives": [],
+  "rolloverHistory": [],
+  "schemaVersion": 11
 }
