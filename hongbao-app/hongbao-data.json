@@ -5,504 +5,504 @@
     "title": "Year 7 Chinese",
     "students": [
       {
-        "name": "RubyOtter",
+        "name": "MightyCat",
         "hongbao": 11,
         "peakHongbao": 11,
         "equipment": [],
         "active": true
       },
       {
-        "name": "AmberTiger",
+        "name": "SwiftRabbit",
         "hongbao": 0,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SapphireLion",
+        "name": "SunnyEagle",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "AutumnTurtle",
+        "name": "GoldenTiger",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CloudWallaby",
+        "name": "SunWuKong",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CrystalFerret",
+        "name": "LuckyPenguin",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "VelvetWombat",
+        "name": "BraveBear",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "QuietOtter",
+        "name": "CuriousBear",
         "hongbao": 5,
         "peakHongbao": 5,
         "equipment": [],
         "active": true
       },
       {
-        "name": "QuietWhale",
+        "name": "FlyingDolphin",
         "hongbao": 0,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SummerGecko",
+        "name": "GentleDolphin",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "BambooLizard",
+        "name": "MagicPenguin",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "GoldenChipmunk",
+        "name": "GentleCat",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "BambooLynx",
+        "name": "SunnyDolphin",
         "hongbao": 5,
         "peakHongbao": 5,
         "equipment": [],
         "active": true
       },
       {
-        "name": "PearlBee",
+        "name": "PlayfulTurtle",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "BraveTiger",
+        "name": "FlyingPenguin",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "MistyOcelot",
+        "name": "MightyDragon",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "QuietTurtle",
+        "name": "SilverTiger",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "AmberChipmunk",
+        "name": "JumpingBear",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CloudRobin",
+        "name": "MagicKoala",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "PlumDragon",
+        "name": "FriendlyBear",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "PlumParrot",
+        "name": "HappyCat",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "BrightWombat",
+        "name": "SunnyPenguin",
         "hongbao": 6,
         "peakHongbao": 6,
         "equipment": [],
         "active": true
       },
       {
-        "name": "EmeraldPlatypus",
+        "name": "LuckyPanda",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "RubyRabbit",
+        "name": "HappyPenguin",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "RiverTiger",
+        "name": "SleepyLion",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SilverFalcon",
+        "name": "GoldenMonkey",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "MistyAlbatross",
+        "name": "CleverTurtle",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SummerPuffin",
+        "name": "SilverLion",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "AmberQuokka",
+        "name": "LittleTurtle",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "GoldenOwl",
+        "name": "JumpingLion",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CoralOwl",
+        "name": "PlayfulOtter",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CosmicAlbatross",
+        "name": "GentleMonkey",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SpringRobin",
+        "name": "FriendlyOtter",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "QuietGecko",
+        "name": "HappyLion",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CosmicButterfly",
+        "name": "SunnyHorse",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "ScarletParrot",
+        "name": "DancingPanda",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "LunarMarten",
+        "name": "LuckyDeer",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "QuietLion",
+        "name": "FlyingOwl",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "IndigoBadger",
+        "name": "CuriousDeer",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "QuietPhoenix",
+        "name": "GentleLion",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "BronzeKoi",
+        "name": "BraveHorse",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "BronzePenguin",
+        "name": "HappyBear",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "AmberWallaby",
+        "name": "FriendlyHorse",
         "hongbao": 1,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SilverFinch",
+        "name": "PlayfulWolf",
         "hongbao": 6,
         "peakHongbao": 6,
         "equipment": [],
         "active": true
       },
       {
-        "name": "RubyLynx",
+        "name": "DancingLion",
         "hongbao": 3,
         "peakHongbao": 7,
         "equipment": [],
         "active": true
       },
       {
-        "name": "ForestSparrow",
+        "name": "JumpingMonkey",
         "hongbao": 5,
         "peakHongbao": 5,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SilverKangaroo",
+        "name": "BraveDolphin",
         "hongbao": 5,
         "peakHongbao": 5,
         "equipment": [],
         "active": true
       },
       {
-        "name": "OceanMeerkat",
+        "name": "LittleMonkey",
         "hongbao": 1,
         "peakHongbao": 6,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CoralLynx",
+        "name": "CuriousKoala",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CosmicFox",
+        "name": "MagicLion",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "MapleButterfly",
+        "name": "SilverEagle",
         "hongbao": 2,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "RiverPhoenix",
+        "name": "GentleHorse",
         "hongbao": 1,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SwiftOwl",
+        "name": "GoldenKoala",
         "hongbao": 7,
         "peakHongbao": 7,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CrimsonSeal",
+        "name": "SleepyPanda",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SwiftSquirrel",
+        "name": "GoldenBear",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "RubyMeerkat",
+        "name": "BaiLongMa",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SapphireCockatoo",
+        "name": "LittleCat",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SunnyOwl",
+        "name": "DancingOwl",
         "hongbao": 3,
         "peakHongbao": 5,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CrimsonChipmunk",
+        "name": "BraveLion",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SummerKingfisher",
+        "name": "CuriousHorse",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SpringCrane",
+        "name": "MightyDeer",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "BraveSparrow",
+        "name": "MagicDeer",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SilverPhoenix",
+        "name": "FriendlyDolphin",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "LunarMeerkat",
+        "name": "GentleWolf",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "VioletRabbit",
+        "name": "QuietTiger",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "StarryLizard",
+        "name": "JumpingTurtle",
         "hongbao": 0,
         "peakHongbao": 5,
         "equipment": [],
         "active": true
       },
       {
-        "name": "HiddenButterfly",
+        "name": "GoldenOtter",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "LuckyDragon",
+        "name": "SunnyTurtle",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "MapleFox",
+        "name": "PlayfulEagle",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "VelvetCockatoo",
+        "name": "GentleFox",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "GentleKookaburra",
+        "name": "FriendlyFox",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CrystalGecko",
+        "name": "MagicOwl",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
@@ -514,693 +514,693 @@
     "title": "Year 8 Chinese",
     "students": [
       {
-        "name": "ForestPanda",
+        "name": "QuietDolphin",
         "hongbao": 1,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "IvoryWombat",
+        "name": "SwiftTurtle",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SummerTurtle",
+        "name": "SwiftMonkey",
         "hongbao": 11,
         "peakHongbao": 11,
         "equipment": [],
         "active": true
       },
       {
-        "name": "EmeraldKookaburra",
+        "name": "JumpingDolphin",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CoralLeopard",
+        "name": "QuietHorse",
         "hongbao": 0,
         "peakHongbao": 0,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CloudPlatypus",
+        "name": "JumpingPenguin",
         "hongbao": 0,
         "peakHongbao": 6,
         "equipment": [],
         "active": true
       },
       {
-        "name": "MintDeer",
+        "name": "LittleEagle",
         "hongbao": 5,
         "peakHongbao": 5,
         "equipment": [],
         "active": true
       },
       {
-        "name": "LunarRobin",
+        "name": "GentleTiger",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "RubySquirrel",
+        "name": "MightyTiger",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "PlumPossum",
+        "name": "CleverLion",
         "hongbao": 7,
         "peakHongbao": 7,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CloudLeopard",
+        "name": "CleverPanda",
         "hongbao": 0,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "LuckyKangaroo",
+        "name": "HappyPanda",
         "hongbao": 0,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "WinterAlbatross",
+        "name": "SleepyWolf",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "WinterOwl",
+        "name": "LittleDog",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "LotusPenguin",
+        "name": "GoldenDragon",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "DancingJaguar",
+        "name": "FlyingOtter",
         "hongbao": 1,
         "peakHongbao": 5,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SwiftLizard",
+        "name": "HappyMonkey",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "GentleJaguar",
+        "name": "LittlePenguin",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "QuietMarten",
+        "name": "BravePanda",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "LuckyDolphin",
+        "name": "BraveOtter",
         "hongbao": 7,
         "peakHongbao": 7,
         "equipment": [],
         "active": true
       },
       {
-        "name": "IvoryButterfly",
+        "name": "JumpingHorse",
         "hongbao": 6,
         "peakHongbao": 6,
         "equipment": [],
         "active": true
       },
       {
-        "name": "PlumOcelot",
+        "name": "FlyingFox",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "JadeKingfisher",
+        "name": "FlyingBear",
         "hongbao": 10,
         "peakHongbao": 12,
         "equipment": [],
         "active": true
       },
       {
-        "name": "PearlWallaby",
+        "name": "MagicPanda",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "BraveJaguar",
+        "name": "SilverDragon",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "WinterHeron",
+        "name": "DancingWolf",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CrimsonLynx",
+        "name": "GoldenFox",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CoralParrot",
+        "name": "QuietPanda",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "AutumnPenguin",
+        "name": "SleepyDog",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "DancingAlbatross",
+        "name": "LittleDragon",
         "hongbao": 5,
         "peakHongbao": 5,
         "equipment": [],
         "active": true
       },
       {
-        "name": "WillowSwan",
+        "name": "QuietEagle",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "ScarletKookaburra",
+        "name": "CleverKoala",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "PearlTiger",
+        "name": "FriendlyPanda",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "PlumTurtle",
+        "name": "PlayfulOwl",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SpringPanda",
+        "name": "JumpingCat",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "PearlPlatypus",
+        "name": "SleepyDeer",
         "hongbao": -1,
         "peakHongbao": 0,
         "equipment": [],
         "active": true
       },
       {
-        "name": "LotusFerret",
+        "name": "MightyHorse",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "MountainPossum",
+        "name": "PlayfulTiger",
         "hongbao": 6,
         "peakHongbao": 6,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SummerCheetah",
+        "name": "FlyingHorse",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "HappySwan",
+        "name": "QuietMonkey",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "MintJaguar",
+        "name": "SilverMonkey",
         "hongbao": 8,
         "peakHongbao": 8,
         "equipment": [],
         "active": true
       },
       {
-        "name": "MapleKingfisher",
+        "name": "GentleRabbit",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SummerParrot",
+        "name": "FlyingEagle",
         "hongbao": 0,
         "peakHongbao": 0,
         "equipment": [],
         "active": true
       },
       {
-        "name": "MountainFinch",
+        "name": "LuckyRabbit",
         "hongbao": 10,
         "peakHongbao": 10,
         "equipment": [],
         "active": true
       },
       {
-        "name": "RiverPuffin",
+        "name": "QuietRabbit",
         "hongbao": 9,
         "peakHongbao": 9,
         "equipment": [],
         "active": true
       },
       {
-        "name": "OceanWallaby",
+        "name": "QuietPenguin",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "BraveFirefly",
+        "name": "GoldenDeer",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CrimsonButterfly",
+        "name": "SunnyKoala",
         "hongbao": 9,
         "peakHongbao": 9,
         "equipment": [],
         "active": true
       },
       {
-        "name": "HappyHedgehog",
+        "name": "JumpingEagle",
         "hongbao": 1,
         "peakHongbao": 5,
         "equipment": [],
         "active": true
       },
       {
-        "name": "RubyButterfly",
+        "name": "SwiftPenguin",
         "hongbao": 10,
         "peakHongbao": 10,
         "equipment": [],
         "active": true
       },
       {
-        "name": "QuietDeer",
+        "name": "MagicFox",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SummerMeerkat",
+        "name": "GentleBear",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "StarryTurtle",
+        "name": "JumpingKoala",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "RiverQuokka",
+        "name": "FriendlyTiger",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SummerDolphin",
+        "name": "SunnyFox",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SolarTurtle",
+        "name": "MagicDolphin",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "AmberKookaburra",
+        "name": "GoldenHorse",
         "hongbao": 6,
         "peakHongbao": 9,
         "equipment": [],
         "active": true
       },
       {
-        "name": "ForestMarten",
+        "name": "SwiftEagle",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "EmeraldFalcon",
+        "name": "MightyKoala",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "BrightLeopard",
+        "name": "SwiftKoala",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "HiddenLion",
+        "name": "JumpingTiger",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CloudLynx",
+        "name": "MagicTurtle",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "AmberEagle",
+        "name": "SunnyDragon",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "StarryKangaroo",
+        "name": "ZhongKui",
         "hongbao": 1,
         "peakHongbao": 5,
         "equipment": [],
         "active": true
       },
       {
-        "name": "OceanQuokka",
+        "name": "FriendlyEagle",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "ScarletWombat",
+        "name": "GentlePenguin",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "GoldenHeron",
+        "name": "PlayfulLion",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "RiverCarp",
+        "name": "SilverPenguin",
         "hongbao": 8,
         "peakHongbao": 8,
         "equipment": [],
         "active": true
       },
       {
-        "name": "BraveOwl",
+        "name": "SleepyBear",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CosmicFrog",
+        "name": "FlyingRabbit",
         "hongbao": 6,
         "peakHongbao": 6,
         "equipment": [],
         "active": true
       },
       {
-        "name": "MintFirefly",
+        "name": "LittleOtter",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "IndigoWombat",
+        "name": "QuietWolf",
         "hongbao": 5,
         "peakHongbao": 5,
         "equipment": [],
         "active": true
       },
       {
-        "name": "MistyDolphin",
+        "name": "SleepyEagle",
         "hongbao": 0,
         "peakHongbao": 5,
         "equipment": [],
         "active": true
       },
       {
-        "name": "GoldenPenguin",
+        "name": "SwiftBear",
         "hongbao": -2,
         "peakHongbao": 0,
         "equipment": [],
         "active": true
       },
       {
-        "name": "ScarletWolf",
+        "name": "CuriousDog",
         "hongbao": 0,
         "peakHongbao": 5,
         "equipment": [],
         "active": true
       },
       {
-        "name": "BambooToucan",
+        "name": "SunnyMonkey",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "OceanFalcon",
+        "name": "MagicHorse",
         "hongbao": 0,
         "peakHongbao": 5,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CosmicTiger",
+        "name": "SilverBear",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "PeachFerret",
+        "name": "CleverWolf",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "HiddenRabbit",
+        "name": "YuTu",
         "hongbao": 7,
         "peakHongbao": 7,
         "equipment": [],
         "active": true
       },
       {
-        "name": "VioletPuffin",
+        "name": "DancingTurtle",
         "hongbao": 0,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "LuckyFerret",
+        "name": "CuriousOtter",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SwiftFerret",
+        "name": "BraveEagle",
         "hongbao": 0,
         "peakHongbao": 5,
         "equipment": [],
         "active": true
       },
       {
-        "name": "JadeFox",
+        "name": "HappyHorse",
         "hongbao": 0,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "AmberWombat",
+        "name": "CuriousCat",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "IndigoJaguar",
+        "name": "SwiftWolf",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "BrightHedgehog",
+        "name": "CuriousWolf",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "PeachOtter",
+        "name": "LittleTiger",
         "hongbao": 0,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "EmeraldHeron",
+        "name": "LuckyFox",
         "hongbao": 0,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "JadeDragon",
+        "name": "DancingCat",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "AutumnJaguar",
+        "name": "DancingEagle",
         "hongbao": 0,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "StarryDolphin",
+        "name": "PlayfulCat",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "DancingKookaburra",
+        "name": "MightyWolf",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SwiftAlbatross",
+        "name": "GentleOwl",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "LunarWallaby",
+        "name": "MightyMonkey",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "VioletKookaburra",
+        "name": "CuriousTiger",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "GoldenCarp",
+        "name": "MagicBear",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "RubyHedgehog",
+        "name": "HappyTiger",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CloudWhale",
+        "name": "SilverDeer",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
@@ -1212,567 +1212,567 @@
     "title": "Year 9 Chinese",
     "students": [
       {
-        "name": "BronzeDolphin",
+        "name": "GentlePanda",
         "hongbao": -1,
         "peakHongbao": 0,
         "equipment": [],
         "active": true
       },
       {
-        "name": "MountainMeerkat",
+        "name": "SwiftDolphin",
         "hongbao": 7,
         "peakHongbao": 7,
         "equipment": [],
         "active": true
       },
       {
-        "name": "WillowPlatypus",
+        "name": "DancingOtter",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "WillowDeer",
+        "name": "DancingMonkey",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "EmeraldDeer",
+        "name": "MightyLion",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "AzureGecko",
+        "name": "QuietOwl",
         "hongbao": 0,
         "peakHongbao": 0,
         "equipment": [],
         "active": true
       },
       {
-        "name": "MintSeal",
+        "name": "LuckyLion",
         "hongbao": 14,
         "peakHongbao": 14,
         "equipment": [],
         "active": true
       },
       {
-        "name": "OceanWombat",
+        "name": "DancingBear",
         "hongbao": 16,
         "peakHongbao": 17,
         "equipment": [],
         "active": true
       },
       {
-        "name": "WuKong",
+        "name": "JumpingRabbit",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SunnyKookaburra",
+        "name": "SilverWolf",
         "hongbao": 0,
         "peakHongbao": 0,
         "equipment": [],
         "active": true
       },
       {
-        "name": "LunarPuffin",
+        "name": "BraveCat",
         "hongbao": 0,
         "peakHongbao": 0,
         "equipment": [],
         "active": true
       },
       {
-        "name": "StarryWombat",
+        "name": "SleepyKoala",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CrimsonCockatoo",
+        "name": "MightyOtter",
         "hongbao": -4,
         "peakHongbao": 0,
         "equipment": [],
         "active": true
       },
       {
-        "name": "PlumSquirrel",
+        "name": "CuriousDragon",
         "hongbao": 0,
         "peakHongbao": 0,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CopperSquirrel",
+        "name": "HappyTurtle",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "IndigoParrot",
+        "name": "BraveWolf",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "AmberSquirrel",
+        "name": "BraveDragon",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "JadeParrot",
+        "name": "SunnyDog",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "StarryFalcon",
+        "name": "HappyDragon",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "StarryBadger",
+        "name": "CuriousTurtle",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SpringQuokka",
+        "name": "SilverKoala",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CopperKookaburra",
+        "name": "FriendlyOwl",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SilverChipmunk",
+        "name": "HappyWolf",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "MountainPenguin",
+        "name": "LuckyOtter",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CrimsonParrot",
+        "name": "SunnyWolf",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "ForestWhale",
+        "name": "CleverDolphin",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "VelvetKoala",
+        "name": "SleepyCat",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SwiftLion",
+        "name": "LuckyTiger",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CosmicOwl",
+        "name": "LuckyMonkey",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "MintBadger",
+        "name": "SwiftPanda",
         "hongbao": 0,
         "peakHongbao": 0,
         "equipment": [],
         "active": true
       },
       {
-        "name": "AzureCarp",
+        "name": "BraveDog",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "WinterDeer",
+        "name": "MightyPanda",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CosmicMarten",
+        "name": "SleepyRabbit",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "QuietKoi",
+        "name": "CleverBear",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SummerPanda",
+        "name": "BraveMonkey",
         "hongbao": 8,
         "peakHongbao": 8,
         "equipment": [],
         "active": true
       },
       {
-        "name": "IndigoKookaburra",
+        "name": "FlyingDog",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SilverOcelot",
+        "name": "SunnyLion",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "JadeBee",
+        "name": "PlayfulHorse",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SunnyFirefly",
+        "name": "CuriousPanda",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "MapleBee",
+        "name": "CuriousFox",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "StarryPenguin",
+        "name": "GoldenEagle",
         "hongbao": 6,
         "peakHongbao": 6,
         "equipment": [],
         "active": true
       },
       {
-        "name": "WinterEagle",
+        "name": "GoldenPanda",
         "hongbao": 11,
         "peakHongbao": 11,
         "equipment": [],
         "active": true
       },
       {
-        "name": "WillowBee",
+        "name": "CleverRabbit",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "AmberOwl",
+        "name": "FriendlyDog",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "StarrySwan",
+        "name": "CuriousDolphin",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CrimsonRabbit",
+        "name": "JumpingPanda",
         "hongbao": 14,
         "peakHongbao": 14,
         "equipment": [],
         "active": true
       },
       {
-        "name": "MistyToucan",
+        "name": "SilverDolphin",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SpringHedgehog",
+        "name": "JumpingFox",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "PlumJaguar",
+        "name": "FriendlyRabbit",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "BrightParrot",
+        "name": "MagicDragon",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "AmberOcelot",
+        "name": "PlayfulFox",
         "hongbao": 5,
         "peakHongbao": 5,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CopperMarten",
+        "name": "PlayfulDragon",
         "hongbao": 7,
         "peakHongbao": 7,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CopperEchidna",
+        "name": "MightyEagle",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "HappyPuffin",
+        "name": "MagicWolf",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SolarLynx",
+        "name": "HappyDog",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "BrightQuokka",
+        "name": "HappyOtter",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "AzurePanda",
+        "name": "FlyingWolf",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "ScarletEagle",
+        "name": "FriendlyPenguin",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "MountainParrot",
+        "name": "MagicOtter",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "WinterFrog",
+        "name": "LittleBear",
         "hongbao": 17,
         "peakHongbao": 17,
         "equipment": [],
         "active": true
       },
       {
-        "name": "BambooJaguar",
+        "name": "FlyingLion",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "LunarOtter",
+        "name": "GoldenLion",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "PlumEagle",
+        "name": "SunnyOtter",
         "hongbao": 6,
         "peakHongbao": 7,
         "equipment": [],
         "active": true
       },
       {
-        "name": "VelvetGecko",
+        "name": "DancingDeer",
         "hongbao": 11,
         "peakHongbao": 12,
         "equipment": [],
         "active": true
       },
       {
-        "name": "WillowKoala",
+        "name": "QuietKoala",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
         "active": true
       },
       {
-        "name": "AzureRobin",
+        "name": "SilverRabbit",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "MapleMeerkat",
+        "name": "BraveDeer",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "BambooBadger",
+        "name": "LuckyTurtle",
         "hongbao": 5,
         "peakHongbao": 5,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SpringSwan",
+        "name": "SilverOtter",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SunnyTiger",
+        "name": "MagicTiger",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "AmberWhale",
+        "name": "SleepyDragon",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "BronzeWhale",
+        "name": "FriendlyMonkey",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "WillowCrane",
+        "name": "GoldenRabbit",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "BrightAlbatross",
+        "name": "SleepyOwl",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CrimsonKoala",
+        "name": "CleverDeer",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "LuckyLeopard",
+        "name": "CleverOwl",
         "hongbao": 0,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "GentleBadger",
+        "name": "MightyDog",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "LunarKingfisher",
+        "name": "JumpingOtter",
         "hongbao": 6,
         "peakHongbao": 6,
         "equipment": [],
         "active": true
       },
       {
-        "name": "EmeraldRobin",
+        "name": "QuietBear",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CloudBee",
+        "name": "LuckyBear",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "EmeraldPhoenix",
+        "name": "SwiftTiger",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
@@ -1784,154 +1784,154 @@
     "title": "Year 10 Chinese",
     "students": [
       {
-        "name": "MintFrog",
+        "name": "LuckyCat",
         "hongbao": 13,
         "peakHongbao": 13,
         "equipment": [],
         "active": true
       },
       {
-        "name": "IvoryFirefly",
+        "name": "GoldenCat",
         "hongbao": 7,
         "peakHongbao": 7,
         "equipment": [],
         "active": true
       },
       {
-        "name": "VelvetCrane",
+        "name": "LittleFox",
         "hongbao": 24,
         "peakHongbao": 24,
         "equipment": [],
         "active": true
       },
       {
-        "name": "MintLeopard",
+        "name": "JumpingDeer",
         "hongbao": 22,
         "peakHongbao": 22,
         "equipment": [],
         "active": true
       },
       {
-        "name": "OceanCockatoo",
+        "name": "MightyPenguin",
         "hongbao": 2,
         "peakHongbao": 8,
         "equipment": [],
         "active": true
       },
       {
-        "name": "WinterLizard",
+        "name": "CleverFox",
         "hongbao": 8,
         "peakHongbao": 8,
         "equipment": [],
         "active": true
       },
       {
-        "name": "PeachFinch",
+        "name": "DancingKoala",
         "hongbao": 9,
         "peakHongbao": 9,
         "equipment": [],
         "active": true
       },
       {
-        "name": "PearlFerret",
+        "name": "SwiftDeer",
         "hongbao": 2,
         "peakHongbao": 12,
         "equipment": [],
         "active": true
       },
       {
-        "name": "IvoryRabbit",
+        "name": "CuriousLion",
         "hongbao": 11,
         "peakHongbao": 11,
         "equipment": [],
         "active": true
       },
       {
-        "name": "BambooFrog",
+        "name": "MagicMonkey",
         "hongbao": 9,
         "peakHongbao": 9,
         "equipment": [],
         "active": true
       },
       {
-        "name": "IvoryMeerkat",
+        "name": "LittleWolf",
         "hongbao": 0,
         "peakHongbao": 5,
         "equipment": [],
         "active": true
       },
       {
-        "name": "HiddenCockatoo",
+        "name": "SleepyMonkey",
         "hongbao": 0,
         "peakHongbao": 0,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SummerQuokka",
+        "name": "SunnyBear",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "AutumnLeopard",
+        "name": "SleepyPenguin",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "AutumnDragonfly",
+        "name": "QuietDragon",
         "hongbao": 0,
         "peakHongbao": 0,
         "equipment": [],
         "active": true
       },
       {
-        "name": "MapleSparrow",
+        "name": "FlyingKoala",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
       {
-        "name": "WillowSparrow",
+        "name": "FlyingDeer",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "PlumDeer",
+        "name": "GoldenWolf",
         "hongbao": 5,
         "peakHongbao": 5,
         "equipment": [],
         "active": true
       },
       {
-        "name": "JadeOwl",
+        "name": "DancingPenguin",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
       {
-        "name": "CosmicKoala",
+        "name": "LuckyOwl",
         "hongbao": 2,
         "peakHongbao": 5,
         "equipment": [],
         "active": true
       },
       {
-        "name": "SolarLizard",
+        "name": "FriendlyTurtle",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
         "active": true
       },
       {
-        "name": "IvoryCarp",
+        "name": "HappyFox",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
