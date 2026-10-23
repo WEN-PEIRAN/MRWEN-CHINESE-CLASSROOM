@@ -1,582 +1,512 @@
 {
+  "onlineExport": true,
+  "updatedAt": "2026-10-22T00:32:12.951Z",
   "year7": {
     "title": "Year 7 Chinese",
     "students": [
       {
-        "name": "Finlayson, Eoin",
+        "name": "Eoin F.",
         "hongbao": 11,
         "peakHongbao": 11,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Henderson, Milly",
+        "name": "Milly H.",
         "hongbao": 0,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Kuschert, Olivia",
+        "name": "Olivia K.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Knight, Finn",
+        "name": "Finn K.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Anthony, Micah",
+        "name": "Micah A.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Batth, Amreen",
+        "name": "Amreen B.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Amos, Jayda",
+        "name": "Jayda A.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Ramilo, Alexander",
+        "name": "Alexander R.",
         "hongbao": 5,
         "peakHongbao": 5,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "White, Jayce",
+        "name": "Jayce W.",
         "hongbao": 0,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Wadhwani, Vishakha",
+        "name": "Vishakha W.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Cochrane, Alina",
+        "name": "Alina C.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Hughson, Spencer",
+        "name": "Spencer H.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Palmani, Daniela",
+        "name": "Daniela P.",
         "hongbao": 5,
         "peakHongbao": 5,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Dunn, Matthew",
+        "name": "Matthew D.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Huynh, Alex",
+        "name": "Alex H.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Plant, Dominic",
+        "name": "Dominic P.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Maila, Luisa",
+        "name": "Luisa M.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Tran, Isabelle",
+        "name": "Isabelle T.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Moerland, Caleb",
+        "name": "Caleb M.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Brouwer, Jade",
+        "name": "Jade B.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Park, Aiden",
+        "name": "Aiden P.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Cootes, Audrey",
+        "name": "Audrey C.",
         "hongbao": 6,
         "peakHongbao": 6,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Pocuca, Nikola",
+        "name": "Nikola P.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Supurmaniam, Milla",
+        "name": "Milla S.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Smith, Isaac",
+        "name": "Isaac S.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Salim, Kenneth",
+        "name": "Kenneth S.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Graham, Ryan",
+        "name": "Ryan G.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Le, Hoang (Danny)",
+        "name": "Hoang (Danny) L.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Shah, Kian",
+        "name": "Kian S.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Nguyen, Peter",
+        "name": "Peter N.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Rickert-Smith, Ethan",
+        "name": "Ethan R.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Nilsson, Zoe",
+        "name": "Zoe N.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Belalcazar, Maria-Claudette",
+        "name": "Maria-Claudette B.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Colaco, Fellitatitia (Fellita)",
+        "name": "Fellitatitia (Fellita) C.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Fowke, Mason",
+        "name": "Mason F.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Metry, Sophia",
+        "name": "Sophia M.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Brady, Blaire",
+        "name": "Blaire B.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Vandenhul, Dylan",
+        "name": "Dylan V.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Tran, Henry",
+        "name": "Henry T.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Quinlan, Hannah",
+        "name": "Hannah Q.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Perez, Richard (William)",
+        "name": "Richard (William) P.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Barry, Annabelle",
+        "name": "Annabelle B.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Vo, Jayson",
+        "name": "Jayson V.",
         "hongbao": 1,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Townsend, Amina",
+        "name": "Amina T.",
         "hongbao": 6,
         "peakHongbao": 6,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Huynh, Anthony",
+        "name": "Anthony H.",
         "hongbao": 3,
         "peakHongbao": 7,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Chou, Tsun-Te (Arthur)",
+        "name": "Tsun-Te (Arthur) C.",
         "hongbao": 5,
         "peakHongbao": 5,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Lim, Thomas",
+        "name": "Thomas L.",
         "hongbao": 5,
         "peakHongbao": 5,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Andersen, Aedan",
+        "name": "Aedan A.",
         "hongbao": 1,
         "peakHongbao": 6,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Prior, Chloe",
+        "name": "Chloe P.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Hartsuiker, Jack",
+        "name": "Jack H.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Perez, Viktor Rafael (Viktor)",
+        "name": "Viktor Rafael (Viktor) P.",
         "hongbao": 2,
         "peakHongbao": 4,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Yau, Vincent",
+        "name": "Vincent Y.",
         "hongbao": 1,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "O'Callaghan, Joshua",
+        "name": "Joshua O.",
         "hongbao": 7,
         "peakHongbao": 7,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "McGrath, Vince",
+        "name": "Vince M.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Montgomery, Lauren",
+        "name": "Lauren M.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Ward, Amelia",
+        "name": "Amelia W.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Rouessart, Declan",
+        "name": "Declan R.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Turlej, Hunter",
+        "name": "Hunter T.",
         "hongbao": 3,
         "peakHongbao": 5,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Tam, Cho Yan (Emma)",
+        "name": "Cho Yan (Emma) T.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Hyland, Sarah",
+        "name": "Sarah H.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Earthayil, Hannah",
+        "name": "Hannah E.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Cantatore, Ella",
+        "name": "Ella C.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Simpson, Charlotte",
+        "name": "Charlotte S.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Norrie, Madison",
+        "name": "Madison N.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Galvin, Jackson",
+        "name": "Jackson G.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Fu, Megan Yu-Chen (Megan)",
+        "name": "Megan Yu-Chen (Megan) F.",
         "hongbao": 0,
         "peakHongbao": 5,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Tiong, Alicia",
+        "name": "Alicia T.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Mao, Janitha",
+        "name": "Janitha M.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Hallam, Niamh",
+        "name": "Niamh H.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Valentine, Rachel-Lee",
+        "name": "Rachel-Lee V.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Truong, Cindy",
+        "name": "Cindy T.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Huynh, Ava",
+        "name": "Ava H.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       }
     ]
   },
@@ -584,796 +514,697 @@
     "title": "Year 8 Chinese",
     "students": [
       {
-        "name": "Senyard, Magdalene (Maggie)",
+        "name": "Magdalene (Maggie) S.",
         "hongbao": 1,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Cabrera, Alyssa",
+        "name": "Alyssa C.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Feng, Niklas",
+        "name": "Niklas F.",
         "hongbao": 11,
         "peakHongbao": 11,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Allen, Isaac",
+        "name": "Isaac A.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Harris, Jordan",
+        "name": "Jordan H.",
         "hongbao": 0,
         "peakHongbao": 0,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Mathew, Samuel",
+        "name": "Samuel M.",
         "hongbao": 0,
         "peakHongbao": 6,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Lau, Jacqueline",
+        "name": "Jacqueline L.",
         "hongbao": 5,
         "peakHongbao": 5,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Sussmilch, Flynn",
+        "name": "Flynn S.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Kino, Brody",
+        "name": "Brody K.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Virk, Niyamat Kaur (Niyamat)",
+        "name": "Niyamat Kaur (Niyamat) V.",
         "hongbao": 7,
         "peakHongbao": 7,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Maunsell, Ella",
+        "name": "Ella M.",
         "hongbao": 0,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Hartsuiker, Antonia",
+        "name": "Antonia H.",
         "hongbao": 0,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Oluwatimehin, Gabriella",
+        "name": "Gabriella O.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Natakuapa, Gabriel (Gabe)",
+        "name": "Gabriel (Gabe) N.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Bowman, Folototo (Folo)",
+        "name": "Folototo (Folo) B.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Barker, Nathaniel (Nate)",
+        "name": "Nathaniel (Nate) B.",
         "hongbao": 1,
         "peakHongbao": 5,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Ponnor, Anna",
+        "name": "Anna P.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "McMahon, Koa",
+        "name": "Koa M.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Gibbs, Luke",
+        "name": "Luke G.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Metry, Elaria",
+        "name": "Elaria M.",
         "hongbao": 7,
         "peakHongbao": 7,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Makkar, Saanvi",
+        "name": "Saanvi M.",
         "hongbao": 6,
         "peakHongbao": 6,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Collon, Riley",
+        "name": "Riley C.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Dorange, Biarritz",
+        "name": "Biarritz D.",
         "hongbao": 10,
         "peakHongbao": 12,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Wong, Felise",
+        "name": "Felise W.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Mahto, Samay",
+        "name": "Samay M.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Kim, Hannah",
+        "name": "Hannah K.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Gwilliam, Carter",
+        "name": "Carter G.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Morris, Felicity",
+        "name": "Felicity M.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Mathew, Susanna",
+        "name": "Susanna M.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Sujith, Angelina",
+        "name": "Angelina S.",
         "hongbao": 5,
         "peakHongbao": 5,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Hart, Charlotte",
+        "name": "Charlotte H.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Mulholland, Charles (Charlie)",
+        "name": "Charles (Charlie) M.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Le, Owen",
+        "name": "Owen L.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Sandhu, Gulraj",
+        "name": "Gulraj S.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Burke, Lachlan",
+        "name": "Lachlan B.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Ah Toy Masterson, Finn",
+        "name": "Finn A.",
         "hongbao": -1,
         "peakHongbao": 0,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Paterson, Myles",
+        "name": "Myles P.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Fung, Jefferson",
+        "name": "Jefferson F.",
         "hongbao": 6,
         "peakHongbao": 6,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Chung, Ethan",
+        "name": "Ethan C.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Mackay, Laila",
+        "name": "Laila M.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Hsu, Yi-Ying (Sophia)",
+        "name": "Yi-Ying (Sophia) H.",
         "hongbao": 8,
         "peakHongbao": 8,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Kozera, Miles",
+        "name": "Miles K.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Diloraj, Jonathan",
+        "name": "Jonathan D.",
         "hongbao": 0,
         "peakHongbao": 0,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Madgwick, Cullen",
+        "name": "Cullen M.",
         "hongbao": 10,
         "peakHongbao": 10,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Ahn, Tammy",
+        "name": "Tammy A.",
         "hongbao": 9,
         "peakHongbao": 9,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Mentz, Rachel",
+        "name": "Rachel M.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Sem, Chanze",
+        "name": "Chanze S.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Kanjirathunkal, Hridaya Johnson",
+        "name": "Hridaya Johnson K.",
         "hongbao": 9,
         "peakHongbao": 9,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Jovin, Aksel",
+        "name": "Aksel J.",
         "hongbao": 1,
         "peakHongbao": 5,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Yang, Michelle",
+        "name": "Michelle Y.",
         "hongbao": 10,
         "peakHongbao": 10,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Hong, Maribel",
+        "name": "Maribel H.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Tinney, Jerusha",
+        "name": "Jerusha T.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Smith, Ezra",
+        "name": "Ezra S.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Joe, Andrea",
+        "name": "Andrea J.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Ellerker, Paige",
+        "name": "Paige E.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Sele-Ama, Cartel",
+        "name": "Cartel S.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Mai, Joseph",
+        "name": "Joseph M.",
         "hongbao": 6,
         "peakHongbao": 9,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Mannicherry, Josh",
+        "name": "Josh M.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Flintoff, Brydin",
+        "name": "Brydin F.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Genn, Asha",
+        "name": "Asha G.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Judson, Tyler",
+        "name": "Tyler J.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Lovric, Jacob",
+        "name": "Jacob L.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Lynch, Devlyn",
+        "name": "Devlyn L.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Mathew, Joseph",
+        "name": "Joseph M. (2)",
         "hongbao": 1,
         "peakHongbao": 5,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Imms, Oscar",
+        "name": "Oscar I.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Nguyen, Keith",
+        "name": "Keith N.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "McMahon, Danielle",
+        "name": "Danielle M.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Morel, Joshua",
+        "name": "Joshua M.",
         "hongbao": 8,
         "peakHongbao": 8,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Muriithi, Mueni",
+        "name": "Mueni M.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Green, Locky",
+        "name": "Locky G.",
         "hongbao": 6,
         "peakHongbao": 6,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Darwich, Sebastian",
+        "name": "Sebastian D.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Klassek, Charli-Mae",
+        "name": "Charli-Mae K.",
         "hongbao": 5,
         "peakHongbao": 5,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Mok, Hey Yin (Kara)",
+        "name": "Hey Yin (Kara) M.",
         "hongbao": 0,
         "peakHongbao": 5,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Matti, Matti",
+        "name": "Matti M.",
         "hongbao": -2,
         "peakHongbao": 0,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Adiwinata, Sebastian",
+        "name": "Sebastian A.",
         "hongbao": 0,
         "peakHongbao": 5,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Gibson, Ameliya",
+        "name": "Ameliya G.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Duck, Emily",
+        "name": "Emily D.",
         "hongbao": 0,
         "peakHongbao": 5,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Carroll, Ryan",
+        "name": "Ryan C.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Jean, Damien",
+        "name": "Damien J.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Fu, Benson",
+        "name": "Benson F.",
         "hongbao": 7,
         "peakHongbao": 7,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "O'Dell, Hudson",
+        "name": "Hudson O.",
         "hongbao": 0,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Sy, Leighton",
+        "name": "Leighton S.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "McCarrey, Chelsea",
+        "name": "Chelsea M.",
         "hongbao": 0,
         "peakHongbao": 5,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Brady, Annabelle",
+        "name": "Annabelle B.",
         "hongbao": 0,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Bonney, Grayer",
+        "name": "Grayer B.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Behn, Mia",
+        "name": "Mia B.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Jung, Hannah",
+        "name": "Hannah J.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Paskevicius, Lucy",
+        "name": "Lucy P.",
         "hongbao": 0,
         "peakHongbao": 4,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Sinon, Amelia",
+        "name": "Amelia S.",
         "hongbao": 0,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Nguyen, Selena",
+        "name": "Selena N.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Pham, Madden",
+        "name": "Madden P.",
         "hongbao": 0,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Khouri, Elias",
+        "name": "Elias K.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Wild, Hudson",
+        "name": "Hudson W.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Ho, Franklin",
+        "name": "Franklin H.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "O'Connell, Kian",
+        "name": "Kian O.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Soltesz, Marley",
+        "name": "Marley S.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Kieu, Aiden",
+        "name": "Aiden K.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Brazier, Xavierre",
+        "name": "Xavierre B.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Dungey, Angus",
+        "name": "Angus D.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       }
     ]
   },
@@ -1381,652 +1212,571 @@
     "title": "Year 9 Chinese",
     "students": [
       {
-        "name": "Burke, Liam",
+        "name": "Liam B.",
         "hongbao": -1,
         "peakHongbao": 0,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Chu, Nam",
+        "name": "Nam C.",
         "hongbao": 7,
         "peakHongbao": 7,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "D'Costa, Remy",
+        "name": "Remy D.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Dinh, Jenna",
+        "name": "Jenna D.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Hnatko, Sophia",
+        "name": "Sophia H.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Kieu, Jayden",
+        "name": "Jayden K.",
         "hongbao": 0,
         "peakHongbao": 0,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Li, Faustina Valerie (Valerie)",
+        "name": "Faustina Valerie (Valerie) L.",
         "hongbao": 14,
         "peakHongbao": 14,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Mabini, Danielle",
+        "name": "Danielle M.",
         "hongbao": 16,
         "peakHongbao": 17,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Mao, Wannita",
+        "name": "Wannita M.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "O'Loughlin, Nate",
+        "name": "Nate O.",
         "hongbao": 0,
         "peakHongbao": 0,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Peril, Rose",
+        "name": "Rose P.",
         "hongbao": 0,
         "peakHongbao": 0,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Roy, Liyan",
+        "name": "Liyan R.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Sem, Sage",
+        "name": "Sage S.",
         "hongbao": -4,
         "peakHongbao": 0,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Lim, Alexis",
+        "name": "Alexis L.",
         "hongbao": 0,
         "peakHongbao": 0,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Tran, An Dinh (Andy)",
+        "name": "An Dinh (Andy) T.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Nguyen, Bao",
+        "name": "Bao N.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Perry, Alastair",
+        "name": "Alastair P.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Sione, Lennox",
+        "name": "Lennox S.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Gleeson, Sophie",
+        "name": "Sophie G.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Bull, Chloe",
+        "name": "Chloe B.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Martin, Addison",
+        "name": "Addison M.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Hall, Oliver",
+        "name": "Oliver H.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Perry, Taylor",
+        "name": "Taylor P.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Paterson, Genevieve",
+        "name": "Genevieve P.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Vail, Giselle",
+        "name": "Giselle V.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Haylock, William (Will)",
+        "name": "William (Will) H.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Taylor-Webb, Mia",
+        "name": "Mia T.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Paisley, Isaac",
+        "name": "Isaac P.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Binkley, Dylan",
+        "name": "Dylan B.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Leaf-Milham, Paige",
+        "name": "Paige L.",
         "hongbao": 0,
         "peakHongbao": 0,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Quinlan, Emma",
+        "name": "Emma Q.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Godinho, Ethan",
+        "name": "Ethan G.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Makooi, Ayol",
+        "name": "Ayol M.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Augustine, Leah",
+        "name": "Leah A.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Teh, Evangeline",
+        "name": "Evangeline T.",
         "hongbao": 8,
         "peakHongbao": 8,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Brar, Gurjaap Kour",
+        "name": "Gurjaap Kour B.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Ham, Chloe",
+        "name": "Chloe H.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Leloux, George",
+        "name": "George L.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Lathouras, Ellie",
+        "name": "Ellie L.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Manalac, Micah",
+        "name": "Micah M.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Nguyen, Lily",
+        "name": "Lily N.",
         "hongbao": 6,
         "peakHongbao": 6,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Vallely, Harry",
+        "name": "Harry V.",
         "hongbao": 11,
         "peakHongbao": 11,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Stilianos, Leilah",
+        "name": "Leilah S.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Philips, Irvina",
+        "name": "Irvina P.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "De Luca, Sofia",
+        "name": "Sofia D.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Augustine, Renae",
+        "name": "Renae A.",
         "hongbao": 14,
         "peakHongbao": 14,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Johnson, Hrithik (John)",
+        "name": "Hrithik (John) J.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Pugh, Amy",
+        "name": "Amy P.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Rogers, Latham",
+        "name": "Latham R.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Huynh, Timothy",
+        "name": "Timothy H.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Barnard, Quinn",
+        "name": "Quinn B.",
         "hongbao": 5,
         "peakHongbao": 5,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Telford, Bridget",
+        "name": "Bridget T.",
         "hongbao": 7,
         "peakHongbao": 7,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Joseph, Kiara",
+        "name": "Kiara J.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Vidacic, Hana",
+        "name": "Hana V.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Ton, Khang (Thomas)",
+        "name": "Khang (Thomas) T.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Siboni, Celina",
+        "name": "Celina S.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Quinlan, Georgia",
+        "name": "Georgia Q.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Pascoe, Eva",
+        "name": "Eva P.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Uong, Isabella",
+        "name": "Isabella U.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Glancy, Karla",
+        "name": "Karla G.",
         "hongbao": 17,
         "peakHongbao": 17,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Holtom, Baxter",
+        "name": "Baxter H.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Badman, Samara",
+        "name": "Samara B.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Pearce, Beau",
+        "name": "Beau P.",
         "hongbao": 6,
         "peakHongbao": 7,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Maidens, Henare",
+        "name": "Henare M.",
         "hongbao": 11,
         "peakHongbao": 12,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Gbeindeh, Enoch",
+        "name": "Enoch G.",
         "hongbao": 3,
         "peakHongbao": 3,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Lloyd, Ellie",
+        "name": "Ellie L. (2)",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Wandschneider, Sophie",
+        "name": "Sophie W.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Conley, Edison",
+        "name": "Edison C.",
         "hongbao": 5,
         "peakHongbao": 5,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Maher, Darby",
+        "name": "Darby M.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Holmes, Chloe",
+        "name": "Chloe H. (2)",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Malcolm, Olivia",
+        "name": "Olivia M.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "George, Catherine",
+        "name": "Catherine G.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Dunn, Rebecca",
+        "name": "Rebecca D.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Ha Yeung, Harper",
+        "name": "Harper H.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Jeyakumar, Jereni",
+        "name": "Jereni J.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Whye, Sean",
+        "name": "Sean W.",
         "hongbao": 0,
         "peakHongbao": 2,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Lejo, Jeswin",
+        "name": "Jeswin L.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "McGinley, Conor",
+        "name": "Conor M.",
         "hongbao": 6,
         "peakHongbao": 6,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Vega, Vivian",
+        "name": "Vivian V.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Malin, Olivia",
+        "name": "Olivia M. (2)",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Nguyen, Trong (Khang)",
+        "name": "Trong (Khang) N.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       }
     ]
   },
@@ -2034,202 +1784,159 @@
     "title": "Year 10 Chinese",
     "students": [
       {
-        "name": "Elder, Rubi",
+        "name": "Rubi E.",
         "hongbao": 13,
         "peakHongbao": 13,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Fung, Stephy",
+        "name": "Stephy F.",
         "hongbao": 7,
         "peakHongbao": 7,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Shan, Jenny",
+        "name": "Jenny S.",
         "hongbao": 24,
         "peakHongbao": 24,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Gray, Max",
+        "name": "Max G.",
         "hongbao": 22,
         "peakHongbao": 22,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Mai, Michael",
+        "name": "Michael M.",
         "hongbao": 2,
         "peakHongbao": 8,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Justiniano, Danicah Mae",
+        "name": "Danicah Mae J.",
         "hongbao": 8,
         "peakHongbao": 8,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Mayo, Gabrielle",
+        "name": "Gabrielle M.",
         "hongbao": 9,
         "peakHongbao": 9,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Fung, Carlson",
+        "name": "Carlson F.",
         "hongbao": 2,
         "peakHongbao": 12,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Ira, Phoebe Senobio",
+        "name": "Phoebe Senobio I.",
         "hongbao": 11,
         "peakHongbao": 11,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Tang, Wayne",
+        "name": "Wayne T.",
         "hongbao": 9,
         "peakHongbao": 9,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Nguyen, Quoc Dat (Kevin)",
+        "name": "Quoc Dat (Kevin) N.",
         "hongbao": 0,
         "peakHongbao": 5,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Mileham, Jade",
+        "name": "Jade M.",
         "hongbao": 0,
         "peakHongbao": 0,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Biord Escalona, Lia",
+        "name": "Lia B.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Gill, Vishavjit",
+        "name": "Vishavjit G.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Huynh, Jayden",
+        "name": "Jayden H.",
         "hongbao": 0,
         "peakHongbao": 0,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Anning, Levi",
+        "name": "Levi A.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": false,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Donaldson, Jaxon",
+        "name": "Jaxon D.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Lao, Thalia",
+        "name": "Thalia L.",
         "hongbao": 5,
         "peakHongbao": 5,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Teh, Isabella Bei Er",
+        "name": "Isabella Bei Er T.",
         "hongbao": 4,
         "peakHongbao": 4,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Carter, Dominic (Dom)",
+        "name": "Dominic (Dom) C.",
         "hongbao": 2,
         "peakHongbao": 5,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Venter, Lene",
+        "name": "Lene V.",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       },
       {
-        "name": "Rivera, Raphael",
+        "name": "Raphael R.",
         "hongbao": 2,
         "peakHongbao": 2,
         "equipment": [],
-        "active": true,
-        "legendFreeEquipmentClaimed": false
+        "active": true
       }
     ]
-  },
-  "updatedAt": "2026-10-22T00:32:12.951Z",
-  "year11": {
-    "title": "Year 11 Chinese",
-    "students": []
-  },
-  "year12": {
-    "title": "Year 12 Chinese",
-    "students": []
-  },
-  "settings": {
-    "visibleYearLevels": [
-      "year7",
-      "year8",
-      "year9",
-      "year10"
-    ]
-  },
-  "schoolYear": null,
-  "graduateArchives": [],
-  "rolloverHistory": [],
-  "schemaVersion": 11
+  }
 }
