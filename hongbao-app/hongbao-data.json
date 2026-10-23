@@ -1,6 +1,6 @@
 {
   "onlineExport": true,
-  "updatedAt": "2026-10-23T03:30:41.554Z",
+  "updatedAt": "2026-10-23T04:15:12.475Z",
   "year7": {
     "title": "Year 7 Chinese",
     "students": [
@@ -970,8 +970,8 @@
       },
       {
         "name": "CheerfulGoat",
-        "hongbao": 4,
-        "peakHongbao": 4,
+        "hongbao": 12,
+        "peakHongbao": 12,
         "equipment": [],
         "active": true
       },
