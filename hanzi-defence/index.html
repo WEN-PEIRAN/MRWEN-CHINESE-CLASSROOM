@@ -3,7 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hanzi Defence V1.1</title>
+<title>Hanzi Defence V1.3</title>
+<link rel="icon" href="img/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="img/icon-192.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,8 +15,13 @@
 
   <div id="menu" class="screen">
     <div class="menu-box">
-      <div class="logo">HANZI <span>DEFENCE</span></div>
-      <div class="tag">Alien swarms have stolen the Hanzi Capsules. Defend the base and win them back.</div>
+      <div class="title-row">
+        <img src="img/logo.png" alt="Hanzi Defence logo" class="menu-logo">
+        <div>
+          <div class="logo">HANZI <span>DEFENCE</span></div>
+          <div class="tag">Alien swarms have stolen the Hanzi Capsules. Defend the base and win them back.</div>
+        </div>
+      </div>
       <div class="menu-grid">
         <div class="col">
           <label>Year</label>
@@ -32,13 +40,11 @@
             <button type="button" data-d="hard" class="diff">Hard<small>20 capsules · 5 bugs</small></button>
           </div>
           <label>Controls</label>
-          <div class="keys">
-            <div><kbd>↑</kbd><kbd>↓</kbd> Aim turret</div>
-            <div><kbd>F</kbd> Fire</div>
-            <div><kbd>W</kbd><kbd>S</kbd> Move turret <small>(unlock with Rail Module)</small></div>
-            <div><kbd>P</kbd> Pause</div>
+          <div id="keySummary" class="keys"></div>
+          <div class="btn-row">
+            <button type="button" id="btnSettingsMenu" class="ghost-btn">⚙ Settings</button>
+            <button type="button" id="btnStart" class="big-btn grow">LAUNCH DEFENCE</button>
           </div>
-          <button type="button" id="btnStart" class="big-btn">LAUNCH DEFENCE</button>
         </div>
       </div>
     </div>
@@ -48,7 +54,9 @@
     <div class="brief-box">
       <div class="brief-title">MISSION BRIEFING</div>
       <div id="briefText" class="brief-main"></div>
-      <div class="brief-sub">Read the English order from the Observer. Shoot the bug carrying the matching Hanzi.<br>Wrong hit = the bug splits in two! Every correct kill makes your reload faster.<br>Golden burrow bugs carry gear capsules — catch them before they dig back underground.</div>
+      <div class="brief-sub">Read the English order from the Observer. Shoot the bug carrying the matching Hanzi.<br>Wrong hit = the bug splits in two! Every correct kill makes your reload faster.<br>Bugs inside the red <b>alert zone</b> are usually called first.<br>Golden burrow bugs carry gear capsules — catch them before they dig back underground.</div>
+      <button type="button" id="btnReady" class="big-btn ready-btn">I'M READY</button>
+      <div id="readyHint" class="ready-hint"></div>
     </div>
   </div>
 
@@ -57,7 +65,24 @@
       <div class="brief-title">PAUSED</div>
       <div class="pause-btns">
         <button type="button" id="btnResume" class="big-btn">Resume</button>
+        <button type="button" id="btnSettingsPause" class="ghost-btn">⚙ Settings</button>
         <button type="button" id="btnQuit" class="ghost-btn">Quit to Menu</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="settings" class="screen hidden">
+    <div class="set-box">
+      <div class="brief-title">KEY SETTINGS</div>
+      <div class="set-hint">Click a key box, then press the new key. Esc always pauses.</div>
+      <table class="set-table">
+        <thead><tr><th>Action</th><th>Main key</th><th>Backup key</th></tr></thead>
+        <tbody id="setBody"></tbody>
+      </table>
+      <div id="setMsg" class="set-msg" aria-live="polite"></div>
+      <div class="pause-btns">
+        <button type="button" id="btnSetDefault" class="ghost-btn">Restore Defaults</button>
+        <button type="button" id="btnSetDone" class="big-btn">Done</button>
       </div>
     </div>
   </div>
