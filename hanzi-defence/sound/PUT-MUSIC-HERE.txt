@@ -1,0 +1,4 @@
+Put your two music files in this folder:
+  setup.mp3  - intro, setup menu, briefing and results screens
+  game.mp3   - countdown and battle
+Both loop. The game still works if a file is missing (it just stays silent).
