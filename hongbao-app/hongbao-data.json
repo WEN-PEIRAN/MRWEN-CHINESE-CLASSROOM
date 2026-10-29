@@ -1,6 +1,6 @@
 {
   "onlineExport": true,
-  "updatedAt": "2026-10-28T02:38:36.500Z",
+  "updatedAt": "2026-10-29T02:39:38.545Z",
   "year7": {
     "title": "Year 7 Chinese",
     "students": [
@@ -1033,7 +1033,7 @@
       },
       {
         "name": "CuriousOx",
-        "hongbao": 6,
+        "hongbao": 1,
         "peakHongbao": 6,
         "equipment": [],
         "active": true
