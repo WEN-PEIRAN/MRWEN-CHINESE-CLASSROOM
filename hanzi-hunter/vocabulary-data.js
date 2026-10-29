@@ -1,3 +1,4 @@
+
 // Chinese Vocabulary Flashcards - vocabulary data
 window.CHINESE_VOCAB_DATA = {
   "years": [
@@ -96,13 +97,23 @@ window.CHINESE_VOCAB_DATA = {
                 },
                 {
                   "hanzi": "马马虎虎",
-                  "pinyin": "mǎ mǎ hū hū",
-                  "english": "average; so-so"
+                  "pinyin": "mǎ ma hū hū",
+                  "english": "so-so; average"
+                },
+                {
+                  "hanzi": "不好",
+                  "pinyin": "bù hǎo",
+                  "english": "not good"
                 },
                 {
                   "hanzi": "谢谢",
                   "pinyin": "xiè xie",
                   "english": "thanks"
+                },
+                {
+                  "hanzi": "不谢",
+                  "pinyin": "bú xiè",
+                  "english": "don't thank (no worries)"
                 },
                 {
                   "hanzi": "你呢",
@@ -112,42 +123,7 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "也",
                   "pinyin": "yě",
-                  "english": "also"
-                },
-                {
-                  "hanzi": "吗",
-                  "pinyin": "ma",
-                  "english": "question particle"
-                },
-                {
-                  "hanzi": "很",
-                  "pinyin": "hěn",
-                  "english": "very"
-                },
-                {
-                  "hanzi": "不",
-                  "pinyin": "bù",
-                  "english": "not"
-                },
-                {
-                  "hanzi": "错",
-                  "pinyin": "cuò",
-                  "english": "wrong"
-                },
-                {
-                  "hanzi": "还",
-                  "pinyin": "hái",
-                  "english": "still"
-                },
-                {
-                  "hanzi": "可以",
-                  "pinyin": "kě yǐ",
-                  "english": "can / OK"
-                },
-                {
-                  "hanzi": "呢",
-                  "pinyin": "ne",
-                  "english": "question particle"
+                  "english": "also; too"
                 }
               ]
             }
@@ -159,7 +135,7 @@ window.CHINESE_VOCAB_DATA = {
           "lists": [
             {
               "id": "names-1",
-              "name": "Vocab List 1",
+              "name": "Vocab List 3",
               "words": [
                 {
                   "hanzi": "我",
@@ -202,11 +178,11 @@ window.CHINESE_VOCAB_DATA = {
         },
         {
           "id": "numbers",
-          "name": "Chinese Numbers",
+          "name": "Numbers & Age",
           "lists": [
             {
               "id": "numbers-1",
-              "name": "Vocab List 1",
+              "name": "Vocab List 4",
               "words": [
                 {
                   "hanzi": "零",
@@ -262,22 +238,21 @@ window.CHINESE_VOCAB_DATA = {
                   "hanzi": "十",
                   "pinyin": "shí",
                   "english": "ten"
-                }
-              ]
-            },
-            {
-              "id": "numbers-2",
-              "name": "Vocab List 2",
-              "words": [
+                },
+                {
+                  "hanzi": "几",
+                  "pinyin": "jǐ",
+                  "english": "how many"
+                },
                 {
                   "hanzi": "岁",
                   "pinyin": "suì",
                   "english": "years old"
                 },
                 {
-                  "hanzi": "几",
-                  "pinyin": "jǐ",
-                  "english": "how many"
+                  "hanzi": "了",
+                  "pinyin": "le",
+                  "english": "past action particle"
                 },
                 {
                   "hanzi": "你",
@@ -288,11 +263,6 @@ window.CHINESE_VOCAB_DATA = {
                   "hanzi": "我",
                   "pinyin": "wǒ",
                   "english": "I / me"
-                },
-                {
-                  "hanzi": "了",
-                  "pinyin": "le",
-                  "english": "past action particle"
                 }
               ]
             }
@@ -310,7 +280,7 @@ window.CHINESE_VOCAB_DATA = {
           "lists": [
             {
               "id": "family-vocab-1",
-              "name": "Vocabulary 1",
+              "name": "Vocab List 1",
               "words": [
                 {
                   "hanzi": "家人",
@@ -370,18 +340,18 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "他",
                   "pinyin": "tā",
-                  "english": "he"
+                  "english": "he; him"
                 },
                 {
                   "hanzi": "她",
                   "pinyin": "tā",
-                  "english": "she"
+                  "english": "she; her"
                 }
               ]
             },
             {
               "id": "family-vocab-2",
-              "name": "Vocabulary 2",
+              "name": "Vocab List 2",
               "words": [
                 {
                   "hanzi": "有",
@@ -391,17 +361,17 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "没有",
                   "pinyin": "méi yǒu",
-                  "english": "not have / has"
+                  "english": "do not have / has not"
                 },
                 {
                   "hanzi": "几",
                   "pinyin": "jǐ",
-                  "english": "how many"
+                  "english": "how many (small number)"
                 },
                 {
                   "hanzi": "口",
                   "pinyin": "kǒu",
-                  "english": "mouth / measure word"
+                  "english": "mouth / measure word for family members"
                 },
                 {
                   "hanzi": "个",
@@ -443,12 +413,17 @@ window.CHINESE_VOCAB_DATA = {
           "lists": [
             {
               "id": "family-vocab-3",
-              "name": "Vocabulary 3",
+              "name": "Vocab List 3",
               "words": [
                 {
-                  "hanzi": "零 / 〇",
+                  "hanzi": "零",
                   "pinyin": "líng",
-                  "english": "zero"
+                  "english": "zero (formal)"
+                },
+                {
+                  "hanzi": "〇",
+                  "pinyin": "líng",
+                  "english": "zero (informal)"
                 },
                 {
                   "hanzi": "一",
@@ -503,17 +478,17 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "我",
                   "pinyin": "wǒ",
-                  "english": "I / me"
+                  "english": "I; me"
                 },
                 {
                   "hanzi": "他",
                   "pinyin": "tā",
-                  "english": "he / him"
+                  "english": "he; him"
                 },
                 {
                   "hanzi": "她",
                   "pinyin": "tā",
-                  "english": "she / her"
+                  "english": "she; her"
                 },
                 {
                   "hanzi": "几",
@@ -523,7 +498,7 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "几岁",
                   "pinyin": "jǐ suì",
-                  "english": "how old (child)"
+                  "english": "how old (for children)"
                 },
                 {
                   "hanzi": "多大",
@@ -538,7 +513,7 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "叫",
                   "pinyin": "jiào",
-                  "english": "be called"
+                  "english": "to be called"
                 },
                 {
                   "hanzi": "岁",
@@ -548,7 +523,7 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "了",
                   "pinyin": "le",
-                  "english": "past action particle"
+                  "english": "past tense particle"
                 },
                 {
                   "hanzi": "比",
@@ -558,12 +533,12 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "大",
                   "pinyin": "dà",
-                  "english": "big; older"
+                  "english": "older"
                 },
                 {
                   "hanzi": "小",
                   "pinyin": "xiǎo",
-                  "english": "small; younger"
+                  "english": "younger"
                 },
                 {
                   "hanzi": "年级",
@@ -573,7 +548,7 @@ window.CHINESE_VOCAB_DATA = {
                 {
                   "hanzi": "上",
                   "pinyin": "shàng",
-                  "english": "attend / be in"
+                  "english": "to attend"
                 }
               ]
             }
