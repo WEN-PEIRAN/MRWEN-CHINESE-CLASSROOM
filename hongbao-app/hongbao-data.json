@@ -1,6 +1,6 @@
 {
   "onlineExport": true,
-  "updatedAt": "2026-10-29T02:39:38.545Z",
+  "updatedAt": "2026-10-30T02:41:26.518Z",
   "year7": {
     "title": "Year 7 Chinese",
     "students": [
@@ -482,8 +482,8 @@
       },
       {
         "name": "CaringTaoTie",
-        "hongbao": 5,
-        "peakHongbao": 5,
+        "hongbao": 6,
+        "peakHongbao": 6,
         "equipment": [],
         "active": true
       },
@@ -510,8 +510,8 @@
       },
       {
         "name": "CuriousRooster",
-        "hongbao": 1,
-        "peakHongbao": 1,
+        "hongbao": 2,
+        "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
@@ -524,8 +524,8 @@
       },
       {
         "name": "LoyalTiger",
-        "hongbao": 1,
-        "peakHongbao": 1,
+        "hongbao": 2,
+        "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
@@ -538,6 +538,41 @@
       },
       {
         "name": "HappyRooster",
+        "hongbao": 1,
+        "peakHongbao": 1,
+        "equipment": [],
+        "active": true
+      },
+      {
+        "name": "GentlePig",
+        "hongbao": 1,
+        "peakHongbao": 1,
+        "equipment": [],
+        "active": true
+      },
+      {
+        "name": "CuriousRabbit",
+        "hongbao": 1,
+        "peakHongbao": 1,
+        "equipment": [],
+        "active": true
+      },
+      {
+        "name": "ConfidentBaiHu",
+        "hongbao": 1,
+        "peakHongbao": 1,
+        "equipment": [],
+        "active": true
+      },
+      {
+        "name": "PlayfulDog",
+        "hongbao": 1,
+        "peakHongbao": 1,
+        "equipment": [],
+        "active": true
+      },
+      {
+        "name": "NoblePiXiu",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
