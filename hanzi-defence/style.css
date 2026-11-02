@@ -5,7 +5,6 @@ canvas{position:absolute;inset:0;width:1280px;height:720px;display:block}
 .screen{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(4,10,28,.84);backdrop-filter:blur(3px)}
 .hidden{display:none!important}
 b.gold{color:#ffc24a} b.cyan{color:#5ff0ff}
-/* intro */
 .intro-box{width:1040px;padding:26px 44px 28px;border-radius:22px;border:1px solid #2fd6ff66;background:linear-gradient(160deg,#0d1b3d,#070f24);box-shadow:0 0 50px #00c8ff33;position:relative;overflow:hidden}
 .intro-box::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(95,240,255,.035) 0 2px,transparent 2px 5px);pointer-events:none}
 .intro-head{display:flex;align-items:center;gap:20px}
@@ -22,7 +21,6 @@ b.gold{color:#ffc24a} b.cyan{color:#5ff0ff}
 .op span{white-space:nowrap}
 .intro-warn{margin-top:12px;font-size:14px;color:#ffc24a;text-align:center}
 .accept-btn{display:block;margin:16px auto 0;font-size:24px;padding:15px 56px;animation:readyPulse 1.6s ease-in-out infinite}
-/* menu */
 .menu-box{width:1040px;padding:20px 40px 26px;border:1px solid #2fd6ff55;border-radius:22px;background:linear-gradient(160deg,#0d1b3d,#0a1229);box-shadow:0 0 40px #00c8ff33}
 .title-row{display:flex;align-items:center;justify-content:center;gap:22px;margin-bottom:12px}
 .menu-logo{width:104px;height:104px;filter:drop-shadow(0 0 14px #ffc24a66) drop-shadow(0 0 20px #00d0ff44);animation:logoGlow 4s ease-in-out infinite}
@@ -65,13 +63,13 @@ kbd{display:inline-block;min-width:28px;text-align:center;padding:2px 7px;margin
 .ghost-btn{font:inherit;font-size:18px;padding:12px 22px;border-radius:14px;border:1px solid #5ff0ff88;background:transparent;color:#cfefff;cursor:pointer;margin-top:10px}
 .ghost-btn:hover{background:#5ff0ff18}
 button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #ffd25a;outline-offset:2px}
-/* briefing */
 .brief-box{text-align:center;padding:36px 60px;border-radius:22px;border:1px solid #2fd6ff55;background:#0b1733ee;max-width:1000px}
 .brief-title{font-size:20px;letter-spacing:6px;color:#5ff0ff}
 .brief-where{margin-top:10px;font-size:16px;color:#9fb6d8}
 .brief-main{font-size:44px;font-weight:800;color:#ffc24a;margin:10px 0 16px;text-shadow:0 0 16px #ff9d0088}
 .brief-keys{display:flex;justify-content:center;gap:26px;font-size:17px;color:#cfe}
-.ready-btn{margin-top:26px;font-size:26px;padding:16px 54px;animation:readyPulse 1.6s ease-in-out infinite}
+.brief-note{margin-top:14px;font-size:15px;color:#ff9f9f}
+.ready-btn{margin-top:22px;font-size:26px;padding:16px 54px;animation:readyPulse 1.6s ease-in-out infinite}
 @keyframes readyPulse{0%,100%{box-shadow:0 0 16px #00d0ff66}50%{box-shadow:0 0 34px #00e5ffcc}}
 .ready-hint{margin-top:10px;font-size:14px;color:#7f93b5}
 .pause-btns{display:flex;gap:16px;justify-content:center;margin-top:16px}
@@ -84,7 +82,6 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
 .keybtn.wait{border-color:#ffd25a;background:#3a2c0a;color:#ffd25a}
 .keybtn.empty{color:#5f7396}
 .set-msg{min-height:24px;color:#ffd25a;font-size:15px;margin-top:4px}
-/* results */
 .res-box{width:1060px;padding:24px 34px;border-radius:22px;border:1px solid #2fd6ff55;background:linear-gradient(160deg,#0d1b3d,#0a1229)}
 .res-title{font-size:42px;font-weight:800;text-align:center;letter-spacing:4px}
 .res-title.win{color:#5ff0ff;text-shadow:0 0 18px #00d0ff}
@@ -110,7 +107,6 @@ box-shadow:inset 0 3px 4px rgba(255,255,255,.55),inset 0 -5px 8px rgba(110,0,15,
 .detail .h{font-family:"Microsoft YaHei","微软雅黑",sans-serif;font-size:36px;color:#fff}
 .detail .p{font-size:20px;color:#5ff0ff}
 .res-btns{display:flex;gap:14px;justify-content:center;margin-top:6px}
-/* corner + sound */
 .corner{position:absolute;right:12px;bottom:10px;display:flex;gap:8px;z-index:6;align-items:flex-end}
 .corner>button{font:inherit;font-size:14px;padding:6px 12px;border-radius:10px;border:1px solid #5ff0ff66;background:#0a1633dd;color:#cfefff;cursor:pointer}
 .sound-panel{position:absolute;right:0;bottom:42px;width:250px;padding:12px;border-radius:12px;border:1px solid #5ff0ff66;background:#0a1633f2;display:flex;flex-direction:column;gap:10px;box-shadow:0 0 20px #00000088}

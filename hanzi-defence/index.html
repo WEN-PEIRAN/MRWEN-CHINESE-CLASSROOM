@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hanzi Defence V1.4</title>
+<title>Hanzi Defence V1.5</title>
 <link rel="icon" href="img/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" href="img/icon-192.png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
@@ -13,7 +13,6 @@
 <div id="stage">
   <canvas id="game" width="1280" height="720"></canvas>
 
-  <!-- OPENING TRANSMISSION (shown once per page load) -->
   <div id="intro" class="screen">
     <div class="intro-box">
       <div class="intro-head">
@@ -34,12 +33,11 @@
         <div class="op"><span id="kAim"></span><div><b>Aim</b>Swing the turret onto the bug with the matching Hanzi.</div></div>
         <div class="op"><span id="kFire"></span><div><b>Fire</b>Destroy it and recover its Hanzi Capsule.</div></div>
       </div>
-      <div class="intro-warn">Drones take time to rebuild — use them wisely. Shoot golden burrow bugs for gear upgrades.</div>
+      <div class="intro-warn">Never fire blind — hitting a bug with no target counts as a miss. Shoot golden burrow bugs any time for gear upgrades.</div>
       <button type="button" id="btnAccept" class="big-btn accept-btn">ACCEPT COMMISSION</button>
     </div>
   </div>
 
-  <!-- SETUP -->
   <div id="menu" class="screen hidden">
     <div class="menu-box">
       <div class="title-row">
@@ -77,13 +75,13 @@
     </div>
   </div>
 
-  <!-- MISSION BRIEFING -->
   <div id="brief" class="screen hidden">
     <div class="brief-box">
       <div class="brief-title">MISSION BRIEFING</div>
       <div id="briefWhere" class="brief-where"></div>
       <div id="briefText" class="brief-main"></div>
       <div id="briefKeys" class="brief-keys"></div>
+      <div class="brief-note">Scout first, then fire. Hitting a bug with no target = −20 and it splits.</div>
       <button type="button" id="btnReady" class="big-btn ready-btn">I'M READY</button>
       <div id="readyHint" class="ready-hint"></div>
     </div>
