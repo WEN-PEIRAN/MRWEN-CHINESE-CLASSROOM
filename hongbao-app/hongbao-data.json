@@ -1,6 +1,6 @@
 {
   "onlineExport": true,
-  "updatedAt": "2026-10-30T02:41:26.518Z",
+  "updatedAt": "2026-11-05T04:51:40.858Z",
   "year7": {
     "title": "Year 7 Chinese",
     "students": [
@@ -538,8 +538,8 @@
       },
       {
         "name": "HappyRooster",
-        "hongbao": 1,
-        "peakHongbao": 1,
+        "hongbao": 5,
+        "peakHongbao": 5,
         "equipment": [],
         "active": true
       },
@@ -575,6 +575,20 @@
         "name": "NoblePiXiu",
         "hongbao": 1,
         "peakHongbao": 1,
+        "equipment": [],
+        "active": true
+      },
+      {
+        "name": "SwiftXuanWu",
+        "hongbao": 1,
+        "peakHongbao": 1,
+        "equipment": [],
+        "active": true
+      },
+      {
+        "name": "HonestGoat",
+        "hongbao": 3,
+        "peakHongbao": 3,
         "equipment": [],
         "active": true
       }
@@ -1257,8 +1271,8 @@
       },
       {
         "name": "JoyfulKunPeng",
-        "hongbao": 1,
-        "peakHongbao": 1,
+        "hongbao": 2,
+        "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
@@ -1876,7 +1890,7 @@
       },
       {
         "name": "DiligentQingLong",
-        "hongbao": 22,
+        "hongbao": 20,
         "peakHongbao": 22,
         "equipment": [],
         "active": true
