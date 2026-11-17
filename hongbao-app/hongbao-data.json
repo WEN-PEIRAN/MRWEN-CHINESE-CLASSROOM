@@ -1,6 +1,6 @@
 {
   "onlineExport": true,
-  "updatedAt": "2026-11-09T23:54:29.167Z",
+  "updatedAt": "2026-11-17T03:40:06.089Z",
   "year7": {
     "title": "Year 7 Chinese",
     "students": [
@@ -538,8 +538,8 @@
       },
       {
         "name": "HappyRooster",
-        "hongbao": 5,
-        "peakHongbao": 5,
+        "hongbao": 6,
+        "peakHongbao": 6,
         "equipment": [],
         "active": true
       },
@@ -594,6 +594,13 @@
       },
       {
         "name": "HappyXuanWu",
+        "hongbao": 1,
+        "peakHongbao": 1,
+        "equipment": [],
+        "active": true
+      },
+      {
+        "name": "HappyTiger",
         "hongbao": 1,
         "peakHongbao": 1,
         "equipment": [],
@@ -1040,7 +1047,7 @@
       },
       {
         "name": "CheerfulGoat",
-        "hongbao": 12,
+        "hongbao": 6,
         "peakHongbao": 12,
         "equipment": [],
         "active": true
@@ -1054,8 +1061,8 @@
       },
       {
         "name": "LivelyBaiZe",
-        "hongbao": 3,
-        "peakHongbao": 3,
+        "hongbao": 4,
+        "peakHongbao": 4,
         "equipment": [],
         "active": true
       },
@@ -1145,8 +1152,8 @@
       },
       {
         "name": "HopefulMonkey",
-        "hongbao": 1,
-        "peakHongbao": 1,
+        "hongbao": 2,
+        "peakHongbao": 2,
         "equipment": [],
         "active": true
       },
@@ -1159,8 +1166,8 @@
       },
       {
         "name": "HonestRabbit",
-        "hongbao": 9,
-        "peakHongbao": 9,
+        "hongbao": 19,
+        "peakHongbao": 19,
         "equipment": [],
         "active": true
       },
@@ -1294,6 +1301,41 @@
         "name": "CreativeGoat",
         "hongbao": 1,
         "peakHongbao": 1,
+        "equipment": [],
+        "active": true
+      },
+      {
+        "name": "SwiftRooster",
+        "hongbao": 3,
+        "peakHongbao": 3,
+        "equipment": [],
+        "active": true
+      },
+      {
+        "name": "LivelyPig",
+        "hongbao": 1,
+        "peakHongbao": 1,
+        "equipment": [],
+        "active": true
+      },
+      {
+        "name": "WisePiXiu",
+        "hongbao": 3,
+        "peakHongbao": 3,
+        "equipment": [],
+        "active": true
+      },
+      {
+        "name": "CleverZhuQue",
+        "hongbao": -1,
+        "peakHongbao": 2,
+        "equipment": [],
+        "active": true
+      },
+      {
+        "name": "HopefulTaoTie",
+        "hongbao": 2,
+        "peakHongbao": 2,
         "equipment": [],
         "active": true
       }
